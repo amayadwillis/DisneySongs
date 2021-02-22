@@ -1,0 +1,16 @@
+start = element xml {metadata,song}
+metadata = element metadata {title,lyric,compose,perform}
+title = element title {text}
+lyric = element lyric {mixed{movie}}
+movie = element movie {text}
+compose = element compose {mixed{person+}}
+person = element person {type,id, mixed{character*}}
+type = attribute type {"composer"|"voiceActor"}
+id = attribute xml:id {text}
+perform = element perform {mixed{person+}}
+song = element song {p+}
+p = element p {n,ln+}
+n = attribute n {xsd:integer}
+ln = element ln {n,mixed{character*}}
+character = element char {id,text}
+

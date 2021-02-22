@@ -1,0 +1,109 @@
+<?xml-model href="RelaxNg/MultipleCharacters.rnc" type="application/relax-ng-compact-syntax"?>
+<xml>
+    <metadata>
+        <title>Out of Thin Air</title>
+        <lyric>Lyrics from <movie>Aladdin and the King of Thieves</movie></lyric>
+        <compose>Composed by <person type="composer" xml:id="Friedman">David
+            Friedman</person></compose>
+        <perform>Performed by <person type="voiceActor" xml:id="Kane">Brad Kane (<char xml:id="Aladdin">Aladdin</char>)</person> and <person
+                type="voiceActor" xml:id="Callaway">Liz Callaway (<char xml:id="Jasmine">Jasmine</char>)</person></perform>
+    </metadata>
+    <song>
+        <p n="1">
+            <ln n="1"><char xml:id="Jasmine">Jasmine</char> You showed me the world</ln>
+            <ln n="2">When I was all locked up inside</ln>
+            <ln n="3">You reached out your hand</ln>
+            <ln n="4">And took me on a magic carpet ride</ln>
+        </p>
+
+        <p n="2">
+            <ln n="5">One look at your smile</ln>
+            <ln n="6">And I could see the light</ln>
+            <ln n="7">Shining everywhere</ln>
+            <ln n="8">People like you don't come out of thin air</ln>
+        </p>
+
+        <p n="3">
+            <ln n="9"><char xml:id="Aladdin">Aladdin</char> Oh, Jasmine</ln>
+            <ln n="10">You don't understand</ln>
+            <ln n="11">There is so much that you don't see</ln>
+            <ln n="12">Just think, if you can</ln>
+            <ln n="13">What growing up had to be like for me</ln>
+        </p>
+
+        <p n="4">
+            <ln n="14">Your father's a man</ln>
+            <ln n="15">Who taught you who you are</ln>
+            <ln n="16">Mine was never there</ln>
+            <ln n="17">So how can you say I don't come out of thin air?</ln>
+        </p>
+
+        <p n="5">
+            <ln n="18"><char xml:id="Aladdin">Aladdin</char> There's so much I want to know</ln>
+        </p>
+
+        <p n="6">
+            <ln n="19"><char xml:id="Jasmine">Jasmine</char> You've got the chance to learn</ln>
+        </p>
+
+        <p n="7">
+            <ln n="20"><char xml:id="Aladdin">Aladdin</char> If it means I'd have to go</ln>
+        </p>
+
+        <p n="8">
+            <ln n="21"><char xml:id="Jasmine">Jasmine</char> I'll be right here when you return</ln>
+            <ln n="22">Our wedding can wait</ln>
+        </p>
+
+        <p n="9">
+            <ln n="23"><char xml:id="Aladdin">Aladdin</char> I love you</ln>
+        </p>
+
+        <p n="10">
+            <ln n="24"><char xml:id="Jasmine">Jasmine</char> I think it's worth this small
+                delay</ln>
+        </p>
+
+        <p n="11">
+            <ln n="25"><char xml:id="Aladdin">Aladdin</char> Maybe you're right</ln>
+        </p>
+
+        <p n="12">
+            <ln n="26"><char xml:id="Jasmine">Jasmine</char> And won't it be great</ln>
+            <ln n="27">To have your father see our wedding day?</ln>
+        </p>
+
+        <p n="13">
+            <ln n="28"><char xml:id="Aladdin">Aladdin</char> I've waited so long</ln>
+        </p>
+
+        <p n="14">
+            <ln n="29"><char xml:id="Jasmine">Jasmine</char> It isn't too late</ln>
+        </p>
+
+        <p n="15">
+            <ln n="30"><char xml:id="Aladdin">Aladdin</char> To learn the truth</ln>
+        </p>
+
+        <p n="16">
+            <ln n="31"><char xml:id="Both">Both</char> And now at last, we can finally say</ln>
+        </p>
+
+        <p n="17">
+            <ln n="32"><char xml:id="Jasmine">Jasmine</char> Your father is really there</ln>
+        </p>
+
+        <p n="18">
+            <ln n="33"><char xml:id="Aladdin">Aladdin</char> There's so much that we might
+                share</ln>
+        </p>
+
+        <p n="19">
+            <ln n="34"><char xml:id="Jasmine">Jasmine</char> And you'll finally learn</ln>
+        </p>
+
+        <p n="20">
+            <ln n="35"><char xml:id="Both">Both</char> You don't come out of thin air</ln>
+        </p>
+    </song>
+</xml>
