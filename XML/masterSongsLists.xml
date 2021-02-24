@@ -2,8 +2,8 @@
 <xml>
 <metadata>
     <title>A Whole New World</title>
-    <lyric>Lyrics from <movie>Aladdin</movie></lyric>
-    <compose>Music and lyrics by <person type="composer" xml:id="Menken">Alan Menken</person> and <person type="composer" xml:id="Rice">Tim Rice</person></compose>
+    <origin>Lyrics from <movie>Aladdin</movie></origin>
+    <compose><musicLyric>Music and lyrics by <person type="composer" xml:id="Menken">Alan Menken</person> and <person type="composer" xml:id="Rice">Tim Rice</person></musicLyric></compose>
     <perform>Performed by <person type="voiceActor" xml:id="Salonga">Lea Salonga</person> as <char xml:id="Jasmine">Jasmine</char> and <person type="voiceActor" xml:id="Kane">Brad Kane</person> as <char xml:id="Aladdin">Aladdin</char></perform>
 </metadata>
 <song>
@@ -123,9 +123,9 @@
 
 <metadata>
     <title>A Whole New World </title>
-    <lyric>Lyrics from <movie>Aladdin (Live-Action)</movie></lyric>
-    <compose>Music and lyrics by <person type="composer" xml:id="Menken">Alan Menken</person> and <person type="composer" xml:id="Rice">Tim Rice</person></compose>
-    <perform>Performed by <person type="liveAaction" xml:id="Massoud">Mena Massoud</person> as <char xml:id="Aladdin">Aladdin</char> and <person type="liveAction" xml:id="Scott">Naomi Scott</person> as <char xml:id="Jasmine">Jasmine</char></perform>
+    <origin>Lyrics from <movie>Aladdin (Live-Action)</movie></origin>
+    <compose><musicLyric>Music and lyrics by <person type="composer" xml:id="Menken">Alan Menken</person> and <person type="composer" xml:id="Rice">Tim Rice</person></musicLyric></compose>
+    <perform>Performed by <person type="liveAction" xml:id="Massoud">Mena Massoud</person> as <char xml:id="Aladdin">Aladdin</char> and <person type="liveAction" xml:id="Scott">Naomi Scott</person> as <char xml:id="Jasmine">Jasmine</char></perform>
 </metadata>
         <!--AW: should we call the live action actors voiceActor as well to keep it consistent?-->
 <song>
@@ -246,8 +246,8 @@
 
 <metadata>
     <title>One Jump Ahead</title>
-    <lyric>Lyrics from <movie>Aladdin (Live-Action)</movie></lyric>
-    <compose>Music and lyrics by <person type="composer" xml:id="Menken">Alan Menken</person> and <person type="composer" xml:id="Rice">Tim Rice</person></compose>
+    <origin>Lyrics from <movie>Aladdin (Live-Action)</movie></origin>
+    <compose><musicLyric>Music and lyrics by <person type="composer" xml:id="Menken">Alan Menken</person> and <person type="composer" xml:id="Rice">Tim Rice</person></musicLyric></compose>
     <perform>Performed by <person type="liveAction" xml:id="Massoud">Mena Massoud</person> as <char xml:id="Aladdin">Aladdin</char></perform>
 </metadata>
 
@@ -307,8 +307,8 @@
 
 <metadata>
     <title>One Jump Ahead (Reprise)</title>
-    <lyric>Lyrics from <movie>Aladdin (Live-Action)</movie></lyric>
-    <compose>Music and lyrics by<person type="composer" xml:id="Menken"> Alan Menken</person> and <person type="composer" xml:id="Rice">Tim Rice</person></compose>
+    <origin>Lyrics from <movie>Aladdin (Live-Action)</movie></origin>
+    <compose><musicLyric>Music and lyrics by<person type="composer" xml:id="Menken"> Alan Menken</person> and <person type="composer" xml:id="Rice">Tim Rice</person></musicLyric></compose>
     <perform>Performed by <person type="liveAction" xml:id="Massoud">Mena Massoud</person> as <char xml:id="Aladdin">Aladdin</char></perform>
 </metadata>
 
@@ -324,9 +324,9 @@
 
    <metadata> 
       <title> One Jump Ahead (Reprise 2)</title>
-    <lyric>Lyrics from <movie>Aladdin (Live-Action)</movie></lyric>
-    <compose>Music by <person type="composer" xml:id="Menken">Alan Menken</person></compose>
-    <compose>Lyrics by <person type="composer" xml:id="Pasek">Benj Pasek</person> and <person type="composer" xml:id="Paul">Justin Paul</person></compose>
+    <origin>Lyrics from <movie>Aladdin (Live-Action)</movie></origin>
+    <compose><music>Music by <person type="composer" xml:id="Menken">Alan Menken</person></music></compose>
+    <compose><lyric>Lyrics by <person type="composer" xml:id="Pasek">Benj Pasek</person> and <person type="composer" xml:id="Paul">Justin Paul</person></lyric></compose>
     <perform>Performed by <person type="liveAction" xml:id="Massoud">Mena Massoud</person> as <char xml:id="Aladdin">Aladdin</char></perform>
 </metadata>
     
@@ -348,8 +348,8 @@
 
 <metadata>
     <title>Forget About Love</title> 
-    <lyric>Lyrics from <movie>Aladdin: The Return of Jafar</movie></lyric>
-    <compose>Lyrics and music by <person type="composer" xml:id="Silversher">Patty Silversher</person> and <person type="composer" xml:id="Silversher">Michael Silversher</person></compose>
+    <origin>Lyrics from <movie>Aladdin: The Return of Jafar</movie></origin>
+    <compose><musicLyric>Lyrics and music by <person type="composer" xml:id="Silversher">Patty Silversher</person> and <person type="composer" xml:id="Silversher">Michael Silversher</person></musicLyric></compose>
     <perform>Performed by <person type="voiceActor" xml:id="Gottfried">Gilbert Gottfried</person>, <person type="voiceActor" xml:id="Callaway">Liz Callaway</person> and <person type="voiceActor" xml:id="Kane">Brad Kane</person></perform>
 </metadata>
 
@@ -521,8 +521,8 @@
 
 <metadata>
     <title>Are You in or Out?</title>
-    <lyric>Lyrics from <movie>Aladdin and the King of Thieves</movie></lyric>
-    <compose>Composed by <person type="composer" xml:id="Peterson">Randy Peterson</person> and <person type="composer" xml:id="Quinn">Kevin Quinn</person></compose>
+    <origin>Lyrics from <movie>Aladdin and the King of Thieves</movie></origin>
+    <compose><music>Composed by <person type="composer" xml:id="Peterson">Randy Peterson</person> and <person type="composer" xml:id="Quinn">Kevin Quinn</person></music></compose>
     <perform>Performed by <person type="voiceActor" xml:id="Orbach">Jerry Orbach</person> as <char xml:id="Sa'luk">Sa'luk</char>, with chorus</perform>
 </metadata>
 
@@ -627,8 +627,8 @@
 
 <metadata>
     <title>Father and Son</title>
-    <lyric>Lyrics from <movie>Aladdin and the King of Theives</movie></lyric>
-    <compose>Composed by <person type="composer" xml:id="Peterson">Randy Petersen</person> and <person type="composer" xml:id="Quinn">Kevin Quinn</person></compose>
+    <origin>Lyrics from <movie>Aladdin and the King of Theives</movie></origin>
+    <compose><music>Composed by <person type="composer" xml:id="Peterson">Randy Petersen</person> and <person type="composer" xml:id="Quinn">Kevin Quinn</person></music></compose>
     <perform>Performed by <person type="voiceActor" xml:id="Williams">Robin Williams</person>, <person type="voiceActor" xml:id="Kane">Brad Kane</person> and <person type="voiceActor" xml:id="Foard">Merwin Foard</person></perform>
 </metadata>
     

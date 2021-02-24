@@ -2,9 +2,9 @@
 <xml>
     <metadata>
         <title>Are You in or Out?</title>
-        <lyric>Lyrics from <movie>Aladdin and the King of Thieves</movie></lyric>
-        <compose>Composed by <person type="composer" xml:id="Peterson">Randy Peterson</person> and
-                <person type="composer" xml:id="Quinn">Kevin Quinn</person></compose>
+        <origin>Lyrics from <movie>Aladdin and the King of Thieves</movie></origin>
+        <compose><music>Composed by <person type="composer" xml:id="Peterson">Randy Peterson</person> and
+                <person type="composer" xml:id="Quinn">Kevin Quinn</person></music></compose>
         <perform>Performed by <person type="voiceActor" xml:id="Orbach">Jerry Orbach</person> as
                 <char xml:id="Sa'luk">Sa'luk</char>, with chorus</perform>
     </metadata>

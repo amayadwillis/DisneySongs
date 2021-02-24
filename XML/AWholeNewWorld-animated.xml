@@ -2,8 +2,8 @@
 <xml>
     <metadata>
         <title>A Whole New World</title>
-        <lyric>Lyrics from <movie>Aladdin</movie></lyric>
-        <compose>Music and lyrics by <person type="composer" xml:id="Menken">Alan Menken</person> and <person type="composer" xml:id="Rice">Tim Rice</person></compose>
+        <origin>Lyrics from <movie>Aladdin</movie></origin>
+        <compose><musicLyric>Music and lyrics by <person type="composer" xml:id="Menken">Alan Menken</person> and <person type="composer" xml:id="Rice">Tim Rice</person></musicLyric></compose>
         <perform>Performed by <person type="voiceActor" xml:id="Salonga">Lea Salonga</person> as <char xml:id="Jasmine">Jasmine</char> and <person type="voiceActor" xml:id="Kane">Brad Kane</person> as <char xml:id="Aladdin">Aladdin</char></perform>
     </metadata>
     <song>

@@ -2,10 +2,10 @@
 <xml>
     <metadata>
         <title>Forget About Love</title>
-        <lyric>Lyrics from <movie>Aladdin: The Return of Jafar</movie></lyric>
-        <compose>Lyrics and music by <person type="composer" xml:id="Silversher">Patty
+        <origin>Lyrics from <movie>Aladdin: The Return of Jafar</movie></origin>
+        <compose><musicLyric>Lyrics and music by <person type="composer" xml:id="Silversher">Patty
                 Silversher</person> and <person type="composer" xml:id="Silversher">Michael
-                Silversher</person></compose>
+                Silversher</person></musicLyric></compose>
         <perform>Performed by <person type="voiceActor" xml:id="Gottfried">Gilbert
                 Gottfried</person>, <person type="voiceActor" xml:id="Callaway">Liz
                 Callaway</person> and <person type="voiceActor" xml:id="Kane">Brad

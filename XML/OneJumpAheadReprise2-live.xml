@@ -2,10 +2,10 @@
 <xml>
     <metadata>
         <title> One Jump Ahead (Reprise 2)</title>
-        <lyric>Lyrics from <movie>Aladdin (Live-Action)</movie></lyric>
-        <compose>Music by <person type="composer" xml:id="Menken">Alan Menken</person></compose>
-        <compose>Lyrics by <person type="composer" xml:id="Pasek">Benj Pasek</person> and <person
-                type="composer" xml:id="Paul">Justin Paul</person></compose>
+        <origin>Lyrics from <movie>Aladdin (Live-Action)</movie></origin>
+        <compose><music>Music by <person type="composer" xml:id="Menken">Alan Menken</person></music></compose>
+        <compose><lyric>Lyrics by <person type="composer" xml:id="Pasek">Benj Pasek</person> and <person
+                type="composer" xml:id="Paul">Justin Paul</person></lyric></compose>
         <perform>Performed by <person type="liveAction" xml:id="Massoud">Mena Massoud</person> as
                 <char xml:id="Aladdin">Aladdin</char></perform>
     </metadata>

@@ -2,9 +2,9 @@
 <xml>
     <metadata>
         <title>Father and Son</title>
-        <lyric>Lyrics from <movie>Aladdin and the King of Theives</movie></lyric>
-        <compose>Composed by <person type="composer" xml:id="Peterson">Randy Petersen</person> and
-                <person type="composer" xml:id="Quinn">Kevin Quinn</person></compose>
+        <origin>Lyrics from <movie>Aladdin and the King of Theives</movie></origin>
+        <compose><music>Composed by <person type="composer" xml:id="Peterson">Randy Petersen</person> and
+                <person type="composer" xml:id="Quinn">Kevin Quinn</person></music></compose>
         <perform>Performed by <person type="voiceActor" xml:id="Williams">Robin Williams</person>,
                 <person type="voiceActor" xml:id="Kane">Brad Kane</person> and <person
                 type="voiceActor" xml:id="Foard">Merwin Foard</person></perform>

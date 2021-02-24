@@ -2,9 +2,9 @@
 <xml>
     <metadata>
         <title>Arabian Nights</title>
-        <lyric>Lyrics from <movie>Aladdin</movie></lyric>
-        <compose>Music and lyrics by <person type="composer" xml:id="Menken">Alan Menken</person>
-            and <person type="composer" xml:id="Ashman">Howard Ashman</person></compose>
+        <origin>Lyrics from <movie>Aladdin</movie></origin>
+        <compose><musicLyric>Music and lyrics by <person type="composer" xml:id="Menken">Alan Menken</person>
+            and <person type="composer" xml:id="Ashman">Howard Ashman</person></musicLyric></compose>
         <perform>Performed by <person type="voiceActor" xml:id="Adler">Bruce Adler</person> as <char
                 xml:id="Peddler">the Peddler</char></perform>
     </metadata>
