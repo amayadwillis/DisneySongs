@@ -125,7 +125,7 @@
     <title>A Whole New World </title>
     <lyric>Lyrics from <movie>Aladdin (Live-Action)</movie></lyric>
     <compose>Music and lyrics by <person type="composer" xml:id="Menken">Alan Menken</person> and <person type="composer" xml:id="Rice">Tim Rice</person></compose>
-    <perform>Performed by <person type="voiceActor" xml:id="Massoud">Mena Massoud</person> as <char xml:id="Aladdin">Aladdin</char> and <person type="voiceActor" xml:id="Scott">Naomi Scott</person> as <char xml:id="Jasmine">Jasmine</char></perform>
+    <perform>Performed by <person type="liveAaction" xml:id="Massoud">Mena Massoud</person> as <char xml:id="Aladdin">Aladdin</char> and <person type="liveAction" xml:id="Scott">Naomi Scott</person> as <char xml:id="Jasmine">Jasmine</char></perform>
 </metadata>
         <!--AW: should we call the live action actors voiceActor as well to keep it consistent?-->
 <song>
@@ -248,7 +248,7 @@
     <title>One Jump Ahead</title>
     <lyric>Lyrics from <movie>Aladdin (Live-Action)</movie></lyric>
     <compose>Music and lyrics by <person type="composer" xml:id="Menken">Alan Menken</person> and <person type="composer" xml:id="Rice">Tim Rice</person></compose>
-    <perform>Performed by <person type="voiceActor" xml:id="Massoud">Mena Massoud</person> as <char xml:id="Aladdin">Aladdin</char></perform>
+    <perform>Performed by <person type="liveAction" xml:id="Massoud">Mena Massoud</person> as <char xml:id="Aladdin">Aladdin</char></perform>
 </metadata>
 
 <song>    
@@ -309,7 +309,7 @@
     <title>One Jump Ahead (Reprise)</title>
     <lyric>Lyrics from <movie>Aladdin (Live-Action)</movie></lyric>
     <compose>Music and lyrics by<person type="composer" xml:id="Menken"> Alan Menken</person> and <person type="composer" xml:id="Rice">Tim Rice</person></compose>
-    <perform>Performed by <person type="voiceActor" xml:id="Massoud">Mena Massoud</person> as <char xml:id="Aladdin">Aladdin</char></perform>
+    <perform>Performed by <person type="liveAction" xml:id="Massoud">Mena Massoud</person> as <char xml:id="Aladdin">Aladdin</char></perform>
 </metadata>
 
 <song>
@@ -327,7 +327,7 @@
     <lyric>Lyrics from <movie>Aladdin (Live-Action)</movie></lyric>
     <compose>Music by <person type="composer" xml:id="Menken">Alan Menken</person></compose>
     <compose>Lyrics by <person type="composer" xml:id="Pasek">Benj Pasek</person> and <person type="composer" xml:id="Paul">Justin Paul</person></compose>
-    <perform>Performed by <person type="voiceActor" xml:id="Massoud">Mena Massoud</person> as <char xml:id="Aladdin">Aladdin</char></perform>
+    <perform>Performed by <person type="liveAction" xml:id="Massoud">Mena Massoud</person> as <char xml:id="Aladdin">Aladdin</char></perform>
 </metadata>
     
 <song>
