@@ -1,4 +1,4 @@
-<?xml-model href="RelaxNg/MultipleCharacters.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="RelaxNg/Aladdin.rnc" type="application/relax-ng-compact-syntax"?>
 <xml>
     <metadata>
         <title>Out of Thin Air</title>

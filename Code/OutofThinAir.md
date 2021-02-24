@@ -1,10 +1,10 @@
 #Regex Work for Out of Thin Air
 
 1 Find: '^.+' (40 matches)
-    Replace: '<ln>\0</ln>'
+    Replace: '<ln n="">\0</ln>'
     
 2 Find: '\n\n' (20 matches)
-    Replace: '</p>\0<p>'
+    Replace: '</p>\0<p n="">'
     
 3 Find: '\[(.+):\]' (18 matches)
     Replace: '<char xml:id=" ">\1</char>'
