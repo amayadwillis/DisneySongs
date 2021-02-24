@@ -1,0 +1,186 @@
+<xml>
+    <metadata>
+        <title>Forget About Love</title>
+        <lyric>Lyrics from <movie>Aladdin: The Return of Jafar</movie></lyric>
+        <compose>Lyrics and music by <person type="composer" xml:id="Silversher">Patty
+                Silversher</person> and <person type="composer" xml:id="Silversher">Michael
+                Silversher</person></compose>
+        <perform>Performed by <person type="voiceActor" xml:id="Gottfried">Gilbert
+                Gottfried</person>, <person type="voiceActor" xml:id="Callaway">Liz
+                Callaway</person> and <person type="voiceActor" xml:id="Kane">Brad
+            Kane</person></perform>
+    </metadata>
+
+    <song>
+        <p n="1">
+            <ln n="1"><char xml:id="Iago">Iago</char> Forget about that guy</ln>
+            <ln n="2">Forget about the way you fell into his eyes</ln>
+            <ln n="3">Forget about his charms</ln>
+            <ln n="4">Forget about the way he held you in his arms</ln>
+        </p>
+
+        <p n="2">
+            <ln n="5">Walking on air's obnoxious</ln>
+            <ln n="6">The thrills, the chills</ln>
+            <ln n="7">Will make you nauseous</ln>
+            <ln n="8">And you'll never get enough</ln>
+            <ln n="9">Just forget about love</ln>
+        </p>
+
+        <p n="3">
+            <ln n="10">Forget about romance</ln>
+            <ln n="11">Forget about the way your heart begins to dance</ln>
+            <ln n="12">Then you feel the blush</ln>
+            <ln n="13">When he's spouting out some sentimental mush</ln>
+        </p>
+
+        <p n="4">
+            <ln n="14">Love really is revolting</ln>
+            <ln n="15">It's even worse than when you're molting</ln>
+            <ln n="16">Enough of this fluff</ln>
+            <ln n="17">Just forget about love</ln>
+        </p>
+
+        <p n="5">
+            <ln n="18"><char xml:id="Jasmine">Jasmine</char> I had almost forgotten the way it
+                felt</ln>
+            <ln n="19">When he held out his hand for mine</ln>
+            <ln n="20">My heart all a-flutter</ln>
+        </p>
+
+        <p n="6">
+            <ln n="21">
+                <char xml:id="Iago">Iago</char> Oh, how I shudder</ln>
+        </p>
+
+        <p n="7">
+            <ln n="22"><char xml:id="Jasmine">Jasmine</char> The first time we kissed</ln>
+        </p>
+
+        <p n="8">
+            <ln n="23"><char xml:id="Iago">Iago</char> It won't be missed</ln>
+            <ln n="24">Forget about his touch</ln>
+        </p>
+
+        <p n="9">
+            <ln n="25"><char xml:id="Jasmine">Jasmine</char> I can't forget about his touch</ln>
+        </p>
+
+        <p n="10">
+            <ln n="26"><char xml:id="Iago">Iago</char> In the scheme of things</ln>
+            <ln n="27">It doesn't matter much</ln>
+        </p>
+
+        <p n="11">
+            <ln n="28"><char xml:id="Jasmine">Jasmine</char> It matters so much</ln>
+        </p>
+
+        <p n="12">
+            <ln n="29"><char xml:id="Iago">Iago</char> You're better on your own</ln>
+            <ln n="30">A meal becomes a banquet</ln>
+            <ln n="31">When you eat alone</ln>
+        </p>
+
+        <p n="13">
+            <ln n="32"><char xml:id="Jasmine">Jasmine</char> Hmm-mm-mm-mm</ln>
+        </p>
+
+        <p n="14">
+            <ln n="33"><char xml:id="Both">Both </char>Love's filled with compromises</ln>
+        </p>
+
+        <p n="15">
+            <ln n="34"><char xml:id="Iago">Iago</char> And don't you hate those big surprises?</ln>
+        </p>
+
+        <p n="16">
+            <ln n="35"><char xml:id="Jasmine">Jasmine</char> A cozy rendez-vous</ln>
+        </p>
+
+        <p n="17">
+            <ln n="36"><char xml:id="Iago">Iago</char> Oh, please!</ln>
+        </p>
+
+        <p n="18">
+            <ln n="37"><char xml:id="Jasmine">Jasmine</char> Candlelight for two</ln>
+        </p>
+
+        <p n="19">
+            <ln n="38"><char xml:id="Iago">Iago</char> Oh, geez!</ln>
+        </p>
+
+        <p n="20">
+            <ln n="39"><char xml:id="Jasmine">Jasmine</char> Look, you're calling my bluff, I
+                can't</ln>
+        </p>
+
+        <p n="21">
+            <ln n="40"><char xml:id="Iago">Iago</char> Just</ln>
+        </p>
+
+        <p n="22">
+            <ln n="41"><char xml:id="Both">Both</char> Forget about love!</ln>
+        </p>
+
+        <p n="23">
+            <ln n="42"><char xml:id="Jasmine">Jasmine</char> I can't forget about my heart</ln>
+        </p>
+
+        <p n="24">
+            <ln n="43"><char xml:id="Aladdin">Aladdin</char> I can't forget about my heart</ln>
+        </p>
+
+        <p n="25">
+            <ln n="44"><char xml:id="Jasmine">Jasmine</char> And how it felt to fall for you right
+                from the start</ln>
+        </p>
+
+        <p n="26">
+            <ln n="45"><char xml:id="Aladdin">Aladdin</char> I'm still falling</ln>
+        </p>
+
+        <p n="27">
+            <ln n="46"><char xml:id="Jasmine">Jasmine</char> Whatever we may do</ln>
+        </p>
+
+        <p n="28">
+            <ln n="47"><char xml:id="Aladdin">Aladdin</char> Whatever we may do</ln>
+        </p>
+
+        <p n="29">
+            <ln n="48"><char xml:id="Jasmine">Jasmine</char> You are here for me, and I'll be there
+                for you</ln>
+        </p>
+
+        <p n="30">
+            <ln n="49"><char xml:id="Aladdin">Aladdin</char> I'll be there</ln>
+        </p>
+
+        <p n="31">
+            <ln n="50"><char xml:id="Both">Both</char> To wish, to want, to wander</ln>
+            <ln n="51">To find the sun through rain and thunder</ln>
+        </p>
+
+        <p n="32">
+            <ln n="52"><char xml:id="Aladdin">Aladdin</char> A cozy rendez-vous</ln>
+        </p>
+
+        <p n="33">
+            <ln n="53"><char xml:id="Jasmine">Jasmine</char> Yes, please!</ln>
+        </p>
+
+        <p n="34">
+            <ln n="54"><char xml:id="Aladdin">Aladdin</char> Candlelight for two</ln>
+        </p>
+
+        <p n="35">
+            <ln n="55"><char xml:id="Iago">Iago</char> Oh, geez!</ln>
+            <ln n="56">Enough is enough!</ln>
+        </p>
+
+        <p n="36">
+            <ln n="57"><char xml:id="Both">Aladdin and Jasmine</char> We can't forget about
+                love!</ln>
+        </p>
+    </song>
+</xml>

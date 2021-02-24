@@ -1,0 +1,20 @@
+<xml>
+    <metadata>
+        <title>One Jump Ahead (Reprise)</title>
+        <lyric>Lyrics from <movie>Aladdin (Live-Action)</movie></lyric>
+        <compose>Music and lyrics by<person type="composer" xml:id="Menken"> Alan Menken</person>
+            and <person type="composer" xml:id="Rice">Tim Rice</person></compose>
+        <perform>Performed by <person type="liveAction" xml:id="Massoud">Mena Massoud</person> as
+                <char xml:id="Aladdin">Aladdin</char></perform>
+    </metadata>
+
+    <song>
+        <p n="1">
+            <ln n="1">Riffraff! Street rat! I don't buy that!</ln>
+            <ln n="2">If only they'd look closer</ln>
+            <ln n="3">Would they see a poor boy?</ln>
+            <ln n="4">No, siree</ln>
+            <ln n="5">They'd find out there's so much more to me</ln>
+        </p>
+    </song>
+</xml>
