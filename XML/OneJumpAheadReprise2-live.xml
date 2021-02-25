@@ -4,25 +4,25 @@
         <title> One Jump Ahead (Reprise 2)</title>
         <origin>Lyrics from <movie>Aladdin (Live-Action)</movie></origin>
         <compose><music>Music by <person type="composer" xml:id="Menken">Alan Menken</person></music></compose>
-        <compose><lyric>Lyrics by <person type="composer" xml:id="Pasek">Benj Pasek</person> and <person
+        <compose><lyric>Lyrics by <person type="lyricist" xml:id="Pasek">Benj Pasek</person> and <person
                 type="composer" xml:id="Paul">Justin Paul</person></lyric></compose>
         <perform>Performed by <person type="liveAction" xml:id="Massoud">Mena Massoud</person> as
                 <char xml:id="Aladdin">Aladdin</char></perform>
     </metadata>
 
     <song>
-        <p n="1">
+        <lg n="1">
             <ln n="1"> Riffraff! Street rat! Would they think that</ln>
             <ln n="2">If they look much closer</ln>
             <ln n="3">Still, I can't play a prince here</ln>
             <ln n="4">No, siree</ln>
-        </p>
+        </lg>
 
-        <p n="2">
+        <lg n="2">
             <ln n="1">Gotta tell the truth</ln>
             <ln n="2">I can't pretend</ln>
             <ln n="3">Even if it means this dream will end</ln>
             <ln n="4">Even if she walks away from me</ln>
-        </p>
+        </lg>
     </song>
 </xml>
