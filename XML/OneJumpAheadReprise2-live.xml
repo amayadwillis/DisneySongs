@@ -3,11 +3,8 @@
     <metadata>
         <title> One Jump Ahead (Reprise 2)</title>
         <origin>Lyrics from <movie>Aladdin (Live-Action)</movie></origin>
-        <compose><music>Music by <person type="composer" xml:id="Menken">Alan Menken</person></music></compose>
-        <compose><lyric>Lyrics by <person type="lyricist" xml:id="Pasek">Benj Pasek</person> and <person
-                type="composer" xml:id="Paul">Justin Paul</person></lyric></compose>
-        <perform>Performed by <person type="liveAction" xml:id="Massoud">Mena Massoud</person> as
-                <char xml:id="Aladdin">Aladdin</char></perform>
+        <author>Music by <composer ref="Menken">Alan Menken</composer> Lyrics by <lyricist ref="Pasek">Benj Pasek</lyricist> and <lyricist ref="Paul">Justin Paul</lyricist></author>
+        <perform>Performed by <voiceActor ref="Massoud" role="Aladdin">Mena Massoud</voiceActor> as Aladdin</perform>
     </metadata>
 
     <song>
