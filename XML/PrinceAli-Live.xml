@@ -1,4 +1,5 @@
 <?xml-model href="RelaxNg/Aladdin.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="RelaxNg/disneySongs.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <xml>
     <metadata>
         <title>Prince Ali </title>
