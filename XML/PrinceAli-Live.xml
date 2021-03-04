@@ -5,9 +5,9 @@
         <title>Prince Ali </title>
         <origin>Lyrics from <movie>Aladdin (Live-Action)</movie>
         </origin>
-        <author>Music and lyrics by <composer ref="Menken">Alan Menken</composer> and <composer
-                ref="Ashman">Howard Ashman</composer></author>
-        <perform>Performed by <voiceActor ref="Smith" role="Genie">Will Smith</voiceActor> as
+        <author>Music and lyrics by <composer ref="#Menken">Alan Menken</composer> and <composer
+                ref="#Ashman">Howard Ashman</composer></author>
+        <perform>Performed by <voiceActor ref="#Smith" role="#Genie">Will Smith</voiceActor> as
             Genie</perform>
     </metadata>
     <song>
