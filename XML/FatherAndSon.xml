@@ -1,17 +1,18 @@
 <?xml-model href="RelaxNg/Aladdin.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="RelaxNg/disneySongs.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <xml>
     <metadata>
         <title>Father and Son</title>
         <origin>Lyrics from <movie>Aladdin and the King of Theives</movie></origin>
-        <author>Composed by <composer ref="Peterson">Randy Petersen</composer> and
-                <composer ref="Quinn">Kevin Quinn</composer></author>
-        <perform>Performed by <voiceActor ref="Williams" role="Genie">Robin Williams</voiceActor>,
-                <voiceActor ref="Kane" role="Aladdin">Brad Kane</voiceActor> and <voiceActor ref="Foard" role="Cassim">Merwin Foard</voiceActor></perform>
+        <author>Composed by <composer ref="#Peterson">Randy Petersen</composer> and
+                <composer ref="#Quinn">Kevin Quinn</composer></author>
+        <perform>Performed by <voiceActor ref="#Williams" role="#Genie">Robin Williams</voiceActor>,
+                <voiceActor ref="#Kane" role="#Aladdin">Brad Kane</voiceActor> and <voiceActor ref="#Foard" role="#Cassim">Merwin Foard</voiceActor></perform>
     </metadata>
 
     <song>
         <lg n="1">
-            <ln n="1"><char ref="Genie">Genie</char> It's a big, bright, beautiful future</ln>
+            <ln n="1"><char ref="#Genie">Genie</char> It's a big, bright, beautiful future</ln>
             <ln n="2">Thank your lucky stars you're alive</ln>
             <ln n="3">You got someone special to talk to</ln>
             <ln n="4">A friend that you can trust for life</ln>
@@ -57,15 +58,15 @@
         </lg>
 
         <lg n="7">
-            <ln n="29"><char ref="Cassim">Cassim</char> May be a bumpy ride</ln>
+            <ln n="29"><char ref="#Cassim">Cassim</char> May be a bumpy ride</ln>
         </lg>
 
         <lg n="8">
-            <ln n="30"><char ref="Aladdin">Aladdin</char> We'll make it side by side</ln>
+            <ln n="30"><char ref="#Aladdin">Aladdin</char> We'll make it side by side</ln>
         </lg>
 
         <lg n="9">
-            <ln n="31"><char ref="Genie">Genie</char> Good afternoon, I'll be your travel guide</ln>
+            <ln n="31"><char ref="#Genie">Genie</char> Good afternoon, I'll be your travel guide</ln>
             <ln n="32">Move over, Aladdin</ln>
             <ln n="33">Make room for dad!</ln>
         </lg>
