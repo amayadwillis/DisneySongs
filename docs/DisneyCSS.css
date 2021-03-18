@@ -1,20 +1,79 @@
 h1
 {
-    color:navy;
-    font-size: 50px;
-    font-family: "Palatino", serif;
+    color:#21073a;
+    font-size: 130px;
+    font-family: "Disney";
     text-align: center;
+    font-weight: 20;
+    margin: 1px;
 }
+
 h3
 {
-    color:navy;
-    font-size: 25px;
-    font-family: "Palatino", serif;
+    color:#21073a;
+    font-size: 20px;
+    font-family: "WickedMouse";
     text-align: center;
+    font-weight: 20;
+    margin: 6px;
 }
 body
 {
-    background-color: plum;
+    background-color: #c59fc9;
     font-size: 17px;
     text-align: center;
 }
+
+ul {/* jkc:  I added this navigation bar set-up*/ 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #cfbae1;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    color:#09142e;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+    font-family: "MouseMemoir";
+    font-weight: 20;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+.Nav li a:hover {
+    background-color: #03076b;
+    color: #c1e0f7;
+}
+p {
+    font-family: "MouseMemoir";
+    font-weight: 10;
+    letter-spacing: 0.2px;
+    word-spacing: 1px;
+    color: #09142e;
+    font-size: 20px;
+}
+
+.active {
+    background-color: #4e819c;
+}
+ @font-face {
+  font-family: "Disney";
+  src: url("waltograph/waltograph42.ttf");
+  }
+
+ @font-face {
+  font-family: "WickedMouse";
+  src: url("wicked-mouse/Wicked Mouse Demo.otf");
+  }
+ @font-face {
+  font-family: "MouseMemoir";
+  src: url("mouse-memoirs/MouseMemoirs-Regular.ttf");
+  }
