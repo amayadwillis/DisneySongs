@@ -1,11 +1,12 @@
 <?xml-model href="RelaxNg/Aladdin.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="RelaxNg/disneySongs.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <xml>
     <metadata>
         <title>Prince Ali</title>
         <origin>Lyrics from <movie>Aladdin</movie></origin>
-        <author>Music and lyrics by <composer ref="Menken">Alan Menken</composer> and <composer
-                ref="Ashman">Howard Ashman</composer></author>
-        <perform>Performed by <voiceActor ref="Williams" role="Genie">Robin Williams</voiceActor> as
+        <author>Music and lyrics by <composer ref="#Menken">Alan Menken</composer> and <composer
+                ref="#Ashman">Howard Ashman</composer></author>
+        <perform>Performed by <voiceActor ref="#Williams" role="#Genie">Robin Williams</voiceActor> as
             Genie</perform>
     </metadata>
     <song>

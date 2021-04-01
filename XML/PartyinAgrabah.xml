@@ -1,15 +1,16 @@
 <?xml-model href="RelaxNg/Aladdin.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="RelaxNg/disneySongs.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <xml>
     <metadata>
         <title>There's a Party Here in Agrabah</title>
         <origin>Lyrics from <movie>Aladdin and the King of Thieves</movie></origin>
-        <author>Composed by <composer ref="Friedman">David Friedman</composer></author>
-        <perform><voiceActor ref="null" role="null">null</voiceActor></perform>
+        <author>Composed by <composer ref="#Friedman">David Friedman</composer></author>
+        <perform><voiceActor ref="#null" role="#null">null</voiceActor></perform>
     </metadata>
 
     <song>
         <lg n="1">
-            <ln n="1"><char ref="Genie">Genie</char> There's a party here in Agrabah</ln>
+            <ln n="1"><char ref="#Genie">Genie</char> There's a party here in Agrabah</ln>
             <ln n="2">There's excitement in the air</ln>
             <ln n="3">People pouring in from near and far</ln>
             <ln n="4">'Cause Jasmine and Aladdin are gonna have a weddin'</ln>
@@ -74,24 +75,24 @@
         </lg>
 
         <lg n="10">
-            <ln n="39"><char ref="Thieves">Thieves</char> There's a party here in Agrabah</ln>
+            <ln n="39"><char ref="#Thieves">Thieves</char> There's a party here in Agrabah</ln>
             <ln n="40">And we're gonna rob 'em blind</ln>
         </lg>
 
         <lg n="11">
-            <ln n="41"><char ref="Cassim">Cassim</char> While they're all munching caviar</ln>
+            <ln n="41"><char ref="#Cassim">Cassim</char> While they're all munching caviar</ln>
             <ln n="42">Create a small disturbance, I'll sneak up from behind</ln>
         </lg>
 
         <lg n="12">
-            <ln n="43"><char ref="Iago">Iago</char> There's a party here in Agrabah</ln>
+            <ln n="43"><char ref="#Iago">Iago</char> There's a party here in Agrabah</ln>
             <ln n="44">And the loot is pourin' in</ln>
             <ln n="45">I like this wedding stuff so far</ln>
             <ln n="46">Maybe if I'm pleasant, I'll get to keep a present</ln>
         </lg>
 
         <lg n="13">
-            <ln n="47"><char ref="Genie">Genie</char> We've ordered just a few tasteful flowers</ln>
+            <ln n="47"><char ref="#Genie">Genie</char> We've ordered just a few tasteful flowers</ln>
             <ln n="48">The valets will carefully park for you</ln>
             <ln n="49">The bridesmaids have been dressing for hours!</ln>
             <ln n="50">Girls, you look just lovely and so grown-up, too</ln>
@@ -104,7 +105,7 @@
         </lg>
 
         <lg n="15">
-            <ln n="54"><char ref="Sultan">Sultan</char> Where is the groom?</ln>
+            <ln n="54"><char ref="#Sultan">Sultan</char> Where is the groom?</ln>
         </lg>
     </song>
 </xml>
