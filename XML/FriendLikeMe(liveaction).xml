@@ -1,5 +1,5 @@
-<?xml-model href="../../Documents/Github/DisneySongs/XML/RelaxNg/Aladdin.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../Documents/Github/DisneySongs/XML/RelaxNg/disneySongs.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="RelaxNg/disneySongs.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="RelaxNg/Aladdin.rnc" type="application/relax-ng-compact-syntax"?>
 <xml><metadata><title>Friend Like Me(Live Action)</title>
 <origin>Lyrics from <movie>Aladdin (Live-Action)</movie></origin>
 <author>Music and lyrics by <composer ref="#Menken">Alan Menken</composer> and <composer ref="#Ashman">Howard Ashman</composer></author>

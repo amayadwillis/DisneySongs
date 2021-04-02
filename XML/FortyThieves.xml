@@ -4,7 +4,7 @@
     <metadata>
         <title>Welcome to the Forty Thieves</title>
         <origin>Lyrics from <movie>Aladdin and the King of Thieves</movie></origin>
-        <author>Composed by <composer ref="#Peterson">Randy Peterson</composer> and <composer
+        <author>Composed by <composer ref="#Petersen">Randy Petersen</composer> and <composer
                 ref="#Quinn">Kevin Quinn</composer></author>
         <perform>
             <voiceActor ref="#null" role="#null"> null</voiceActor>

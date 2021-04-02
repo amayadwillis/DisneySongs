@@ -4,7 +4,7 @@
     <metadata>
         <title>Father and Son</title>
         <origin>Lyrics from <movie>Aladdin and the King of Theives</movie></origin>
-        <author>Composed by <composer ref="#Peterson">Randy Petersen</composer> and
+        <author>Composed by <composer ref="#Petersen">Randy Petersen</composer> and
                 <composer ref="#Quinn">Kevin Quinn</composer></author>
         <perform>Performed by <voiceActor ref="#Williams" role="#Genie">Robin Williams</voiceActor>,
                 <voiceActor ref="#Kane" role="#Aladdin">Brad Kane</voiceActor> and <voiceActor ref="#Foard" role="#Cassim">Merwin Foard</voiceActor></perform>
