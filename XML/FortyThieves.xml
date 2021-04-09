@@ -1,19 +1,20 @@
 <?xml-model href="RelaxNg/Aladdin.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="RelaxNg/disneySongs.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <xml>
     <metadata>
         <title>Welcome to the Forty Thieves</title>
         <origin>Lyrics from <movie>Aladdin and the King of Thieves</movie></origin>
-        <author>Composed by <composer ref="Peterson">Randy Peterson</composer> and <composer
-                ref="Quinn">Kevin Quinn</composer></author>
+        <author>Composed by <composer ref="#Petersen">Randy Petersen</composer> and <composer
+                ref="#Quinn">Kevin Quinn</composer></author>
         <perform>
-            <voiceActor ref="null" role="null"> null</voiceActor>
+            <voiceActor ref="#null" role="#null"> null</voiceActor>
         </perform>
     </metadata>
 
     <song>
         <lg n="1">
             <ln n="1">Cassim, Aladdin</ln>
-            <ln n="2"><char ref="Thieves">Thieves</char> Congratulations, bub, you've joined the
+            <ln n="2"><char ref="#Thieves">Thieves</char> Congratulations, bub, you've joined the
                 club</ln>
             <ln n="3">And everybody here agrees</ln>
             <ln n="4">We got the finest blend of nearly-honest men</ln>
@@ -37,11 +38,11 @@
         </lg>
 
         <lg n="4">
-            <ln n="16"><char ref="Iago">Iago</char> Oh, I love you guys</ln>
+            <ln n="16"><char ref="#Iago">Iago</char> Oh, I love you guys</ln>
         </lg>
 
         <lg n="5">
-            <ln n="17"><char ref="Thieves">Thieves</char> Schemin' up a scam</ln>
+            <ln n="17"><char ref="#Thieves">Thieves</char> Schemin' up a scam</ln>
             <ln n="18">Out on the lam</ln>
             <ln n="19">Takin' whatever we please</ln>
             <ln n="20">And if you like to lurk</ln>
@@ -51,18 +52,18 @@
         </lg>
 
         <lg n="6">
-            <ln n="25"><char ref="Cassim">Cassim</char> Together we're the perfect team</ln>
+            <ln n="25"><char ref="#Cassim">Cassim</char> Together we're the perfect team</ln>
             <ln n="26">Larceny is in the genes</ln>
             <ln n="27">Dare to share the family dream</ln>
         </lg>
 
         <lg n="7">
-            <ln n="28"><char ref="Iago">Iago</char> Live a life of leisure</ln>
+            <ln n="28"><char ref="#Iago">Iago</char> Live a life of leisure</ln>
             <ln n="29">Countin' all your treasure</ln>
         </lg>
 
         <lg n="8">
-            <ln n="30"><char ref="Thieves">Thieves</char> As an honorary member of the gang</ln>
+            <ln n="30"><char ref="#Thieves">Thieves</char> As an honorary member of the gang</ln>
             <ln n="31">That no one alive ever leaves</ln>
             <ln n="32">Ya gotta snatch and sneak</ln>
             <ln n="33">Or else your future's bleak</ln>
