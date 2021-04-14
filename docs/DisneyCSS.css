@@ -80,7 +80,7 @@ p {
   }
   
  table, th, td {
-      border: 3px black;
+      border: 3px solid black;
   }
   
   th, td {
