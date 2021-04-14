@@ -78,3 +78,12 @@ p {
   font-family: "MouseMemoir";
   src: url("mouse-memoirs/MouseMemoirs-Regular.ttf");
   }
+  
+ table, th, td {
+      border: 3px black;
+  }
+  
+  th, td {
+      padding: 15px;
+      
+  }
