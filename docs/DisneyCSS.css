@@ -37,12 +37,25 @@ body
 p {
     font-family: "MouseMemoir";
     font-weight: 10;
-    letter-spacing: 0.2px;
-    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    word-spacing: 1.5px;
     color: #09142e;
     font-size: 20px;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-bottom: 20px;
+	padding-top: 0px;
 }
 
+h5{
+	color:#21073a;
+    font-size: 25px;
+    font-family: "MouseMemoir";
+    text-align: center;
+    font-weight: 10;
+    margin: 6px;
+	padding-top: 20px;
+}
  @font-face {
   font-family: "Disney";
   src: url("waltograph/waltograph42.ttf");
@@ -77,6 +90,7 @@ ul.navbar {
   font-family: "MouseMemoir";
   letter-spacing: 1px;
   color: #09142e;
+  font-size: 20px;
 }
 
 li.navbar {
@@ -139,7 +153,31 @@ color: #a4def9;
   
 }
 
-a.active{
+.active{
 	color: #09142e;
-	background-color: #a4def9;
+	background-color: #4e819c;
+}
+
+.quest{
+	color: #551382;
+	font-size: 21px;
+}
+
+p.head{
+	text-align:left;
+	font-size: 23px;
+	color:#120321;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	text-decoration: overline;
+}
+
+p a{
+	font-family: "MouseMemoir";
+    font-weight: 10;
+    letter-spacing: 0.5px;
+    word-spacing: 1.5px;
+    color: #551382;
+    font-size: 20px;
+
 }
