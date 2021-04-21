@@ -4,7 +4,7 @@ h1
     font-size: 130px;
     font-family: "Disney";
     text-align: center;
-    font-weight: 20;
+    font-weight: 100;
     margin: 1px;
 }
 
@@ -14,7 +14,7 @@ h3
     font-size: 20px;
     font-family: "WickedMouse";
     text-align: center;
-    font-weight: 30;
+    font-weight: 100;
     margin: 6px;
 }
 h4
@@ -23,9 +23,30 @@ h4
     font-size: 30px;
     font-family: "MouseMemoir";
     text-align: center;
-    font-weight: 20;
+    font-weight: 100;
     margin: 6px;
 	padding-bottom: 50px;
+}
+
+h2
+{
+    color:#21073a;
+    font-size: 30px;
+    font-family: "MouseMemoir";
+    text-align: center;
+    font-weight: 20;
+    margin: 6px;
+	padding-bottom: 5px;
+}
+h5
+{
+    color:#21073a;
+    font-size: 25px;
+    font-family: "MouseMemoir";
+    text-align: center;
+    font-weight: 20;
+    margin: 6px;
+	padding-bottom: 5px;
 }
 body
 {
@@ -69,15 +90,6 @@ h5{
  @font-face {
   font-family: "MouseMemoir";
   src: url("mouse-memoirs/MouseMemoirs-Regular.ttf");
-  }
-  
- table, th, td {
-      border: 1px solid #09142e;;
-  }
-  
-  th, td {
-      padding: 15px;
-    
   }
 
 ul.navbar {
@@ -179,5 +191,64 @@ p a{
     word-spacing: 1.5px;
     color: #551382;
     font-size: 20px;
+}
 
+table{
+	display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+	font-family: "MouseMemoir";
+	list-style-type: none;
+	letter-spacing: 0.7px;
+	font-weight: 100;
+}
+
+table.meta tr:nth-child(even) {
+    background-color: #D4E9F9;
+	font-family: "MouseMemoir";
+	list-style-type: none;
+	letter-spacing: 0.7px;
+}
+
+table.meta tr:nth-child(odd) {
+    background-color: #E2D6ED;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+ul.meta{
+	font-family: "MouseMemoir";
+	list-style-type: none;
+	letter-spacing: 0.7px;
+}
+
+th.meta{
+	font-family: "MouseMemoir";
+	list-style-type: none;
+	letter-spacing: 1px;
+	font-size: 20px;
+	font-weight: 200;
+}
+
+table.tablehead th{
+	column-width: 300px;
+}
+
+.subtable{
+	column-width: 300px;
+	align-content: left;
+}
+
+table.subtable tr:nth-child(odd) {
+	background-color: inherit;
+}
+
+table.subtable tr:nth-child(even) {
+	background-color: inherit;
 }
