@@ -55,7 +55,7 @@ body
     text-align: center;
 }
 
-p {
+p, figcaption {
     font-family: "MouseMemoir";
     font-weight: 10;
     letter-spacing: 0.5px;
@@ -204,6 +204,7 @@ table{
 	list-style-type: none;
 	letter-spacing: 0.7px;
 	font-weight: 100;
+	font-size: 20px;
 }
 
 table.meta tr:nth-child(even) {
