@@ -6,7 +6,7 @@
         <origin>Lyrics from <movie>Aladdin: The Return of Jafar</movie></origin>
         <author>Lyrics and music by <composer ref="#Petersen">Randy Petersen</composer> and
                 <composer ref="#Quinn">Kevin Quinn</composer></author>
-        <perform>Performed by <voiceActor ref="#Freeman" role="#Jafar">Joanathan
+        <perform>Performed by <voiceActor ref="#Freeman" role="#Jafar">Jonathan
                 Freeman</voiceActor> as Jafar</perform>
     </metadata>
     <song>

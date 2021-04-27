@@ -23,19 +23,11 @@
         </ul>
 		<br/>
 		<br/>
-		<p class="head"> Reaserch Question</p>
-        <p align="left"> &emsp;&emsp; For this project, our team decided to collect songs from Disney's Aladdin franchise and compare the songs within the four movies (3 animated  and 1 live-action). We chose to focus on the Aladdin movies because they had many reprises of the same songs, which could provide valuable information for our analysis. Our team is aiming to answer the research question of: <em class="quest">Do the songs (original and reprised versions) contain the same or similar word? What parts of speeches do these songs contain the most, and what does the variation in words mean? How much did the songs reflect the overall theme of the movie / franchise?</em></p> 
-        <br/>
-		<p class="head"> Source </p>
-        <p align="left"> &emsp;&emsp; We used the song lyrics obtained from <a href="https://www.disneyclips.com/lyrics/" target="_blank">Disneyclips.com</a>. The site has a large collection of Disney songs separated by movie, and listed alphabetically. After looking at the collection, we chose Aladdin because it was one of the larger movie series with many repeating songs that could yield interesting results after analysis. After clicking on a movie, the next screen that pops up has all of the songs from that movie. Once you click on one, it takes you to the page with the lyrics. This page also usually has a picture from the movie as well as some metadata such as the composer, voice actor(s), movie, etc.</p>
-		
-		<figure><a href="https://www.disneyclips.com/lyrics/one-jump-ahead-reprise.html" target="_blank"><img src="images/DisneyClips_Example.JPG" alt="Example of Disney Clip's Lyrics Page"></a><figcaption> A screenshot from Disney Clips song lyrics page </figcaption></figure>
-      	<br/>
 		<p class="head">Mark up</p>
     <p align="left"> &emsp;&emsp; After obtaining the plain text files from the website, we used oXygen to mark the elements in the files with XML. We first identified repeating patterns in the files and used Regex (Regular Expressions) to mark up our files efficiently. Then, after the first files were marked propoerly with elements and attributes, we create a Relax NG Schema to keep our files and mark up style consistent with each other. We tried to keep in as many details as we could without making the code become too complicated, so we chose to separate the metadata part and the actual song part of the files with different tags. </p> <figure><a href="" target="_blank"><img src="images/XML_Example.JPG" alt="Example of our XML code"></a><figcaption> An example of our XML code </figcaption></figure>
 		
 		<p class="head">Analysis</p>
-		<p align="left"> &emsp;&emsp; For a lot of the analysis we utilized eXist, this is where we wrote xquery, which we used quite a bit for this project. We were able to utilize eXist while creating some svg graphs as well as writing code to run through Cytocscape. We used Voyant Tools to search through each individual song and find the words that repeated the most, the total words in the songs, and the amount of unique word forms in the songs.</p>
+		<p align="left"> &emsp;&emsp; We utizlied eXist for the majority of the analysis process. eXist is a platform for us to write Xquery to pull specific data points from our collection and output them into formats to conduct further analysis or for visualization purposes. For a lot of the analysis we utilized eXist, this is where we wrote xquery, which we used quite a bit for this project. We were able to utilize eXist while creating some svg graphs as well as writing code to run through Cytocscape. We used Voyant Tools to search through each individual song and find the words that repeated the most, the total words in the songs, and the amount of unique word forms in the songs.</p>
   
         
     <p class="head">GitHub</p>

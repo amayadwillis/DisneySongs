@@ -17,6 +17,7 @@ h3
     font-weight: 100;
     margin: 6px;
 }
+
 h4
 {
     color:#21073a;
@@ -252,4 +253,75 @@ table.subtable tr:nth-child(odd) {
 
 table.subtable tr:nth-child(even) {
 	background-color: inherit;
+}
+.gallery{
+	border: 1px solid #371D10;
+}
+
+.gallery:hover {
+	border: 2px solid #4A2512;
+}
+
+.gallery img{
+	width: 100%;
+	height: auto;
+}
+
+.desc{
+	padding :15px;
+	text-align: center;
+	font-family: 'IM Fell English', serif;
+	font-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+	padding: 0 2px;
+	float: left;
+	width: 24.9999999%;
+}
+
+/*@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}*/
+
+div.graphics {
+    display:flex;
+    height:100vh;
+}
+
+#cy {
+     width: 100%;
+     height:100%;
+	 object-fit: fill;
+     position:absolute;
+     /*background-color:white;*/
+     margin:auto;
+     border-style:double;
+     
+}
+
+body.cys {
+}
+
+.contain{
+	margin: auto
 }
