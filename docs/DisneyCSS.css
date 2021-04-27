@@ -306,6 +306,7 @@ table.subtable tr:nth-child(even) {
 div.graphics {
     display:flex;
     height:100vh;
+	margin: 0;
 }
 
 #cy {
@@ -316,12 +317,15 @@ div.graphics {
      /*background-color:white;*/
      margin:auto;
      border-style:double;
+	 margin: 0;
      
 }
 
 body.cys {
+	margin: 0;
 }
 
 .contain{
-	margin: auto
+	margin: auto;
+	margin: 0;
 }
