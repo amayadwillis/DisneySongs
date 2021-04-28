@@ -5,11 +5,11 @@
         <title>Exports from Cytoscape</title>
         <meta name="description" content="Single network exported from Cytoscape 3.3">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link rel="stylesheet" href="styles/main.css">
-
+        
+		<link rel="stylesheet" href="networkCSS.css"/>
+		
     </head>
-    <body>
+    <body class="cys">
         <!--[if lt IE 10]>
             <p class="browsehappy">
                 You are using an <strong>ancient</strong> browser.
@@ -19,14 +19,12 @@
         <![endif]-->
 
         <!-- Actual Cytoscape.js Instance -->
-        <div id="cy"></div>
+    <div class="graphics"><div id="cy">
+        <script src="network/amaya_network/web_session/networks.js"></script>
+        <script src="network/amaya_network/web_session/styles.js"></script>
         
-        <script src="networks.js"></script>
-        <script src="styles.js"></script>
-
-        <script src="scripts/vendor.js"></script>
-        <script src="scripts/main.js"></script>
-        <script src="scripts/custom.js"></script>
-        
+        <script src="network/amaya_network/web_session/scripts/vendor.js"></script>
+        <script src="network/amaya_network/web_session/scripts/main.js"></script>
+        </div></div>
 </body>
 </html>

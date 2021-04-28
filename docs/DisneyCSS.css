@@ -67,8 +67,17 @@ p, figcaption {
 	padding-right: 70px;
 	padding-bottom: 20px;
 	padding-top: 0px;
+	text-align: left;
 }
 
+div.desc {
+    font-family: "MouseMemoir";
+    font-weight: 10;
+    letter-spacing: 0.5px;
+    word-spacing: 1.5px;
+    color: #09142e;
+    font-size: 20px;
+}
 h5{
 	color:#21073a;
     font-size: 25px;
@@ -284,7 +293,11 @@ table.subtable tr:nth-child(even) {
 	width: 24.9999999%;
 }
 
-/*@media only screen and (max-width: 700px) {
+img.galleria{
+
+}
+
+@media only screen and (max-width: 700px) {
   .responsive {
     width: 49.99999%;
     margin: 6px 0;
@@ -301,31 +314,4 @@ table.subtable tr:nth-child(even) {
   content: "";
   display: table;
   clear: both;
-}*/
-
-div.graphics {
-    display:flex;
-    height:100vh;
-	margin: 0;
-}
-
-#cy {
-     width: 100%;
-     height:100%;
-	 object-fit: fill;
-     position:absolute;
-     /*background-color:white;*/
-     margin:auto;
-     border-style:double;
-	 margin: 0;
-     
-}
-
-body.cys {
-	margin: 0;
-}
-
-.contain{
-	margin: auto;
-	margin: 0;
 }
