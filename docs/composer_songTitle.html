@@ -4,14 +4,10 @@
         <meta charset="utf-8">
         <title>Exports from Cytoscape</title>
         <meta name="description" content="Single network exported from Cytoscape 3.3">
-        <meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
-
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
 		<link rel="stylesheet" href="testCSS.css"/>
-		<script src="network/composer_songTitle_test/web_session/networks.js"></script>
-        <script src="network/composer_songTitle_test/web_session/styles.js"></script>
-
-        <script src="network/composer_songTitle_test/web_session/scripts/vendor.js"></script>
-        <script src="network/composer_songTitle_test/web_session/scripts/main.js"></script>
+		
     </head>
     <body class="cys">
         <!--[if lt IE 10]>
@@ -23,7 +19,12 @@
         <![endif]-->
 
         <!-- Actual Cytoscape.js Instance -->
-        <div><div class="contain"><div class="graphics"><div id="cy">
-        </div></div></div></div>
+    <div class="graphics"><div id="cy">
+        <script src="network/composer_songTitle_test/web_session/networks.js"></script>
+        <script src="network/composer_songTitle_test/web_session/styles.js"></script>
+        
+        <script src="network/composer_songTitle_test/web_session/scripts/vendor.js"></script>
+        <script src="network/composer_songTitle_test/web_session/scripts/main.js"></script>
+        </div></div>
 </body>
 </html>
