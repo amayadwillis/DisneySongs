@@ -332,6 +332,24 @@ img.galleria{
   clear: both;
 }
 
-img.graph{
-	width:50%;
+.graph{
+	width:70%;
+	align-content: center;
+}
+
+p.subhead{
+	text-align:left;
+	font-size: 20px;
+	color:#120321;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	text-decoration: overline;
+}
+
+p.subcomment{
+	text-align:left;
+	font-size: 17px;
+	color:#120321;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
