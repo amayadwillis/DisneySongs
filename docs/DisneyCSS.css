@@ -333,7 +333,7 @@ img.galleria{
 }
 
 .graph{
-	width:70%;
+	width:50%;
 	align-content: center;
 }
 
@@ -346,6 +346,14 @@ p.subhead{
 	text-decoration: overline;
 }
 
+p.subsubhead{
+	text-align:left;
+	font-size: 20px;
+	color:#551382;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	text-decoration: overline;
+}
 p.subcomment{
 	text-align:left;
 	font-size: 17px;
