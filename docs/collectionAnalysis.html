@@ -25,8 +25,12 @@
 		<br/>
 		<br/>
 		<p class="head"> Xquery Analysis </p>
-        <p> Awaiting an SVG that works :((((</p>
-
+        <p> Our first analysis graphs was done using Xquery in eXist. We pulled specific elements from our song collections and graphed them into SVGs. </p>
+		<p> For this graph, we used nested for-loops and if-loops to obtain the song count of the next movie in the loops and store them in a variable to be outputted. Although there is a comprehensive list of songs in the home page, this simple graph shows the total number of songs in each movie in a simple and direct way. This would be very helpful if we were to expand our collection and include songs and movies from Disney's other film franchises. </p><figure><figcaption>A Line Graph of the number of songs in each movie</figcaption><img src="images/linechart_songcount_movie.svg" alt="Line Graph of Number of Songs"></figure>
+		
+		<figure><figcaption>A Bar Chart of Voice Actors (height of the bar) to Number of Songs (width of the bar) by movie</figcaption><img src="images/barchart_voiceActor_songCount.svg" alt="Bar Chart of Voice Actors to Song Counts"></figure>
+		
+		<div class="clearfix"></div>
 		<p class="head"> Network Analysis </p>
         <p> To begin the process of network analysis, we first had to prepare our data accordingly from XML to TSV (Tab Separated Values) to allow us to then use the program Cytoscape to generate a network of relationships between our elements. Here is a gallery of the networks we were able to generate: (Click on each picture to interact with the network.)  
 		</p>
@@ -67,5 +71,5 @@
 				<img class="graph" src="images/top10Nouns.JPG" alt="graph of top 10 nouns"/></a></div><div class="desc">Top Ten Nouns in the Aladdin Franchise</div></div>
 		<div class="clearfix"></div>
     </body>
-    <footer><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</footer>
+    <div class="footer"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License.</a></div>
 </html>
