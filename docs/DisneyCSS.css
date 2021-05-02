@@ -231,6 +231,7 @@ table{
 	letter-spacing: 0.7px;
 	font-weight: 100;
 	font-size: 20px;
+	color: #21073a;
 }
 
 table.meta tr:nth-child(even) {
@@ -369,4 +370,9 @@ p.subcomment{
   background-color: #cfbae1;
   color: #09142e;
   text-align: center;
+}
+
+table.subtable a, table.meta a{
+	color: #551382;
+	text-decoration: none;
 }
