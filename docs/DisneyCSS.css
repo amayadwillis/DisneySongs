@@ -231,6 +231,7 @@ table{
 	letter-spacing: 0.7px;
 	font-weight: 100;
 	font-size: 20px;
+	color: #21073a;
 }
 
 table.meta tr:nth-child(even) {
@@ -284,7 +285,7 @@ table.subtable tr:nth-child(even) {
 }
 
 .gallery:hover {
-	border: 2px solid #4A2512;
+	border: 5px solid #97f9f9;
 }
 
 .gallery img{
@@ -332,6 +333,46 @@ img.galleria{
   clear: both;
 }
 
-img.graph{
+.graph{
 	width:50%;
+	align-content: center;
+}
+
+p.subhead{
+	text-align:left;
+	font-size: 20px;
+	color:#120321;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	text-decoration: overline;
+}
+
+p.subsubhead{
+	text-align:left;
+	font-size: 20px;
+	color:#551382;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	text-decoration: overline;
+}
+p.subcomment{
+	text-align:left;
+	font-size: 17px;
+	color:#120321;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.footer, div.footer a {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #cfbae1;
+  color: #09142e;
+  text-align: center;
+}
+
+table.subtable a, table.meta a{
+	color: #551382;
+	text-decoration: none;
 }

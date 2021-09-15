@@ -25,8 +25,12 @@
 		<br/>
 		<br/>
 		<p class="head"> Xquery Analysis </p>
-        <p> Awaiting an SVG that works :((((</p>
-
+        <p> Our first analysis graphs was done using Xquery in eXist. We pulled specific elements from our song collections and graphed them into SVGs. </p>
+		<p> For this graph, we used nested for-loops and if-loops to obtain the song count of the next movie in the loops and store them in a variable to be outputted. Although there is a comprehensive list of songs in the home page, this simple graph shows the total number of songs in each movie in a simple and direct way. This would be very helpful if we were to expand our collection and include songs and movies from Disney's other film franchises. </p><figure><figcaption>A Line Graph of the number of songs in each movie</figcaption><img src="images/linechart_songcount_movie.svg" alt="Line Graph of Number of Songs"></figure>
+		<p> For this graph, we used nested for-loops to graph the double-dimension chart: the width of the bar indicates the number of songs in the movie, the height of the bar indicates the number of voice actors in the movies. This was an interesting approach as it allows us to understand with a quick glance which movies had the most voice actors (more characters singing) than others. </p>
+		<figure><figcaption>A Bar Chart of Voice Actors (height of the bar) to Number of Songs (width of the bar) by movie</figcaption><img src="images/barchart_voiceActor_songCount.svg" alt="Bar Chart of Voice Actors to Song Counts"></figure>
+		
+		<div class="clearfix"></div>
 		<p class="head"> Network Analysis </p>
         <p> To begin the process of network analysis, we first had to prepare our data accordingly from XML to TSV (Tab Separated Values) to allow us to then use the program Cytoscape to generate a network of relationships between our elements. Here is a gallery of the networks we were able to generate: (Click on each picture to interact with the network.)  
 		</p>
@@ -50,13 +54,29 @@
 		<p> By generating these networks, we were able to see the general networks and interactions between people that worked on the songs in the Aladdin franchise. For example, Alan Menken is the composers for most of the songs in the original movie, and is also the composer of the same songs for the live-action movie. There are also pairs of composer that can be seen working together across songs in the franchise using the networks. </p>
 		
 		<p class="head"> Natural Language Analysis </p>
-        <p> Although there were only 25 songs in our collection currently, the language used in these songs reflect a lot about the theme and overall intention of the songs, and may be deliberately chosen by the composers and Disney. For this part of our analysis, we used spaCy and Pycharm to conduct natural language processing over our entire collection, extracting interesting parts of speechs and elements in our collection to focus on. Here is a gallery of the graphs generated using spaCy: (Click to enlarge the graphs.)</p>
+        <p> Although there were only 25 songs in our collection currently, the language used in these songs reflect a lot about the theme and overall intention of the songs, and may be deliberately chosen by the composers and Disney. For this part of our analysis, we used spaCy and Pycharm to conduct natural language processing over our entire collection, extracting interesting parts of speechs and elements in our collection to focus on.</p>
+		<figure>
+			<embed class="graph" type="image/svg+xml" src="images/bar_chartNounList.svg" alt="Graph of all the nouns"/>
+			<div class="desc"><figcaption><a href="images/bar_chartNounList.svg">All of the Nouns in the Aladdin Franchise</a></figcaption></div></figure>
 		<div class="responsive"><div class="gallery">
-			<a target="_blank" href="images/nounsUsed10.JPG"><img class="graph" src="images/nounsUsed10.JPG" alt="graph of nouns used over 10 times"/></a></div><div class="desc">Nouns that were used over 10 times in the Aladdin Franchise</div></div>
+			<a target="_blank" href="images/bar_chartTopFiveNoun.svg"><img class="graph" src="images/bar_chartTopFiveNoun.svg" alt="Graph of Top 5 Nouns"/></a></div><div class="desc">Top 5 Nouns in the Aladdin Franchise</div></div>
 		<div class="responsive"><div class="gallery">
-			<a target="_blank" href="images/top10Nouns.JPG">
-				<img class="graph" src="images/top10Nouns.JPG" alt="graph of top 10 nouns"/></a></div><div class="desc">Top Ten Nouns in the Aladdin Franchise</div></div>
-
-    </body>
-    <footer><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</footer>
+			<a target="_blank" href="images/bar_chartOver10Noun.svg">
+				<img class="graph" src="images/bar_chartOver10Noun.svg" alt="Graph of nouns that appeared over 10 times"/></a></div><div class="desc">Nouns that occured over 10 times in the Aladdin Franchise</div></div>
+		<div class="responsive"><div class="gallery">
+			<a target="_blank" href="images/bar_chartOver10_Pronoun.svg">
+				<img class="graph" src="images/bar_chartOver10_Pronoun.svg" alt="Graph of pronouns that appeared over 10 times"/></a></div><div class="desc">Pronouns that occured over 10 times in the Aladdin Franchise</div></div>
+		<div class="responsive"><div class="gallery">
+			<a target="_blank" href="images/bar_chartTop4_Pronoun.svg">
+				<img class="graph" src="images/bar_chartTop4_Pronoun.svg" alt="Graph of top 4 pronouns"/></a></div><div class="desc">Top 4 pronouns in the Aladdin Franchise</div></div>
+		<div class="clearfix"></div>
+		<div class="responsive"><div class="gallery">
+			<a target="_blank" href="images/bar_chartTop10_Adverb.svg">
+				<img class="graph" src="images/bar_chartTop10_Adverb.svg" alt="Graph of top 10 adverbs"/></a></div><div class="desc">Top 10 Adverbs in the Aladdin Franchise</div></div>
+		<div class="responsive"><div class="gallery">
+			<a target="_blank" href="images/bar_chartTopThreePunct.svg">
+				<img class="graph" src="images/bar_chartTopThreePunct.svg" alt="Graph of top 3 punctuation"/></a></div><div class="desc">Top 3 Punctuation Marks in the Aladdin Franchise</div></div>
+		<div class="clearfix"></div></body>
+		<div class="footer"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License.</a></div>
+    
 </html>
