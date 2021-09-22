@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+    <title>Documentation</title>
+    <link rel="stylesheet" type="text/css" href="DisneyCSS.css"/>
+</head>
+    <body>
+        <h1>Disney Project</h1>
+		<h4> A Focus on the Songs from the Aladdin Franchise</h4>
+        <h3>Documentation</h3>
+        <ul class="navbar">
+            <li class="navbar"><a href="index.html">Main</a></li>
+			<li class="navbar"><a href="team.html">About the Team</a></li> 
+            <li class="navbar"><a href="project.html">About the Project</a></li> 
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Documentation and Analysis</a>
+                <div class="dropdown-content">
+                    <a href="documentation.html" class="active">Documentation</a>
+                    <a href="collectionAnalysis.html">Collection Analysis</a>
+                    <a href="indiAnalysis.html">Individual Analysis</a>
+                </div>
+            </li>
+			 
+        </ul>
+		<br/>
+		<br/>
+		
+		<p class="head">Plain Text</p>
+		<p> To begin our project, we imported the lyrics and some metadata that we collected from our source from each of the 25 songs into separate plain texts files. These plain text files allow us to have the most basic file format of our collection as back-up, in case anything happened to our XML codes or anywhere in the analysis process.</p><figure><img src="images/PlainText_Example.JPG" alt="Example of the Plain Text Files" width="30%"><figcaption> An example of our plain text files </figcaption></figure>
+		<p class="head">Mark up</p>
+    <p>After obtaining the plain text files from the website, we used oXygen to mark the elements in the files with XML. We first identified repeating patterns in the files and used Regex (Regular Expressions) to mark up our files efficiently. Then, after the first files were marked propoerly with elements and attributes, we create a Relax NG Schema to keep our files and mark up style consistent with each other. We tried to keep in as many details as we could without making the code become too complicated, so we chose to separate the metadata part and the actual song part of the files with different tags. </p> <figure><img src="images/XML_Example.JPG" alt="Example of our XML code" width="40%"><figcaption> An example of our XML code </figcaption></figure>
+		
+		<p class="head">Analysis</p>
+		<p>We utizlied eXist for the majority of the analysis process. eXist is a platform for us to write Xquery to pull specific data points from our collection and output them into formats to conduct further analysis or for visualization purposes. For a lot of the analysis we utilized eXist, where we wrote Xquery, which we used quite a bit for this project. We were able to utilize eXist while creating some svg graphs as well as writing code to extract elements to run through Cytocscape. We also used Voyant Tools to search through each individual song and find the words that repeated the most, the total words in the songs, and the amount of unique word forms in the songs.</p>
+		
+		<p class="subhead">Preparation for Xquery Analysis</p>
+		<p> EXist allows us to write Xquery code to draw SVG graphs using variables and loops. To do so, we first had to define the axes and what type of chart we were looking to plot. After determining those and deciding on the variables we were going to chart, all that was left was for us to write the code in eXist.</p>
+		<figure><img src="images/svg_Example.JPG" alt="Example of our code to write SVG" width="60%"><figcaption> An example of our  Xquery code to make SVG graphs</figcaption></figure>
+		<p class="subhead">Preparation for Network Analysis</p>
+		<p>After determining what data points we would be interested in seeing the relationships between, we used Xquery to generate TSV (Tab Separated Values) files to hold the collection of data so that we could import them into Cytoscape later. Cytoscape is a software platform that allows you to output data through networks and diagrams. Inside Cytoscape, we generated networks using different elements such as voice actor, song titles or composer. Cytoscape creates interactive diagrams that show connections and interactions between our selected elements.</p>
+		<figure><img src="images/TSV_Example.JPG" alt="Example of our TSV file" width="40%"><figcaption> An example of our TSV file </figcaption></figure>
+		<p class="subhead">Preparation for Natural Language Analysis</p>
+		<p> This portion of the analysis relies heavily on artificial intelligence and online libraries, so our preparation for it was fairly simple and straight forward. In order for spaCy and pyCharm to be able to read our files properly, we had to create a new plain text file that does not contain any of our mark up nor the formatting, or the metadata as we were not looking to analysis those. For this portion of the analysis, we focused only on the actual lyrics portion. </p>
+  		<figure><img src="images/pythonprep_example.JPG" alt="Example of our plain text file for Python" width="60%"><figcaption> An example of our plain text file for Python</figcaption></figure>
+        
+    <p class="head">GitHub</p>
+		<p>We used GitHub to hold our collection of songs and all of our work, and also to publish our website. Our Github is public, if you'd like to take a look around and see how we operated on this project you can click <a href="https://github.com/amayadwillis/DisneySongs" target="_blank">here.</a></p>
+    </body>
+    <div class="footer"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License.</a></div>
+</html>
