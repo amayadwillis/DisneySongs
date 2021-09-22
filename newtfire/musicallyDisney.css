@@ -1,0 +1,380 @@
+@charset "UTF-8";
+/* CSS Document */
+h1
+{
+    color:#21073a;
+    font-size: 130px;
+    font-family: "Disney";
+    text-align: center;
+    font-weight: 100;
+    margin: 1px;
+}
+
+h3
+{
+    color:#21073a;
+    font-size: 20px;
+    font-family: "WickedMouse";
+    text-align: center;
+    font-weight: 100;
+    margin: 6px;
+}
+
+h4
+{
+    color:#21073a;
+    font-size: 30px;
+    font-family: "MouseMemoir";
+    text-align: center;
+    font-weight: 100;
+    margin: 6px;
+	padding-bottom: 50px;
+}
+
+h2
+{
+    color:#21073a;
+    font-size: 30px;
+    font-family: "MouseMemoir";
+    text-align: center;
+    font-weight: 20;
+    margin: 6px;
+	padding-bottom: 5px;
+}
+h5
+{
+    color:#21073a;
+    font-size: 25px;
+    font-family: "MouseMemoir";
+    text-align: center;
+    font-weight: 20;
+    margin: 6px;
+	padding-bottom: 5px;
+}
+body
+{
+    background-color: #c59fc9;
+    font-size: 17px;
+    text-align: center;
+}
+
+p {
+	text-align: left;
+}
+p, figcaption {
+    font-family: "MouseMemoir";
+    font-weight: 10;
+    letter-spacing: 0.5px;
+    word-spacing: 1.5px;
+    color: #09142e;
+    font-size: 20px;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-bottom: 20px;
+	padding-top: 0px;
+}
+
+ol {
+    font-family: "MouseMemoir";
+    font-weight: 10;
+    letter-spacing: 0.5px;
+    word-spacing: 1.5px;
+    color: #09142e;
+    font-size: 20px;
+	padding-left: 90px;
+	padding-right: 70px;
+	padding-bottom: 20px;
+	padding-top: 0px;
+	text-align: left;
+}
+
+div.desc {
+    font-family: "MouseMemoir";
+    font-weight: 10;
+    letter-spacing: 0.5px;
+    word-spacing: 1.5px;
+    color: #09142e;
+    font-size: 20px;
+}
+h5{
+	color:#21073a;
+    font-size: 25px;
+    font-family: "MouseMemoir";
+    text-align: center;
+    font-weight: 10;
+    margin: 6px;
+	padding-top: 20px;
+}
+ @font-face {
+  font-family: "Disney";
+  src: url("waltograph/waltograph42.ttf");
+  }
+
+ @font-face {
+  font-family: "WickedMouse";
+  src: url("wicked-mouse/Wicked Mouse Demo.otf");
+  }
+
+ @font-face {
+  font-family: "MouseMemoir";
+  src: url("mouse-memoirs/MouseMemoirs-Regular.ttf");
+  }
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #cfbae1;
+  text-align: left;
+  font-family: "MouseMemoir";
+  letter-spacing: 1px;
+  color: #09142e;
+  font-size: 20px;
+}
+
+li.navbar {
+  float: left;
+}
+
+li.navbar a {
+  display: block;
+  color: #09142e;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.navbar a:hover {
+  color: #a4def9;
+  background-color: #09142e;
+}
+li a, .dropbtn {
+  display: inline-block;
+  color: #09142e;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #09142e;
+  color: #a4def9;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #cfbae1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #09142e;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color: #09142e;
+color: #a4def9;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  
+}
+
+.active{
+	color: #09142e;
+	background-color: #4e819c;
+}
+
+.quest{
+	color: #551382;
+	font-size: 21px;
+}
+
+p.head{
+	text-align:left;
+	font-size: 23px;
+	color:#120321;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	text-decoration: overline;
+}
+
+p a{
+	font-family: "MouseMemoir";
+    font-weight: 10;
+    letter-spacing: 0.5px;
+    word-spacing: 1.5px;
+    color: #551382;
+    font-size: 20px;
+}
+
+table{
+	display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+	font-family: "MouseMemoir";
+	list-style-type: none;
+	letter-spacing: 0.7px;
+	font-weight: 100;
+	font-size: 20px;
+	color: #21073a;
+}
+
+table.meta tr:nth-child(even) {
+    background-color: #D4E9F9;
+	font-family: "MouseMemoir";
+	list-style-type: none;
+	letter-spacing: 0.7px;
+}
+
+table.meta tr:nth-child(odd) {
+    background-color: #E2D6ED;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+ul.meta{
+	font-family: "MouseMemoir";
+	list-style-type: none;
+	letter-spacing: 0.7px;
+}
+
+th.meta{
+	font-family: "MouseMemoir";
+	list-style-type: none;
+	letter-spacing: 1px;
+	font-size: 20px;
+	font-weight: 200;
+}
+
+table.tablehead th{
+	column-width: 300px;
+}
+
+.subtable{
+	column-width: 300px;
+	align-content: left;
+}
+
+table.subtable tr:nth-child(odd) {
+	background-color: inherit;
+}
+
+table.subtable tr:nth-child(even) {
+	background-color: inherit;
+}
+.gallery{
+	border: 1px solid #371D10;
+}
+
+.gallery:hover {
+	border: 5px solid #97f9f9;
+}
+
+.gallery img{
+	width: 100%;
+	height: auto;
+}
+
+.desc{
+	padding :15px;
+	text-align: center;
+	font-family: 'IM Fell English', serif;
+	font-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+	padding: 0 2px;
+	float: left;
+	width: 24.9999999%;
+}
+
+img.galleria{
+
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.graph{
+	width:50%;
+	align-content: center;
+}
+
+p.subhead{
+	text-align:left;
+	font-size: 20px;
+	color:#120321;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	text-decoration: overline;
+}
+
+p.subsubhead{
+	text-align:left;
+	font-size: 20px;
+	color:#551382;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	text-decoration: overline;
+}
+p.subcomment{
+	text-align:left;
+	font-size: 17px;
+	color:#120321;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.footer, div.footer a {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #cfbae1;
+  color: #09142e;
+  text-align: center;
+}
+
+table.subtable a, table.meta a{
+	color: #551382;
+	text-decoration: none;
+}
