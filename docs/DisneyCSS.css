@@ -1,6 +1,6 @@
 h1
 {
-    color:#21073a;
+    color:#09142E;
     font-size: 130px;
     font-family: "Disney";
     text-align: center;
@@ -10,7 +10,7 @@ h1
 
 h3
 {
-    color:#21073a;
+    color:#09142E;
     font-size: 20px;
     font-family: "WickedMouse";
     text-align: center;
@@ -20,7 +20,7 @@ h3
 
 h4
 {
-    color:#21073a;
+    color:#09142E;
     font-size: 30px;
     font-family: "MouseMemoir";
     text-align: center;
@@ -31,7 +31,7 @@ h4
 
 h2
 {
-    color:#21073a;
+    color:#09142e;
     font-size: 30px;
     font-family: "MouseMemoir";
     text-align: center;
@@ -51,7 +51,7 @@ h5
 }
 body
 {
-    background-color: #c59fc9;
+    background-color: #F5E5DD;
     font-size: 17px;
     text-align: center;
 }
@@ -123,7 +123,7 @@ ul.navbar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #cfbae1;
+  background-color: #90C6FA;
   text-align: left;
   font-family: "MouseMemoir";
   letter-spacing: 1px;
@@ -167,7 +167,7 @@ li.dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #cfbae1;
+  background-color: #90C6FA;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -367,7 +367,7 @@ p.subcomment{
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #cfbae1;
+  background-color: #90C6FA;
   color: #09142e;
   text-align: center;
 }
