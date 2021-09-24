@@ -1,14 +1,14 @@
-<?xml-model href="RelaxNg/Aladdin.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="RelaxNg/disneySongs.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../RelaxNg/disneySongs.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../RelaxNg/disneySongs.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <xml>
     <metadata>
         <title>Out of Thin Air</title>
         <origin><movie>Aladdin and the King of Thieves</movie></origin>
-        <author><composer ref="#Friedman">David
-            Friedman</composer></author>
+        <author><composer ref="#Friedman">David Friedman</composer></author>
         <perform>
             <voiceActor ref="#Kane" role="#Aladdin">Brad Kane</voiceActor>
             <voiceActor ref="#Callaway" role="#Jasmine">Liz Callaway</voiceActor></perform>
+        <source>https://www.disneyclips.com/lyrics/lyricsking2.html</source>
     </metadata>
     <song>
         <lg n="1">
@@ -62,8 +62,7 @@
         </lg>
 
         <lg n="10">
-            <ln n="24"><char ref="#Jasmine">Jasmine</char> I think it's worth this small
-                delay</ln>
+            <ln n="24"><char ref="#Jasmine">Jasmine</char> I think it's worth this small delay</ln>
         </lg>
 
         <lg n="11">
@@ -96,8 +95,7 @@
         </lg>
 
         <lg n="18">
-            <ln n="33"><char ref="#Aladdin">Aladdin</char> There's so much that we might
-                share</ln>
+            <ln n="33"><char ref="#Aladdin">Aladdin</char> There's so much that we might share</ln>
         </lg>
 
         <lg n="19">

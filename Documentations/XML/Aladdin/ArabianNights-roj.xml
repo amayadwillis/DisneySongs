@@ -1,5 +1,5 @@
-<?xml-model href="RelaxNg/Aladdin.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="RelaxNg/disneySongs.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../RelaxNg/disneySongs.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../RelaxNg/disneySongs.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <xml>
     <metadata>
         <title>Arabian Nights</title>
@@ -8,6 +8,7 @@
                 ref="#Ashman">Howard Ashman</composer></author>
         <perform>Performed by <voiceActor ref="#Hannan" role="#Peddler">Brian
             Hannan</voiceActor></perform>
+        <source>https://www.disneyclips.com/lyrics/lyricsjafar5.html</source>
     </metadata>
 
     <song>

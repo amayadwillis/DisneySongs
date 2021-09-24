@@ -1,5 +1,5 @@
-<?xml-model href="RelaxNg/Aladdin.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="RelaxNg/disneySongs.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../RelaxNg/disneySongs.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../RelaxNg/disneySongs.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <xml>
     <metadata>
         <title>Arabian Nights</title>
@@ -7,6 +7,7 @@
         <author>Music and lyrics by <composer ref="#Menken">Alan Menken</composer>
             and <composer ref="#Ashman">Howard Ashman</composer></author>
         <perform>Performed by <voiceActor ref="#Adler" role="#Peddler">Bruce Adler</voiceActor> as the Peddler</perform>
+        <source>https://www.disneyclips.com/lyrics/lyrics61.html</source>
     </metadata>
 
     <song>

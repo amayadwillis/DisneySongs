@@ -53,7 +53,7 @@ h5
 }
 body
 {
-    background-color: #F5E5DD;
+    background-color: #c59fc9;
     font-size: 17px;
     text-align: center;
 }
@@ -379,19 +379,4 @@ table.subtable a, table.meta a{
 	text-decoration: none;
 }
 
-button.button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-a.cursor {
-        cursor: url("images/disney_hand.png"), url("images/disney_hand.cur"), auto;
-    }
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/toons/too-10/too966.cur), auto !important;} /* End https://www.cursors-4u.com */

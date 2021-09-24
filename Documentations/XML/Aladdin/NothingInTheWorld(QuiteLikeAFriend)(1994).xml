@@ -1,5 +1,5 @@
-<?xml-model href="RelaxNg/Aladdin.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="RelaxNg/disneySongs.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../RelaxNg/disneySongs.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../RelaxNg/disneySongs.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <xml>
     <metadata>
         <title>Nothing In The World (Quite Like A Friend)(1994)</title>
