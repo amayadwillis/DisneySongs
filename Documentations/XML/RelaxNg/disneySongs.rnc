@@ -1,5 +1,9 @@
 start = element xml {(metadata,song)+}
-metadata = element metadata {title,origin,author,perform,source+}
+metadata = element metadata {title,origin,author,perform,(source+|length|timeStamp)*}
+length= element length {text}
+timeStamp = element timeStamp {\start,end}
+\start = attribute start {text}
+end = attribute end {text}
 source = element source {xsd:anyURI}
 title = element title {text}
 origin = element origin {mixed{movie}}
