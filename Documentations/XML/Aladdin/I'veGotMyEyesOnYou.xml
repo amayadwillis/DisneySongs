@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../RelaxNg/disneySongs.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../RelaxNg/disneySongs.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <xml>
 <metadata>
 <title>I've Got My Eyes On You</title>
 <origin>Lyrics from <movie>Disney Princess Enchanted Tales: Follow Your Dreams</movie></origin>
-<author>Words and Music by <composer ref="#Powers">Amy Powers</composer> and <composer ref="DeSalvo">Russ DeSalvo</composer></author>
+<author>Words and Music by <composer ref="#Powers">Amy Powers</composer> and <composer ref="#DeSalvo">Russ DeSalvo</composer></author>
 <perform>Performed by <voiceActor ref="#Salonga" role="#Jasmine">Lea Salonga</voiceActor></perform>
 </metadata>
 
