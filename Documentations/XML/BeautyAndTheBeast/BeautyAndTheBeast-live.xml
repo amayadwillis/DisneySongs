@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="Aladdin.rnc" type="application/relax-ng-compact-syntax"?>
+
+<?xml-model href="../RelaxNg/disneySongs.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../RelaxNg/disneySongs.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <xml>
 <metadata>
     <title>Beauty and the Beast</title>
@@ -28,7 +30,7 @@
 <lg n="3">
     <ln n="11">Ever just the same</ln>
     <ln n="12">Ever a surprise</ln>
-    <ln n="13>Ever as before</ln>
+    <ln n="13">Ever as before</ln>
     <ln n="14">And ever just as sure</ln>
     <ln n="15">As the sun will rise</ln>
 </lg>
