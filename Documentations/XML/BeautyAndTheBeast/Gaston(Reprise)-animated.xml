@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="Aladdin.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../RelaxNg/disneySongs.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../RelaxNg/disneySongs.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <xml>
 <metadata>
 <title>Gaston (Reprise)</title>
 <origin>Lyrics from <movie>Beauty and the Beast</movie></origin>
-<author>Music and Lyrics by <composer ref="#Menken">Alan Menken</composer> and <lyricist ref="Ashman">Howard Ashman</lyricist></author>
+<author>Music and Lyrics by <composer ref="#Menken">Alan Menken</composer> and <lyricist ref="#Ashman">Howard Ashman</lyricist></author>
 <perform>Performed by <voiceActor ref="#White" role="#Gaston">Richard White</voiceActor>, <voiceActor ref="#Corti" role="#Lefou">Jesse Corti</voiceActor> and chorus</perform>
 </metadata>
     
