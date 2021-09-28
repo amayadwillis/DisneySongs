@@ -14,6 +14,18 @@ xmlid = attribute xml:id {xsd:ID}
 lyricist= element lyricist {(xmlid|ref)*,text}
 voiceActor = element voiceActor {(xmlid|ref)*,role,text}
 ref= attribute ref {text}
+# ebb: We were talking before about whether you can use xsd:IDREF here. It will only work
+# if you have ALL of your matching xsd:ID values defined in the same file.
+# So, we are using @ref attributes that are supposed to point to your distinct xml:ids.
+# Currently we are not checking to make sure the values are correct, but there's a way we can 
+# do that by adding to your Schematron file.
+# We should first output a list of all the distinct values of your xml:ids, and then we can either
+# set them in this Relax NG file as possible values of @ref (with '#' in front), OR we can write 
+# a Schematron rule to look up all the xml:ids across your collection (or in the one central place you will store them)
+# and make sure the @ref points to an xml:id somewhere in your project.
+# KPOP project has this Schematron code, by the way, if you want a sneak preview. I think we can
+# set this up for your project in a project meeting. 
+# We'll need to take a look at how and where you're applying your xml:ids first.
 role = attribute role {text}
 perform = element perform {mixed{voiceActor+}}
 song = element song {lg+}
