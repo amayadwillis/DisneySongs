@@ -1,16 +1,21 @@
+<?xml-model href="RelaxNg/personography.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <xml>
     <title>List of Composers</title>
     <listComposer>
         <person xml:id="Menken">Alan Menken</person>
+        <person xml:id="Powers">Amy Powers</person>
         <person xml:id="Pasek">Benj Pasek</person>
         <person xml:id="Gonyea">Dale Gonyea</person>
         <person xml:id="Friedman">David Friedman</person>
+        <person xml:id="Black">Don Black</person>
         <person xml:id="Ashman">Howard Ashman</person>
         <person xml:id="Paul">Justin Paul</person>
         <person xml:id="Quinn">Kevin Quinn</person>
         <person xml:id="MSilversher">Michael Silversher</person>
         <person xml:id="PSilversher">Patty Silversher</person>
+        <person xml:id="Portman">Rachel Portman</person>
         <person xml:id="Petersen">Randy Petersen</person>
+        <person xml:id="DeSalvo">Russ DeSalvo</person>
         <person xml:id="Rice">Tim Rice</person>
     </listComposer>
     <listLyrics>
@@ -20,19 +25,46 @@
         <person xml:id="Rice">Tim Rice</person>
     </listLyrics>
     <listVoiceActor>
+        <person xml:id="Murphy">Alec Murphy</person>
+        <person xml:id="Keenan-Bolger">Andrew Keenan-Bolger</person>
+        <person xml:id="Lansbury">Angela Lansbury</person>
+        <person xml:id="McDonald">Audra McDonald</person>
+        <person xml:id="Peters">Bernadette Peters</person>
         <person xml:id="Kane">Brad Kane</person>
         <person xml:id="Hannan">Brian Hannan</person>
         <person xml:id="Adler">Bruce Adler</person>
+        <person xml:id="Dion">Celine Dion</person>
         <person xml:id="Castellaneta">Dan Castellaneta</person>
+        <person xml:id="Stevens">Dan Stevens</person>
+        <person xml:id="Stiers,stiers">David Ogden Stiers</person>
+        <person xml:id="Thompson">Emma Thompson</person>
+        <person xml:id="Watson">Emma Watson</person>
+        <person xml:id="McGregor">Ewan McGregor</person>
         <person xml:id="Gottfried">Gilbert Gottfried</person>
+        <person xml:id="Mbatha-Raw">Gugu Mbatha-Raw</person>
+        <person xml:id="McKellen">Ian McKellen</person>
         <person xml:id="Orbach">Jerry Orbach</person>
+        <person xml:id="Corti">Jesse Corti</person>
+        <person xml:id="Worley">Jo Anne Worley</person>
         <person xml:id="Freeman">Jonathan Freeman</person>
+        <person xml:id="Gad">Josh Gad</person>
+        <person xml:id="Soucie">Kath Soucie</person>
+        <person xml:id="Kline">Kevin Kline</person>
         <person xml:id="Salonga">Lea Salonga</person>
         <person xml:id="Callaway">Liz Callaway</person>
+        <person xml:id="Evans">Luke Evans</person>
+        <person xml:id="Bergman">Mary Kay Bergman</person>
         <person xml:id="Massoud">Mena Massoud</person>
         <person xml:id="Foard">Merwin Foard</person>
         <person xml:id="Scott">Naomi Scott</person>
+        <person xml:id="Mack">Nathan Mack</person>
+        <person xml:id="O'Hara">Paige O'Hara</person>
+        <person xml:id="White">Richard White</person>
+        <person xml:id="Benson">Robby Benson</person>
         <person xml:id="Williams">Robin Williams</person>
+        <person xml:id="Goodman">Rudi Goodman</person>
+        <person xml:id="Tucci">Stanley Tucci</person>
+        <person xml:id="Curry">Tim Curry</person>
         <person xml:id="Smith">Will Smith</person>
         <person xml:id="null">null</person>
     </listVoiceActor>
