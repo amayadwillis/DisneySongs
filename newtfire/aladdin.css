@@ -1,5 +1,20 @@
 @charset "UTF-8";
 /* CSS Document */
+
+/** Color codes:
+turquoise: #97F9F9
+light blue: #A4DEF9
+pale blue: #C1E0F7
+light purple: #CFBAE1
+purple: #C59FC9 **/
+
+body
+{
+    background-color: #C1E0F7;
+    font-size: 17px;
+    text-align: center;
+}
+
 h1
 {
     color:#2C7AAF;
@@ -50,12 +65,6 @@ h5
     font-weight: 20;
     margin: 6px;
 	padding-bottom: 5px;
-}
-body
-{
-    background-color: #F5E5DD;
-    font-size: 17px;
-    text-align: center;
 }
 
 p {
@@ -196,196 +205,4 @@ color: #a4def9;
 .active{
 	color: #09142e;
 	background-color: #4e819c;
-}
-
-.quest{
-	color: #551382;
-	font-size: 21px;
-}
-
-p.head{
-	text-align:left;
-	font-size: 23px;
-	color:#120321;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	text-decoration: overline;
-}
-
-p a{
-	font-family: "MouseMemoir";
-    font-weight: 10;
-    letter-spacing: 0.5px;
-    word-spacing: 1.5px;
-    color: #551382;
-    font-size: 20px;
-}
-
-table{
-	display: table;
-    border-collapse: separate;
-    box-sizing: border-box;
-    text-indent: initial;
-    border-spacing: 2px;
-    border-color: grey;
-	font-family: "MouseMemoir";
-	list-style-type: none;
-	letter-spacing: 0.7px;
-	font-weight: 100;
-	font-size: 20px;
-	color: #21073a;
-}
-
-table.meta tr:nth-child(even) {
-    background-color: #D4E9F9;
-	font-family: "MouseMemoir";
-	list-style-type: none;
-	letter-spacing: 0.7px;
-}
-
-table.meta tr:nth-child(odd) {
-    background-color: #E2D6ED;
-}
-tbody {
-    display: table-row-group;
-    vertical-align: middle;
-    border-color: inherit;
-}
-
-ul.meta{
-	font-family: "MouseMemoir";
-	list-style-type: none;
-	letter-spacing: 0.7px;
-}
-
-th.meta{
-	font-family: "MouseMemoir";
-	list-style-type: none;
-	letter-spacing: 1px;
-	font-size: 20px;
-	font-weight: 200;
-}
-
-table.tablehead th{
-	column-width: 300px;
-}
-
-.subtable{
-	column-width: 300px;
-	align-content: left;
-}
-
-table.subtable tr:nth-child(odd) {
-	background-color: inherit;
-}
-
-table.subtable tr:nth-child(even) {
-	background-color: inherit;
-}
-
-.graph{
-	width:50%;
-	align-content: center;
-}
-
-p.subhead{
-	text-align:left;
-	font-size: 20px;
-	color:#120321;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	text-decoration: overline;
-}
-
-p.subsubhead{
-	text-align:left;
-	font-size: 20px;
-	color:#551382;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	text-decoration: overline;
-}
-p.subcomment{
-	text-align:left;
-	font-size: 17px;
-	color:#120321;
-	padding-top: 0px;
-	padding-bottom: 0px;
-}
-
-.footer, div.footer a {
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #cfbae1;
-  color: #09142e;
-  text-align: center;
-}
-
-table.subtable a, table.meta a{
-	color: #551382;
-	text-decoration: none;
-}
-
-.gallery{
-	border: 1px solid #371D10;
-}
-
-.gallery:hover {
-	border: 2px solid #4A2512;
-}
-
-.gallery img{
-	width: 100%;
-	height: auto;
-}
-
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-	padding: 0 2px;
-	float: left;
-	width: 24.9999999%;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Centered text */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.textoverlay {
-  position: relative;
-  text-align: center;
-  color: #231709;
-  font-family: 'IM Fell English', serif;
-  font-size: 20px;
-}
-
-.centered mark{
-	background-color: #F5E5DD;
 }
