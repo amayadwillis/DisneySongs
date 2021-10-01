@@ -206,3 +206,7 @@ color: #a4def9;
 	color: #09142e;
 	background-color: #4e819c;
 }
+
+h1 a.header{
+    text-decoration: none;
+}
