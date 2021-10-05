@@ -9,10 +9,10 @@ title = element title {text}
 origin = element origin {mixed{movie}}
 movie = element movie {text}
 author = element author {mixed{composer*,lyricist*}*}
-composer = element composer {(xmlid|ref)*,text}
+composer = element composer {ref+,text}
 xmlid = attribute xml:id {xsd:ID}
-lyricist= element lyricist {(xmlid|ref)*,text}
-voiceActor = element voiceActor {(xmlid|ref)*,role,text}
+lyricist= element lyricist {ref+,text}
+voiceActor = element voiceActor {ref+,role,text}
 ref= attribute ref {text}
 # ebb: We were talking before about whether you can use xsd:IDREF here. It will only work
 # if you have ALL of your matching xsd:ID values defined in the same file.
