@@ -4,7 +4,7 @@
 <xml>
 <metadata>
     <title>Days in the Sun</title>
-    <origin>Music from <movie>Beauty and the Beast</movie></origin>
+    <origin>Music from <movie>Beauty and the Beast (Live-Action)</movie></origin>
     <author>Music and lyrics by <composer ref="#Menken">Alan Menken</composer> and <lyricist ref="#Rice">Tim Rice</lyricist></author>
     <perform>Performed by <voiceActor ref="#Watson" role="#Belle">Emma Watson</voiceActor>, <voiceActor ref="#McDonald" role="#Armoire">Audra McDonald</voiceActor>, <voiceActor ref="#Thompson" role="#Mrs. Potts">Emma Thompson</voiceActor>, <voiceActor ref="#Mbatha-Raw" role="#Plumette">Gugu Mbatha-Raw</voiceActor>, <voiceActor ref="#Tucci" role="#Cadenza">Stanley Tucci</voiceActor>, and <voiceActor ref="#Goodman" role="#Young Prince">Rudi Goodman</voiceActor></perform>
 </metadata>
