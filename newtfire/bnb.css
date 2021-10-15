@@ -15,6 +15,11 @@ body
     text-align: center;
 }
 
+/** header css start **/ 
+
+h1 a{
+    text-decoration: none;
+}
 h1
 {
     color:#2C7AAF;
@@ -46,6 +51,85 @@ h4
 	padding-bottom: 50px;
 }
 
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #cfbae1;
+  text-align: left;
+  font-family: "MouseMemoir";
+  letter-spacing: 1px;
+  color: #09142e;
+  font-size: 20px;
+}
+
+li.navbar {
+  float: left;
+}
+
+li.navbar a {
+  display: block;
+  color: #09142e;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.navbar a:hover {
+  color: #a4def9;
+  background-color: #09142e;
+}
+li a, .dropbtn {
+  display: inline-block;
+  color: #09142e;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #09142e;
+  color: #a4def9;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #cfbae1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #09142e;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color: #09142e;
+color: #a4def9;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  
+}
+
+.active{
+	color: #09142e;
+	background-color: #4e819c;
+}
+
+/** header css end **/
 h2
 {
     color:#21073a;
@@ -129,80 +213,19 @@ h5{
   src: url("mouse-memoirs/MouseMemoirs-Regular.ttf");
   }
 
-ul.navbar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #cfbae1;
-  text-align: left;
-  font-family: "MouseMemoir";
-  letter-spacing: 1px;
-  color: #09142e;
-  font-size: 20px;
+table.songCount{
+    align-content: center;
 }
 
-li.navbar {
-  float: left;
+table.songCount th{
+    background:  #FFCB3B;
+    column-width: 500px;
 }
 
-li.navbar a {
-  display: block;
-  color: #09142e;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+table.songCount tr:nth-child(odd) {
+	background-color:#FFD846;
 }
 
-li.navbar a:hover {
-  color: #a4def9;
-  background-color: #09142e;
-}
-li a, .dropbtn {
-  display: inline-block;
-  color: #09142e;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover, .dropdown:hover .dropbtn {
-  background-color: #09142e;
-  color: #a4def9;
-}
-
-li.dropdown {
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #cfbae1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: #09142e;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-background-color: #09142e;
-color: #a4def9;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-  
-}
-
-.active{
-	color: #09142e;
-	background-color: #4e819c;
+table.songCount tr:nth-child(even) {
+	background-color: inherit;
 }

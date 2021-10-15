@@ -1,5 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
+h1 a{text-decoration: none;
+}
 h1
 {
     color:#2C7AAF;
@@ -347,8 +349,8 @@ table.subtable a, table.meta a{
 
 .responsive {
 	padding: 0 2px;
-	float: left;
-	width: 24.9999999%;
+    float: left;
+	width: 49.99%;
 }
 
 @media only screen and (max-width: 700px) {
