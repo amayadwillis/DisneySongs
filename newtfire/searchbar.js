@@ -1,10 +1,5 @@
 // JavaScript Document
 
-window.addEventListener('DOMContentLoaded',first,false);
-
-function first() {
-    alert ('Welcome to the happiest place on NewtFire');
-}
 function myFunction() {
     var input, filter, ul, li, a, i, txtValue;
     input = document.getElementById("myInput");
