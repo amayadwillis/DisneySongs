@@ -4,7 +4,7 @@
 <xml>
 <metadata>
     <title>Gaston</title>
-    <origin>Music from <movie>Beauty and the Beast</movie></origin>
+    <origin>Music from <movie>Beauty and the Beast (Live-Action)</movie></origin>
     <author>Music and lyrics by <composer ref="#Menken">Alan Menken</composer> and <lyricist ref="#Rice">Tim Rice</lyricist></author>
     <perform>Performed by <voiceActor ref="#Gad" role="#Lefou">Josh Gad</voiceActor>, <voiceActor ref="#Evans" role="#Gaston">Luke Evans</voiceActor> and chorus</perform>
 </metadata>

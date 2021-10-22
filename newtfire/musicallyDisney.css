@@ -1,8 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
+h1 a{text-decoration: none;
+}
 h1
 {
-    color:#21073a;
+    color:#2C7AAF;
     font-size: 130px;
     font-family: "Disney";
     text-align: center;
@@ -53,7 +55,7 @@ h5
 }
 body
 {
-    background-color: #c59fc9;
+    background-color: #F5E5DD;
     font-size: 17px;
     text-align: center;
 }
@@ -282,58 +284,6 @@ table.subtable tr:nth-child(odd) {
 table.subtable tr:nth-child(even) {
 	background-color: inherit;
 }
-.gallery{
-	border: 1px solid #371D10;
-}
-
-.gallery:hover {
-	border: 5px solid #97f9f9;
-}
-
-.gallery img{
-	width: 100%;
-	height: auto;
-}
-
-.desc{
-	padding :15px;
-	text-align: center;
-	font-family: 'IM Fell English', serif;
-	font-size: 20px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-	padding: 0 2px;
-	float: left;
-	width: 24.9999999%;
-}
-
-img.galleria{
-
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 .graph{
 	width:50%;
@@ -379,4 +329,65 @@ table.subtable a, table.meta a{
 	text-decoration: none;
 }
 
-/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/toons/too-10/too966.cur), auto !important;} /* End https://www.cursors-4u.com */
+.gallery{
+	border: 1px solid #371D10;
+}
+
+.gallery:hover {
+	border: 2px solid #4A2512;
+}
+
+.gallery img{
+	width: 100%;
+	height: auto;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+	padding: 0 2px;
+    float: left;
+	width: 49.99%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.textoverlay {
+  position: relative;
+  text-align: center;
+  color: #231709;
+  font-family: 'IM Fell English', serif;
+  font-size: 20px;
+}
+
+.centered mark{
+	background-color: #F5E5DD;
+}

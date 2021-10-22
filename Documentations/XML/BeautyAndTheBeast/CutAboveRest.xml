@@ -6,8 +6,8 @@
     <metadata>
         <title>A Cut Above the Rest</title>
         <origin>Lyrics from <movie>Beauty and the Beast: The Enchanted Christmas</movie></origin>
-        <author>Written by <composer ref="#portman">Rachel Portman</composer> and <composer
-                ref="#black">Don Black</composer></author>
+        <author>Written by <composer ref="#Portman">Rachel Portman</composer> and <composer
+                ref="#Black">Don Black</composer></author>
         <perform>Performed by <voiceActor ref="#stiers" role="#Cogsworth">David Ogden
                 Stiers</voiceActor>, <voiceActor ref="#orbach" role="#lumiere">Jerry
                 Orbach</voiceActor> and <voiceActor ref="#ohara" role="#Belle">Paige

@@ -3,10 +3,10 @@
     xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
     xmlns="http://purl.oclc.org/dsdl/schematron">
     
-    <pattern>
-        <rule context="*[@xml:id]">
-            <assert test="distinct-values(@xml:id)">The xml:id tag must be distinct.</assert>
-            
-        </rule>
-    </pattern>
+    <sch:pattern id="distinctchecker">
+        <sch:rule context="*[@xml:id]">
+            <sch:assert test="@xml:id != (preceding-sibling::person/@xml:id|following-sibling::person/@xml:id)">The xml:id tag must be distinct.</sch:assert>
+            <!-- 09/29/2021: jkc - The schematron is only supposed to check for distinct values but now it is flagging up everything that I know is not duplicating. -->
+        </sch:rule>
+    </sch:pattern>
 </schema>
