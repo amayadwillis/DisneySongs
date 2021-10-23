@@ -1,25 +1,25 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/** Color codes:
-turquoise: #97F9F9
-light blue: #A4DEF9
-pale blue: #C1E0F7
-light purple: #CFBAE1
-purple: #C59FC9 **/
+/** Color Scheme:
+Light Brown: #9D6D19
+Caramel: #F1CE81
+Yellow: #FFDF3D
+Light Yellow: #FFD846
+Dark Yellow: #FFCB3B **/
 
 body
 {
-    background-color: #C1E0F7; /**pale blue **/
+    background-color: #F1CE81;
     font-size: 17px;
     text-align: center;
 }
 
-/** header css start **/
+/** header css start **/ 
+
 h1 a{
     text-decoration: none;
 }
-
 h1
 {
     color:#2C7AAF;
@@ -129,12 +129,7 @@ color: #a4def9;
 	background-color: #4e819c;
 }
 
-h1 a.header{
-    text-decoration: none;
-}
-
 /** header css end **/
-
 h2
 {
     color:#21073a;
@@ -223,18 +218,17 @@ table.songCount{
 }
 
 table.songCount th{
-    background: #CFBAE1;
+    background:  #FFCB3B;
     column-width: 500px;
 }
 
 table.songCount tr:nth-child(odd) {
-	background-color: inherit;
+	background-color:#FFD846;
 }
 
 table.songCount tr:nth-child(even) {
-	background-color: #97F9F9;
+	background-color: inherit;
 }
-
 /* Start of JavaScript */
 div#sidebar {overflow-y:auto;
 
@@ -269,54 +263,3 @@ span.interact.on {background-color:#FFFF66}
 
 span.Testrofngram {background-color:#cc0000}
 span.rofngram.on {background-color:#cc0000}
-
-span.Testfydngram {background-color:#a64dff}
-span.fydngram.on {background-color:#a64dff}
-
-span.Testaangram {background-color:#a64dff}
-span.aangram.on {background-color:#a64dff}
-
-span.Testalngram {background-color:#a64dff}
-span.alngram.on {background-color:#a64dff}
-
-span.Testkotngrams {background-color:#7171da}
-span.kotngrams.on {background-color:#7171da}
-
-span.Testaladdin {background-color:#cc66ff}
-span.aladdin.on {background-color:#cc66ff}
-
-span.Testgenie {background-color:#4dd2ff}
-span.genie.on {background-color:#4dd2ff}
-
-span.Testjasmine {background-color:#66ffe0}
-span.jasmine.on {background-color:#66ffe0}
-
-span.Testiago {background-color:#ff8566}
-span.iago.on {background-color:#ff8566}
-
-span.Testjafar {background-color:#ff3399}
-span.jafar.on {background-color:#ff3399}
-
-span.Testaljas {background-color:#d9b3ff}
-span.aljas.on {background-color:#d9b3ff}
-
-span.Testiagjas {background-color:#ff9999}
-span.iagjas.on {background-color:#ff9999}
-
-span.Testcassim {background-color:#ffcc80}
-span.cassim.on {background-color:#ffcc80}
-
-span.Testsaluk {background-color:#8585ad}
-span.saluk.on {background-color:#8585ad}
-
-span.Testthieves {background-color:#a6a6a6}
-span.thieves.on {background-color:#a6a6a6}
-
-span.Testsultan {background-color:#ffffcc}
-span.sultan.on {background-color: #ffffcc}
-
-span.Testpeddler {background-color:#0086b3}
-span.peddler.on {background-color: #0086b3}
-
-span.Testcrowd {background-color:#b3ffcc}
-span.chorus.on {background-color: #b3ffcc}

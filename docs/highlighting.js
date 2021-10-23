@@ -22,6 +22,7 @@ var rof = document.getElementsByClassName("rofngram");
 var kot = document.getElementsByClassName("kotngrams");
 var aa = document.getElementsByClassName("aangram");
 var al = document.getElementsByClassName("alngram");
+var fyd = document.getElementsByClassName("fydngram");
 var aladdin = document.getElementsByClassName("aladdin");
 var genie = document.getElementsByClassName("genie");
 var jasmine = document.getElementsByClassName("jasmine");
@@ -53,6 +54,12 @@ break;
   var e;
   for (e=0; e < aa.length; e++)
   {aa[e].classList.toggle("on")}
+   };
+  break;
+        case "FYDNGRAMtoggle": {
+  var e;
+  for (e=0; e < fyd.length; e++)
+  {fyd[e].classList.toggle("on")}
    };
   break;
         case "ALNGRAMtoggle": {
