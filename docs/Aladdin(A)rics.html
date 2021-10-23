@@ -3,6 +3,7 @@
     <head>
         <title>Aladdin (Animated)</title>
         <link href="aladdin.css" rel="stylesheet" type="text/css">
+        <script src="highlighting.js"></script>
     </head>
     <body>
         <ul class="navbar">
@@ -20,12 +21,45 @@
         </ul>
         <br/>
         <br/>
+        <div id="sidebar">
+            <div id="legend">
+                <div id="fieldset">
+                    <fieldset>
+                        <legend>Click to Highlight:</legend>
+                        <input type="checkbox" id="AANGRAMtoggle" style="cursor:pointer" />
+                        <span class="Testaangram">NGrams - Aladdin (Animated)</span>
+                        <br/>
+                        <input type="checkbox" id="ALADDINtoggle" style="cursor:pointer" />
+                        <span class="Testaladdin">Aladdin Singing Parts</span>
+                        <br/>
+                        <input type="checkbox" id="GENIEtoggle" style="cursor:pointer" />
+                        <span class="Testgenie">Genie Singing Parts</span>
+                        <br/>
+                        <input type="checkbox" id="JASMINEtoggle" style="cursor:pointer" />
+                        <span class="Testjasmine">Jasmine Singing Parts</span>
+                        <br/>
+                        <input type="checkbox" id="JAFARtoggle" style="cursor:pointer" />
+                        <span class="Testjafar">Jafar Singing Parts</span>
+                        <br/>
+                        <input type="checkbox" id="AlJAStoggle" style="cursor:pointer" />
+                        <span class="Testaljas">Aladdin and Jasmine Singing Together</span>
+                        <br/>
+                        <input type="checkbox" id="CROWDtoggle" style="cursor:pointer" />
+                        <span class="Testcrowd">Chorus Singing Parts</span>
+                        <br/>
+                        <input type="checkbox" id="PEDDLERtoggle" style="cursor:pointer" />
+                        <span class="Testpeddler">Peddler Singing Parts</span>
+                        <br/>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
         <h2>Arabian Nights</h2>
         <h6>Lyrics from Aladdin</h6>
         <h6>Music and lyrics by Alan Menken and Howard Ashman</h6>
         <h6>Performed by Bruce Adler as the Peddler</h6>
         
-        <p>Oh, I come from a land, from a faraway place</p>
+        <p><span class="peddler">[Peddler:]</span> Oh, I come from a land, from a faraway place</p>
         <p>Where the caravan camels roam</p>
         <p>Where it's flat and immense</p>
         <p>And the heat is intense</p>
@@ -53,46 +87,47 @@
         
         <hr>
         
-        <h2>Lyrics from Aladdin</h2>
+        <h2>One Jump Ahead</h2>
+        <h6>Lyrics from Aladdin</h6>
         <h6>Music and lyrics by Alan Menken and Tim Rice</h6>
         <h6>Performed by Brad Kane as Aladdin</h6>
         
-        <p>[Aladdin:] Gotta keep one jump ahead of the breadline</p>
-        <p>One swing ahead of the sword</p>
+        <p><span class="aladdin">[Aladdin:]</span> Gotta keep one jump <span class="aangram">ahead of</span> the breadline</p>
+        <p>One swing <span class="aangram">ahead of</span> the sword</p>
         <p>I steal only what I can't afford (That's everything!)</p>
-        <p>One jump ahead of the lawmen</p>
+        <p>One jump <span class="aangram">ahead of</span> the lawmen</p>
         <p>That's all, and that's no joke</p>
         <p>These guys don't appreciate I'm broke</p>
         
-        <p>[Crowd:] Riffraff! Street rat! Scoundrel! Take that!</p>
-        <p>[Aladdin:] Just a little snack, guys</p>
-        <p>[Crowd:] Rip him open, take it back, guys</p>
-        <p>[Aladdin:] I can take a hint, gotta face the facts</p>
+        <p><span class="chorus">[Crowd:]</span> Riffraff! Street rat! Scoundrel! Take that!</p>
+        <p><span class="aladdin">[Aladdin:]</span> Just a little snack, guys</p>
+        <p><span class="chorus">[Crowd:]</span> Rip him open, take it back, guys</p>
+        <p><span class="aladdin">[Aladdin:]</span> I can take a hint, gotta face the facts</p>
         <p>You're my only friend, Abu!</p>
-        <p>[Crowd:] Who?</p>
+        <p><span class="chorus">[Crowd:]</span> Who?</p>
         
-        <p>[Ladies:] Oh, it's sad Aladdin's hit the bottom</p>
+        <p><span class="chorus">[Ladies:]</span> Oh, it's sad Aladdin's hit the bottom</p>
         <p>He's become a one-man rise in crime</p>
         <p>I'd blame parents except he hasn't got 'em</p>
-        <p>[Aladdin:] Gotta eat to live, gotta steal to eat</p>
+        <p><span class="aladdin">[Aladdin:]</span> Gotta eat to live, gotta steal to eat</p>
         <p>Tell you all about it when I got the time!</p>
         
-        <p>One jump ahead of the slowpokes</p>
-        <p>One skip ahead of my doom</p>
+        <p>One jump <span class="aangram">ahead of</span> the slowpokes</p>
+        <p>One skip <span class="aangram">ahead of</span> my doom</p>
         <p>Next time gonna use a nom de plume</p>
-        <p>One jump ahead of the hitmen</p>
-        <p>One hit ahead of the flock</p>
+        <p>One jump <span class="aangram">ahead of</span> the hitmen</p>
+        <p>One hit <span class="aangram">ahead of</span> the flock</p>
         <p>I think I'll take a stroll around the block</p>
         
-        <p>[Crowd:] Stop, thief! Vandal! Outrage! Scandal!</p>
-        <p>[Aladdin:] Let's not be too hasty</p>
-        <p>[Lady:] Still I think he's rather tasty</p>
-        <p>[Aladdin:] Gotta eat to live, gotta steal to eat</p>
+        <p><span class="chorus">[Crowd:]</span> Stop, thief! Vandal! Outrage! Scandal!</p>
+        <p><span class="aladdin">[Aladdin:]</span> Let's not be too hasty</p>
+        <p><span class="chorus">[Lady:]</span> Still I think he's rather tasty</p>
+        <p><span class="aladdin">[Aladdin:]</span> Gotta eat to live, gotta steal to eat</p>
         <p>Otherwise we'd get along</p>
         
-        <p>[Aladdin:] One jump ahead of the hoofbeats (Vandal!)</p>
-        <p>One hop ahead of the hump (Streetrat!)</p>
-        <p>One trick ahead of disaster (Scandal!)</p>
+        <p><span class="aladdin">[Aladdin:]</span> One jump <span class="aangram">ahead of</span> the hoofbeats (Vandal!)</p>
+        <p>One hop <span class="aangram">ahead of</span> the hump (Streetrat!)</p>
+        <p>One trick <span class="aangram">ahead of</span> disaster (Scandal!)</p>
         <p>They're quick, but I'm much faster (Take that!)</p>
         <p>Here goes, better throw my hand in</p>
         <p>Wish me happy landin'</p>
@@ -105,7 +140,7 @@
         <h6>Music and lyrics by Alan Menken and Tim Rice</h6>
         <h6>Performed by Mena Massoud as Aladdin</h6>
         
-        <p>Riffraff! Street rat! I don't buy that!</p>
+        <p><span class="aladdin">[Aladdin:]</span> Riffraff! Street rat! I don't buy that!</p>
         <p>If only they'd look closer</p>
         <p>Would they see a poor boy?</p>
         <p>No, siree</p>
@@ -113,11 +148,12 @@
         
         <hr>
         
-        <h2>Lyrics from Aladdin</h2>
+        <h2>Friend Like Me</h2>
+        <h6>Lyrics from Aladdin</h6>
         <h6>Music and lyrics by Alan Menken and Howard Ashman</h6>
         <h6>Performed by Robin Williams as Genie</h6>
         
-        <p>Well, Ali Baba had them forty thieves</p>
+        <p><span class="genie">[Genie:]</span> Well, Ali Baba had them forty thieves</p>
         <p>Scheherazade had a thousand tales</p>
         <p>But, master, you're in luck 'cause up your sleeves</p>
         <p>You got a brand of magic never fails</p>
@@ -131,12 +167,12 @@
         <p>What will your pleasure be?</p>
         <p>Let me take your order</p>
         <p>Jot it down</p>
-        <p>You ain't never had a friend like me</p>
+        <p>You ain't never <span class="aangram">had a friend</span> like me</p>
         
         <p>Life is your restaurant</p>
         <p>And I'm your maitre d'</p>
         <p>Come on whisper what it is you want</p>
-        <p>You ain't never had a friend like me </p>
+        <p>You ain't never <span class="aangram">had a friend</span> like me </p>
         
         <p>Yes sir, we pride ourselves on service</p>
         <p>You're the boss</p>
@@ -147,7 +183,7 @@
         <p>Have some of column "A"</p>
         <p>Try all of column "B"</p>
         <p>I'm in the mood to help you, dude</p>
-        <p>You ain't never had a friend like me</p>
+        <p>You ain't never <span class="aangram">had a friend</span> like me</p>
         
         <p>Can your friends do this</p>
         <p>Can your friends do that</p>
@@ -168,19 +204,19 @@
         
         <p>Mr. Aladdin, sir, have a wish or two or three</p>
         <p>I'm on the job, you big nabob</p>
-        <p>You ain't never had a friend, never had a friend</p>
-        <p>You ain't never had a friend like me</p>
-        <p>You ain't never had a friend like me!</p>
+        <p>You ain't never <span class="aangram">had a friend</span>, never <span class="aangram">had a friend</span></p>
+        <p>You ain't never <span class="aangram">had a friend</span> like me</p>
+        <p>You ain't never <span class="aangram">had a friend</span> like me!</p>
         
         <hr>
         
-        <h2>Prince Ali</h2>
+        <h2><span class="aangram">Prince Ali</span></h2>
         <h6>Lyrics from Aladdin</h6>
         <h6>Music and lyrics by Alan Menken and Howard Ashman</h6>
         <h6>Performed by Robin Williams as Genie</h6>
         
-        <p>Make way for Prince Ali</p>
-        <p>Say hey, it's Prince Ali</p>
+        <p><span class="genie">[Genie:]</span> Make way for <span class="aangram">Prince Ali</span></p>
+        <p>Say hey, it's <span class="aangram">Prince Ali</span></p>
         
         <p>Hey, clear the way in the old Bazaar</p>
         <p>Hey you, let us through</p>
@@ -192,19 +228,19 @@
         <p>Ring bells! Bang the drums!</p>
         <p>You're gonna love this guy</p>
         
-        <p>Prince Ali! Fabulous he, Ali Ababwa</p>
+        <p><span class="aangram">Prince Ali</span>! Fabulous he, Ali Ababwa</p>
         <p>Genuflect, show some respect</p>
         <p>Down on one knee</p>
         <p>Now, try your best to stay calm</p>
         <p>Brush up your Sunday salaam</p>
         <p>Then come and meet his spectacular coterie</p>
         
-        <p>Prince Ali! Mighty is he, Ali Ababwa</p>
+        <p><span class="aangram">Prince Ali</span>! Mighty is he, Ali Ababwa</p>
         <p>Strong as ten regular men, definitely</p>
         <p>He faced the galloping hordes</p>
         <p>A hundred bad guys with swords</p>
         <p>Who sent those goons to their lords?</p>
-        <p>Why, Prince Ali</p>
+        <p>Why, <span class="aangram">Prince Ali</span></p>
         
         <p>He's got seventy-five golden camels</p>
         <p>Purple peacocks, he's got fifty-three</p>
@@ -212,12 +248,12 @@
         <p>Has he got a zoo?</p>
         <p>I'm telling you, it's a world-class menagerie</p>
         
-        <p>Prince Ali! Handsome is he, Ali Ababwa</p>
+        <p><span class="aangram">Prince Ali</span>! Handsome is he, Ali Ababwa</p>
         <p>That physique! How can I speak</p>
         <p>Weak at the knee</p>
         <p>Well, get on out in that square</p>
         <p>Adjust your veil and prepare</p>
-        <p>To gawk and grovel and stare at Prince Ali</p>
+        <p>To gawk and grovel and stare at <span class="aangram">Prince Ali</span></p>
         
         <p>He's got ninety-five white Persian monkeys</p>
         <p>(He's got the monkeys, let's see the monkeys)</p>
@@ -227,9 +263,9 @@
         <p>(Proud to work for him)</p>
         <p>They bow to his whim, love serving him</p>
         <p>They're just lousy with loyalty to Ali!</p>
-        <p>Prince Ali!</p>
+        <p><span class="aangram">Prince Ali</span>!</p>
         
-        <p>Prince Ali! Amorous he, Ali Ababwa</p>
+        <p><span class="aangram">Prince Ali</span>! Amorous he, Ali Ababwa</p>
         <p>Heard your princess was a sight lovely to see</p>
         <p>And that, good people, is why</p>
         <p>He got dolled up and dropped by</p>
@@ -239,7 +275,7 @@
         <p>With his forty fakirs, his cooks, his bakers</p>
         <p>His birds that warble on key</p>
         <p>Make way</p>
-        <p>For Prince Ali!</p>
+        <p>For <span class="aangram">Prince Ali</span>!</p>
         
         <hr>
         
@@ -248,7 +284,7 @@
         <h6>Music and lyrics by Alan Menken and Tim Rice</h6>
         <h6>Performed by Lea Salonga as Jasmine and Brad Kane as Aladdin</h6>
         
-        <p>[Aladdin:] I can show you the world</p>
+        <p><span class="aladdin">[Aladdin:]</span> I can show you the world</p>
         <p>Shining, shimmering, splendid</p>
         <p>Tell me, princess, now when did</p>
         <p>You last let your heart decide</p>
@@ -258,75 +294,75 @@
         <p>Over, sideways and under</p>
         <p>On a magic carpet ride</p>
         
-        <p>A whole new world</p>
+        <p>A <span class="aangram">whole new world</span></p>
         <p>A new fantastic point of view</p>
         <p>No one to tell us no</p>
         <p>Or where to go</p>
         <p>Or say we're only dreaming</p>
         
-        <p>[Jasmine:] A whole new world</p>
+        <p><span class="jasmine">[Jasmine:]</span> A <span class="aangram">whole new world</span></p>
         <p>A dazzling place I never knew</p>
         <p>But now from way up here</p>
         <p>It's crystal clear</p>
-        <p>That now I'm in a whole new world with you</p>
+        <p>That now I'm in a <span class="aangram">whole new world</span> with you</p>
         
-        <p>[Aladdin:] Now I'm in a whole new world with you</p>
+        <p><span class="aladdin">[Aladdin:]</span> Now I'm in a <span class="aangram">whole new world</span> with you</p>
         
-        <p>[Jasmine:] Unbelievable sights</p>
+        <p><span class="jasmine">[Jasmine:]</span> Unbelievable sights</p>
         <p>Indescribable feeling</p>
         <p>Soaring, tumbling, freewheeling</p>
         <p>Through an endless diamond sky</p>
         
-        <p>[Jasmine:] A whole new world</p>
+        <p><span class="jasmine">[Jasmine:]</span> A <span class="aangram">whole new world</span></p>
         
-        <p>[Aladdin:] Don't you dare close your eyes</p>
+        <p><span class="aladdin">[Aladdin:]</span> Don't you dare close your eyes</p>
         
-        <p>[Jasmine:] A hundred thousand things to see</p>
+        <p><span class="jasmine">[Jasmine:]</span> A hundred thousand things to see</p>
         
-        <p>[Aladdin:] Hold your breath; it gets better</p>
+        <p><span class="aladdin">[Aladdin:]</span> Hold your breath; it gets better</p>
         
-        <p>[Jasmine:] I'm like a shooting star</p>
+        <p><span class="jasmine">[Jasmine:]</span> I'm like a shooting star</p>
         <p>I've come so far</p>
         <p>I can't go back to where I used to be</p>
         
-        <p>[Aladdin:] A whole new world</p>
+        <p><span class="aladdin">[Aladdin:]</span> A <span class="aangram">whole new world</span></p>
         
-        <p>[Jasmine:] Every turn a surprise</p>
+        <p><span class="jasmine">[Jasmine:]</span> Every turn a surprise</p>
         
-        <p>[Aladdin:] With new horizons to pursue</p>
+        <p><span class="aladdin">[Aladdin:]</span> With new horizons to pursue</p>
         
-        <p>[Jasmine:] Every moment red-letter</p>
+        <p><span class="jasmine">[Jasmine:]</span> Every moment red-letter</p>
         
-        <p>[Both:] I'll chase them anywhere</p>
+        <p><span class="aljas">[Both:]</span> I'll chase them anywhere</p>
         <p>There's time to spare</p>
-        <p>Let me share this whole new world with you</p>
+        <p>Let me share this <span class="aangram">whole new world</span> with you</p>
         
-        <p>[Aladdin:] A whole new world</p>
+        <p><span class="aladdin">[Aladdin:]</span> A <span class="aangram">whole new world</span></p>
         
-        <p>[Jasmine:] A whole new world</p>
+        <p><span class="jasmine">[Jasmine:]</span> A <span class="aangram">whole new world</span></p>
         
-        <p>[Aladdin:] That's where we'll be</p>
+        <p><span class="aladdin">[Aladdin:]</span> That's where we'll be</p>
         
-        <p>[Jasmine:] That's where we'll be</p>
+        <p><span class="jasmine">[Jasmine:]</span> That's where we'll be</p>
         
-        <p>[Aladdin:] A thrilling chase</p>
+        <p><span class="aladdin">[Aladdin:]</span> A thrilling chase</p>
         
-        <p>[Jasmine:] A wondrous place</p>
+        <p><span class="jasmine">[Jasmine:]</span> A wondrous place</p>
         
-        <p>[Both:] For you and me</p>
+        <p><span class="aljas">[Both:]</span> For you and me</p>
         
         <hr>
         
-        <h2>Prince Ali (Reprise)</h2>
+        <h2><span class="aangram">Prince Ali</span> (Reprise)</h2>
         <h6>Lyrics from Aladdin</h6>
         <h6>Music and lyrics by Alan Menken and Tim Rice</h6>
         <h6>Performed by Jonathan Freeman as Jafar</h6>
         
-        <p>Prince Ali, yes it is he, but not as you know him</p>
+        <p><span class="jafar">[Jafar:]</span> <span class="aangram">Prince Ali</span>, yes it is he, but not as you know him</p>
         <p>Read my lips and come to grips with reality</p>
         <p>Yes, meet a blast from your past</p>
         <p>Whose lies were too good to last</p>
-        <p>Say hello to your precious Prince Ali!</p>
+        <p>Say hello to your precious <span class="aangram">Prince Ali</span>!</p>
         
         <p>So Ali turns out to be merely Aladdin</p>
         <p>Just a con, need I go on, take it from me</p>

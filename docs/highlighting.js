@@ -18,7 +18,10 @@ function toggle()
 {
 
 var id = this.id;
-var rof = document.getElementsByClassName("rofngrams");
+var rof = document.getElementsByClassName("rofngram");
+var kot = document.getElementsByClassName("kotngrams");
+var aa = document.getElementsByClassName("aangram");
+var al = document.getElementsByClassName("alngram");
 var aladdin = document.getElementsByClassName("aladdin");
 var genie = document.getElementsByClassName("genie");
 var jasmine = document.getElementsByClassName("jasmine");
@@ -26,14 +29,38 @@ var iago = document.getElementsByClassName("iago");
 var jafar = document.getElementsByClassName("jafar");
 var aljas = document.getElementsByClassName("aljas");
 var iagjas = document.getElementsByClassName("iagjas");
+var cassim = document.getElementsByClassName("cassim");
+var saluk = document.getElementsByClassName("saluk");
+var thieves = document.getElementsByClassName("thieves");
+var sultan = document.getElementsByClassName("sultan");
+var chorus = document.getElementsByClassName("chorus");
+var peddler = document.getElementsByClassName("peddler");
 
 switch (id) {
+      case "KOTNGRAMtoggle": {
+  var e;
+  for (e=0; e < kot.length; e++)
+  {kot[e].classList.toggle("on")}
+   };
+  break;
  case "ROFNGRAMtoggle": {
   var e;
   for (e=0; e < rof.length; e++)
   {rof[e].classList.toggle("on")}
    };
 break;
+      case "AANGRAMtoggle": {
+  var e;
+  for (e=0; e < aa.length; e++)
+  {aa[e].classList.toggle("on")}
+   };
+  break;
+        case "ALNGRAMtoggle": {
+  var e;
+  for (e=0; e < al.length; e++)
+  {al[e].classList.toggle("on")}
+   };
+  break;
   case "ALADDINtoggle": {
   var e;
   for (e=0; e < aladdin.length; e++)
@@ -74,6 +101,42 @@ break;
   var e;
   for (e=0; e < iagjas.length; e++)
   {iagjas[e].classList.toggle("on")}
+   };
+  break;
+  case "CASSIMtoggle": {
+  var e;
+  for (e=0; e < cassim.length; e++)
+  {cassim[e].classList.toggle("on")}
+   };
+  break;
+    case "SALUKtoggle": {
+  var e;
+  for (e=0; e < saluk.length; e++)
+  {saluk[e].classList.toggle("on")}
+   };
+  break;
+      case "THIEVEStoggle": {
+  var e;
+  for (e=0; e < thieves.length; e++)
+  {thieves[e].classList.toggle("on")}
+   };
+  break;
+      case "SULTANtoggle": {
+  var e;
+  for (e=0; e < sultan.length; e++)
+  {sultan[e].classList.toggle("on")}
+   };
+  break;
+        case "CROWDtoggle": {
+  var e;
+  for (e=0; e < chorus.length; e++)
+  {chorus[e].classList.toggle("on")}
+   };
+  break;
+        case "PEDDLERtoggle": {
+  var e;
+  for (e=0; e < peddler.length; e++)
+  {peddler[e].classList.toggle("on")}
    };
   break;
   }
