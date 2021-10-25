@@ -88,7 +88,7 @@ li a, .dropbtn {
   text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+li a #nav:hover, .dropdown:hover .dropbtn {
   background-color: #09142e;
   color: #a4def9;
 }
@@ -235,7 +235,7 @@ table.songCount tr:nth-child(even) {
 	background-color: #97F9F9;
 }
 
-#myInput {
+/**#myInput {
   width: 100%;
   font-size: 16px;
   padding: 12px 20px 12px 40px;
@@ -257,4 +257,46 @@ table.songCount tr:nth-child(even) {
 
 #myUL li a:hover:not(.header) {
   background-color: #eee;
+}**/
+
+#searchBox{
+    width: 40%;
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#input{
+    width: 80%; 
+    border: none;
+    outline: none;
+}
+
+#searchBtn{
+    width: 20%; 
+     height: 54px;
+}
+
+input {
+    font-size: 20px;
+}
+
+#content{
+    width: 40%;
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: justify;  
+}
+
+.highlight
+{
+ color:blue;
+ text-decoration:underline;
+}
+
+a:hover{
+    background: inherit;
+    color: inherit;
+    
 }
