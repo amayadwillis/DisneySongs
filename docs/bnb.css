@@ -229,7 +229,62 @@ table.songCount tr:nth-child(odd) {
 table.songCount tr:nth-child(even) {
 	background-color: inherit;
 }
-/* Start of JavaScript */
+
+
+#searchBox{
+    width: 40%;
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#input{
+    width: 80%; 
+    border: none;
+    outline: none;
+}
+
+#searchBtn{
+    width: 20%; 
+     height: 54px;
+}
+
+input {
+    font-size: 20px;
+}
+
+#content{
+    width: 40%;
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: justify;  
+}
+
+.highlight
+{
+ color:blue;
+ text-decoration:underline;
+}
+
+a:hover{
+    background: inherit;
+    color: inherit;
+}
+
+    
+.highlight
+{
+ color:blue;
+ text-decoration:underline;
+}
+
+a:hover{
+    background: inherit;
+    color: inherit;
+    
+}
+
 div#sidebar {overflow-y:auto;
 
      margin-left:72%; 
@@ -250,11 +305,10 @@ div#sidebarinner {
     padding: 8px 8px 8px 8px;
    }
    
-   div#fieldset
-   {
- background-color: #C59FC9;
-  text-align:left; 
-    padding: 3px 3px 3px 3px;
+div#fieldset{
+ background-color:#FFD846;
+ text-align:left; 
+ padding: 3px 3px 3px 3px;
    }
    
    span.Testinteract {background-color:#FFFF66}
