@@ -37,14 +37,13 @@
                     
                     <body>
                         <!--ebb: Here is your server-side include for the menu bar. -->
-                        <xsl:comment>#include virtual="../bnbNavBar.html" </xsl:comment>
-                        
+                        <xsl:comment>#include virtual="../bnbNavBar.html"</xsl:comment>
                         <h2 id="{$filename}"><xsl:apply-templates select="current()/metadata/title ! normalize-space()"/></h2>
                         
                         <!-- ************************************ -->
-                        <!--JS highlighting fieldset to go here!  -->
+                        <xsl:comment>#include virtual="../bnbJavaFieldset.html"</xsl:comment>
                         <!-- ************************************-->
-                        <!--ebb: Should this be another server side include? -->
+                        <!--ebb: Should this be another server side include? --> <!--aw: yes!-->
                         
                         <xsl:apply-templates select="current()//song"/>
                         

@@ -11,7 +11,7 @@
     </metadata>
     <song>
         <lg n="1">
-            <ln n="1"> Jafar, Jasmine </ln>
+            <ln n="1"> <char ref="#Jafar">Jafar:</char> Jasmine </ln>
             <ln n="2"> Prince Ali, yes it is he, but not as you know him </ln>
             <ln n="3"> Read my lips and come to grips with reality </ln>
             <ln n="4"> Yes, meet a blast from your past </ln>

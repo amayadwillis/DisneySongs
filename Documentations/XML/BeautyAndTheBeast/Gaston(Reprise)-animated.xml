@@ -11,15 +11,15 @@
     
 <song>
 <lg n="1">
-    <ln n="1"><char ref="#Gaston">Gaston</char> Lefou, I'm afraid I've been thinking</ln>
+    <ln n="1"><char ref="#Gaston">Gaston:</char> Lefou, I'm afraid I've been thinking</ln>
 </lg>
 
 <lg n="2">
-    <ln n="2"><char ref="#Lefou">Lefou</char> A dangerous pastime</ln>
+    <ln n="2"><char ref="#Lefou">Lefou:</char> A dangerous pastime</ln>
 </lg>
 
 <lg n="3">
-    <ln n="3"><char ref="#Gaston">Gaston</char> I know</ln>
+    <ln n="3"><char ref="#Gaston">Gaston:</char> I know</ln>
     <ln n="4">But that wacky old coot is Belle's father</ln>
     <ln n="5">And his sanity's only so-so</ln>
     <ln n="6">Now the wheels in my head have been turning</ln>
@@ -29,19 +29,19 @@
 </lg>
 
 <lg n="4">
-    <ln n="10"><char ref="#Gaston and Lefou">Gaston &amp; Lefou</char> No one plots like Gaston</ln>
+    <ln n="10"><char ref="#Gaston">Gaston</char> &amp; <char ref="#Lefou">Lefou:</char> No one plots like Gaston</ln>
 </lg>
 
 <lg n="5">
-    <ln n="11"><char ref="#Gaston">Gaston</char> Takes cheap shots like Gaston</ln>
+    <ln n="11"><char ref="#Gaston">Gaston:</char> Takes cheap shots like Gaston</ln>
 </lg>
 
 <lg n="6">
-    <ln n="12"><char ref="#Lefou">Lefou</char> Likes to persecute harmless crackpots like Gaston</ln>
+    <ln n="12"><char ref="#Lefou">Lefou:</char> Likes to persecute harmless crackpots like Gaston</ln>
 </lg>
 
 <lg n="7">
-    <ln n="13"><char ref="#Chorus">Chorus</char> For his marriage we soon will be celebrating</ln>
+    <ln n="13"><char ref="#Townies">Townies:</char> For his marriage we soon will be celebrating</ln>
     <ln n="14">My, what a guy</ln>
     <ln n="15">Gaston!</ln>
 </lg>

@@ -13,7 +13,7 @@
 
     <song>
         <lg n="1">
-            <ln n="1"><char ref="#Sa'luk">Sa'luk</char> I remember a time</ln>
+            <ln n="1"><char ref="#Sa'luk">Sa'luk:</char> I remember a time</ln>
             <ln n="2">When crime was sublime</ln>
             <ln n="3">There was plenty of loot in the lair</ln>
             <ln n="4">We'd plunder and pillage</ln>
@@ -47,7 +47,7 @@
         </lg>
 
         <lg n="5">
-            <ln n="23"><char ref="#Thieves">Thieves</char> We used to be smart, yes</ln>
+            <ln n="23"><char ref="#Thieves">Thieves:</char> We used to be smart, yes</ln>
             <ln n="24">Horrendously heartless</ln>
             <ln n="25">In a ravaging raid we were rough</ln>
             <ln n="26">We knew what we had</ln>
@@ -65,7 +65,7 @@
         </lg>
 
         <lg n="7">
-            <ln n="35"><char ref="#Sa'luk">Sa'luk</char> Are you in or out?</ln>
+            <ln n="35"><char ref="#Sa'luk">Sa'luk:</char> Are you in or out?</ln>
             <ln n="36">Double-crossers or devout?</ln>
             <ln n="37">Put your faith in me; pretty soon you'll see</ln>
             <ln n="38">I'm the prince of generosity</ln>
@@ -81,7 +81,7 @@
         </lg>
 
         <lg n="9">
-            <ln n="45"><char ref="#Thieves">Thieves</char> We'll go robbing in all the right
+            <ln n="45"><char ref="#Thieves">Thieves:</char> We'll go robbing in all the right
                 places</ln>
             <ln n="46">From Agrabah dunes to Paris</ln>
             <ln n="47">Imagine the fear on their faces</ln>
@@ -89,13 +89,13 @@
         </lg>
 
         <lg n="10">
-            <ln n="49"><char ref="#Sa'luk">Sa'luk</char> Are you in or out?</ln>
+            <ln n="49"><char ref="#Sa'luk">Sa'luk:</char> Are you in or out?</ln>
             <ln n="50">If you're with me, give a shout</ln>
             <ln n="51">I'll lead you all the way into the glory days</ln>
         </lg>
 
         <lg n="11">
-            <ln n="52"><char ref="#Thieves">Thieves</char> We'll begin a life of crime that
+            <ln n="52"><char ref="#Thieves">Thieves:</char> We'll begin a life of crime that
                 pays</ln>
         </lg>
 
@@ -105,7 +105,7 @@
         </lg>
 
         <lg n="13">
-            <ln n="55"><char ref="#Sa'luk">Sa'luk</char> You can stick with me</ln>
+            <ln n="55"><char ref="#Sa'luk">Sa'luk:</char> You can stick with me</ln>
             <ln n="56">Or stay behind and pout</ln>
             <ln n="57">What's it gonna be?</ln>
             <ln n="58">Consider carefully</ln>

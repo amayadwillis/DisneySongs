@@ -20,9 +20,9 @@
           <xsl:variable name="filename" as="xs:string">
               <xsl:value-of select="tokenize(current() ! base-uri(), '/')[last()] ! substring-before(., '.xml') ! replace(., '[()]', '')"/>
           </xsl:variable>
-          <!-- Current set to Aladdin. To CHANGE this, change the for-each @select, 
+          <!-- Current set to BNB. To CHANGE this, change the for-each @select, 
               AND the line below to match the appropriate output file directory. 
-          ALSO change <script> line to point to bnbhighlight.js -->
+          ALSO change <script> line to point to highlighting.js -->
         <xsl:result-document method="xhtml" indent="yes" href="../../../docs/aladdin/{$filename}.html">
         
         <html>
@@ -32,7 +32,7 @@
                 <title><xsl:apply-templates select="current()/metadata/title ! normalize-space()"/></title>
                 <link href="../aladdin.css" rel="stylesheet" type="text/css"/>
                 <script src="../highlighting.js">/**/</script>
-                <!--for BNB, change to bnbhighlight.js -->
+                <!--for Aladdin, change to highlighting.js -->
             </head>
             
             <body>
@@ -42,9 +42,9 @@
                 <h2 id="{$filename}"><xsl:apply-templates select="current()/metadata/title ! normalize-space()"/></h2>
                 
                 <!-- ************************************ -->
-                <!--JS highlighting fieldset to go here!  -->
+                <xsl:comment>#include virtual="../aladdinJavaFieldset.html"</xsl:comment>
                 <!-- ************************************-->
-                <!--ebb: Should this be another server side include? -->
+                <!--ebb: Should this be another server side include? --> <!--aw: yes!-->
               
               <xsl:apply-templates select="current()//song"/>
  

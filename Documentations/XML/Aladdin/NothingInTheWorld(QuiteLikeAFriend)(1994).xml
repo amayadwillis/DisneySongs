@@ -12,7 +12,7 @@
     </metadata>
     <song>
         <lg n="1">
-            <ln n="1"><char ref="#Genie">Genie</char>I parachuted down into the Taj Mahal </ln>
+            <ln n="1"><char ref="#Genie">Genie:</char> I parachuted down into the Taj Mahal </ln>
             <ln n="2">I rollerbladed all along the great Great Wall!</ln>
             <ln n="3">I even made the famous Leaning Tower fall</ln>
             <ln n="4">But who was with me through it all?</ln>
@@ -68,20 +68,20 @@
         </lg>
 
         <lg n="8">
-            <ln n="36"><char ref="#Aladdin">Aladdin</char>There's nothing in the world</ln>
+            <ln n="36"><char ref="#Aladdin">Aladdin:</char> There's nothing in the world</ln>
         </lg>
 
         <lg n="9">
-            <ln n="37"><char ref="#Jasmine">Jasmine</char>Nothing in the whole wide world</ln>
+            <ln n="37"><char ref="#Jasmine">Jasmine:</char> Nothing in the whole wide world</ln>
         </lg>
 
         <lg n="10">
-            <ln n="38"><char ref="#All">All</char>There is nothing in the world quite like a
+            <ln n="38"><char ref="#Aladdin">Aladdin,</char> <char ref="#Genie">Genie,</char> and <char ref="#Jasmine">Jasmine:</char> There is nothing in the world quite like a
                 friend</ln>
         </lg>
 
         <lg n="11">
-            <ln n="39"><char ref="#Genie">Genie</char>Nothin' in the whole wide world!</ln>
+            <ln n="39"><char ref="#Genie">Genie:</char>Nothin' in the whole wide world!</ln>
         </lg>
     </song>
 </xml>

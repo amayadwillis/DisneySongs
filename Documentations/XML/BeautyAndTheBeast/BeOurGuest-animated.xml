@@ -5,12 +5,12 @@
     <metadata><title>Be Our Guest</title>
 <origin>Lyrics from <movie>Beauty and the Beast</movie></origin>
 <author>Music and Lyrics by <composer ref="#Menken">Alan Menken</composer> and <lyricist ref="#Ashman">Howard Ashman</lyricist></author>
-<perform>Performed by <voiceActor ref="#Orbach" role="#Lumiere">Jerry Orbach</voiceActor>, <voiceActor ref="#Lansbury" role="#Mrs. Potts">Angela Lansbury</voiceActor> and chorus</perform>
+<perform>Performed by <voiceActor ref="#Orbach" role="#Lumiere">Jerry Orbach</voiceActor>, <voiceActor ref="#Lansbury" role="#Potts">Angela Lansbury</voiceActor> and chorus</perform>
 </metadata>
 
 <song>
 <lg n="1">
-    <ln n="1"><char ref="#Lumiere">Lumiere</char> Be our guest</ln>
+    <ln n="1"><char ref="#Lumiere">Lumiere:</char> Be our guest</ln>
     <ln n="2">Be our guest</ln>
     <ln n="3">Put our service to the test</ln>
     <ln n="4">Tie your napkin round your neck, cherie</ln>
@@ -40,13 +40,13 @@
 </lg>
 
 <lg n="5">
-    <ln n="20"><char ref="#Castleware">Castleware</char> Beef ragout</ln>
+    <ln n="20"><char ref="#Castleware">Castleware:</char> Beef ragout</ln>
     <ln n="21">Cheese soufflé</ln>
     <ln n="22">Pie and pudding en flambé</ln>
 </lg>
 
 <lg n="6">
-    <ln n="23"><char ref="#Lumiere">Lumiere</char> We'll prepare and serve with flair</ln>
+    <ln n="23"><char ref="#Lumiere">Lumiere:</char> We'll prepare and serve with flair</ln>
     <ln n="24">A culinary cabaret</ln>
 </lg>
 
@@ -65,28 +65,28 @@
 </lg>
 
 <lg n="9">
-    <ln n="33"><char ref="#BeerMugs">Beer Mugs</char> But it's all in perfect taste, that you can bet</ln>
+    <ln n="33"><char ref="#Castleware:">Beer Mugs:</char> But it's all in perfect taste, that you can bet</ln>
 </lg>
 
 <lg n="10">
-    <ln n="34"><char ref="#Castleware">Castleware</char> Come on and lift your glass</ln>
+    <ln n="34"><char ref="#Castleware">Castleware:</char> Come on and lift your glass</ln>
     <ln n="35">You've won your own free pass</ln>
     <ln n="36">To be our guest</ln>
 </lg>
 
 <lg n="11">
-    <ln n="37"><char ref="#Lumiere">Lumiere</char> If you're stressed</ln>
+    <ln n="37"><char ref="#Lumiere">Lumiere:</char> If you're stressed</ln>
     <ln n="38">It's fine dining we suggest</ln>
 </lg>
 
 <lg n="12">
-    <ln n="39"><char ref="#Castleware">Castleware</char> Be our guest</ln>
+    <ln n="39"><char ref="#Castleware">Castleware:</char> Be our guest</ln>
     <ln n="40">Be our guest</ln>
     <ln n="41">Be our guest</ln>
 </lg>
 
 <lg n="13">
-    <ln n="42"><char ref="#Lumiere">Lumiere</char> Life is so unnerving</ln>
+    <ln n="42"><char ref="#Lumiere">Lumiere:</char> Life is so unnerving</ln>
     <ln n="43">For a servant who's not serving</ln>
     <ln n="44">He's not whole without a soul to wait upon</ln>
     <ln n="45">Ah, those good old days when we were useful</ln>
@@ -103,7 +103,7 @@
 </lg>
 
 <lg n="15">
-    <ln n="53"><char ref="#Mrs. Potts">Mrs. Potts</char> It's a guest!</ln>
+    <ln n="53"><char ref="#Potts">Mrs. Potts:</char> It's a guest!</ln>
     <ln n="54">It's a guest!</ln>
     <ln n="55">Sakes alive, well, I'll be blessed</ln>
     <ln n="56">Wine's been poured, and thank the lord</ln>
@@ -132,15 +132,15 @@
 </lg>
 
 <lg n="19">
-    <ln n="70"><char ref="#Castleware">Castleware</char> She's our guest</ln>
+    <ln n="70"><char ref="#Castleware">Castleware:</char> She's our guest</ln>
 </lg>
 
 <lg n="20">
-    <ln n="71"><char ref="#Mrs. Potts">Mrs. Potts</char> She's our guest</ln>
+    <ln n="71"><char ref="#Potts">Mrs. Potts:</char> She's our guest</ln>
 </lg>
 
 <lg n="21">
-    <ln n="72"><char ref="#Castleware">Castleware</char> She's our guest</ln>
+    <ln n="72"><char ref="#Castleware">Castleware:</char> She's our guest</ln>
 </lg>
 
 <lg n="22">

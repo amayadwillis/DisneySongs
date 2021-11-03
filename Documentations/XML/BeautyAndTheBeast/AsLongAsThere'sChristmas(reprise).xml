@@ -15,27 +15,27 @@
     
     <song>
 <lg n="1">
-    <ln n="1"><char ref="#Angelique">Angelique</char> When I felt lost and lonely</ln>
+    <ln n="1"><char ref="#Angelique">Angelique:</char> When I felt lost and lonely</ln>
     <ln n="2">Not a dream in my head</ln>
     <ln n="3">Your words lifted my spirits</ln>
     <ln n="4">I remember what you said</ln>
 </lg>
 
 <lg n="2">
-   <ln n="5"><char ref="#Angelique">Angelique</char> As long as there's Christmas I truly believe</ln>
+   <ln n="5"><char ref="#Angelique">Angelique:</char> As long as there's Christmas I truly believe</ln>
 </lg>
 
 <lg n="3">
-    <ln n="6"><char ref="#Angelique and Belle">Angelique &amp; Belle</char> That hope is the greatest of the gifts we'll receive</ln>
+    <ln n="6"><char ref="#Angelique">Angelique</char> &amp; <char ref="#Belle">Belle:</char> That hope is the greatest of the gifts we'll receive</ln>
     <ln n="7">As long as our guiding star shines above</ln>
 </lg>
 
 <lg n="4">
-    <ln n="8"><char ref="#Angelique">Angelique</char> There will always be Christmas</ln>
+    <ln n="8"><char ref="#Angelique">Angelique:</char> There will always be Christmas</ln>
 </lg>
 
 <lg n="5">
-    <ln n="9"><char ref="#Belle">Belle</char> So there always will be a time</ln>
+    <ln n="9"><char ref="#Belle">Belle:</char> So there always will be a time</ln>
     <ln n="10">When the world is filled with peace and love</ln>
 </lg>
 </song>

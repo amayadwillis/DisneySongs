@@ -12,7 +12,7 @@
 
     <song>
         <lg n="1">
-            <ln n="1">Riffraff! Street rat! I don't buy that!</ln>
+            <ln n="1"><char ref="#Aladdin">Aladdin:</char> Riffraff! Street rat! I don't buy that!</ln>
             <ln n="2">If only they'd look closer</ln>
             <ln n="3">Would they see a poor boy?</ln>
             <ln n="4">No, siree</ln>

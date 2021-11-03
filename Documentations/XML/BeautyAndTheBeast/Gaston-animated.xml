@@ -11,7 +11,7 @@
 
 <song>
 <lg n="1">
-    <ln n="1"><char ref="#Lefou">Lefou</char> Gosh, it disturbs me to see you, Gaston</ln>
+    <ln n="1"><char ref="#Lefou">Lefou:</char> Gosh, it disturbs me to see you, Gaston</ln>
     <ln n="2">Looking so down in the dumps</ln>
     <ln n="3">Every guy here'd love to be you, Gaston</ln>
 </lg>
@@ -34,20 +34,20 @@
 </lg>
 
 <lg n="4">
-    <ln n="15"><char ref="#Chorus">Chorus</char> No one's been like Gaston</ln>
+    <ln n="15"><char ref="#Townies">Townies:</char> No one's been like Gaston</ln>
     <ln n="16">A kingpin like Gaston</ln>
 </lg>
 
 <lg n="5">
-    <ln n="17"><char ref="#Lefou">Lefou</char> No one's got a swell cleft in his chin like Gaston</ln>
+    <ln n="17"><char ref="#Lefou">Lefou:</char> No one's got a swell cleft in his chin like Gaston</ln>
 </lg>
 
 <lg n="6">
-    <ln n="18"><char ref="#Gaston">Gaston</char> As a specimen, yes, I'm intimidating</ln>
+    <ln n="18"><char ref="#Gaston">Gaston:</char> As a specimen, yes, I'm intimidating</ln>
 </lg>
 
 <lg n="7">
-    <ln n="19"><char ref="#Chorus">Chorus</char> My, what a guy, that Gaston</ln>
+    <ln n="19"><char ref="#Townies">Townies:</char> My, what a guy, that Gaston</ln>
 </lg>
 
 <lg n="8">
@@ -56,12 +56,12 @@
 </lg>
 
 <lg n="9">
-    <ln n="22"><char ref="#Lefou">Lefou</char> Gaston is the best</ln>
+    <ln n="22"><char ref="#Lefou">Lefou:</char> Gaston is the best</ln>
     <ln n="23">And the rest is all drips</ln>
 </lg>
 
 <lg n="10">
-    <ln n="24"><char ref="#Chorus">Chorus</char> No one fights like Gaston</ln>
+    <ln n="24"><char ref="#Townies">Townies:</char> No one fights like Gaston</ln>
     <ln n="25">Douses lights like Gaston</ln>
 </lg>
 
@@ -70,60 +70,60 @@
 </lg>
 
 <lg n="12">
-    <ln n="27"><char ref="#Bimbettes">Bimbettes</char> For there's no one as burly and brawny</ln>
+    <ln n="27"><char ref="#Bimbettes">Bimbettes:</char> For there's no one as burly and brawny</ln>
 </lg>
 
 <lg n="13">
-    <ln n="28"><char ref="#Gaston">Gaston</char> As you see, I've got biceps to spare</ln>
+    <ln n="28"><char ref="#Gaston">Gaston:</char> As you see, I've got biceps to spare</ln>
 </lg>
 
 <lg n="14">
-    <ln n="29"><char ref="#Lefou">Lefou</char> Not a bit of him's scraggly or scrawny</ln>
+    <ln n="29"><char ref="#Lefou">Lefou:</char> Not a bit of him's scraggly or scrawny</ln>
 </lg>
 
 <lg n="15">
-    <ln n="30"><char ref="#Gaston">Gaston</char> And every last inch of me's covered with hair</ln>
+    <ln n="30"><char ref="#Gaston">Gaston:</char> And every last inch of me's covered with hair</ln>
 </lg>
 
 <lg n="16">
-    <ln n="31"><char ref="#Chorus">Chorus</char> No one hits like Gaston</ln>
+    <ln n="31"><char ref="#Townies">Townies:</char> No one hits like Gaston</ln>
     <ln n="32">Matches wits like Gaston</ln>
 </lg>
 
 <lg n="17">
-    <ln n="33"><char ref="#Lefou">Lefou</char> In a spitting match, nobody spits like Gaston</ln>
+    <ln n="33"><char ref="#Lefou">Lefou:</char> In a spitting match, nobody spits like Gaston</ln>
 </lg>
 
 <lg n="18">
-    <ln n="34"><char ref="#Gaston">Gaston</char> I'm especially good at expectorating</ln>
+    <ln n="34"><char ref="#Gaston">Gaston:</char> I'm especially good at expectorating</ln>
 </lg>
 
 <lg n="19">
-    <ln n="35"><char ref="#Chorus">Chorus</char> Ten points for Gaston!</ln>
+    <ln n="35"><char ref="#Townies">Townies:</char> Ten points for Gaston!</ln>
 </lg>
 
 <lg n="20">
-    <ln n="36"><char ref="#Gaston">Gaston</char> When I was a lad I ate four dozen eggs</ln>
+    <ln n="36"><char ref="#Gaston">Gaston:</char> When I was a lad I ate four dozen eggs</ln>
     <ln n="37">Every morning to help me get large</ln>
     <ln n="38">And now that I'm grown I eat five dozen eggs</ln>
     <ln n="39">So I'm roughly the size of a barge</ln>
 </lg>
 
 <lg n="21">
-    <ln n="40"><char ref="#Chorus">Chorus</char> No one shoots like Gaston</ln>
+    <ln n="40"><char ref="#Townies">Townies:</char> No one shoots like Gaston</ln>
     <ln n="41">Makes those beauts like Gaston</ln>
 </lg>
 
 <lg n="22">
-    <ln n="42"><char ref="#Lefou">Lefou</char> Then goes tromping around wearing boots like Gaston</ln>
+    <ln n="42"><char ref="#Lefou">Lefou:</char> Then goes tromping around wearing boots like Gaston</ln>
 </lg>
 
 <lg n="23">
-    <ln n="43"><char ref="#Gaston">Gaston</char> I use antlers in all of my decorating</ln>
+    <ln n="43"><char ref="#Gaston">Gaston:</char> I use antlers in all of my decorating</ln>
 </lg>
 
 <lg n="24">
-    <ln n="44"><char ref="#Chorus">Chorus</char> My, what a guy</ln>
+    <ln n="44"><char ref="#Townies">Townies:</char> My, what a guy</ln>
     <ln n="45">Gaston!</ln>
 </lg>
 </song>

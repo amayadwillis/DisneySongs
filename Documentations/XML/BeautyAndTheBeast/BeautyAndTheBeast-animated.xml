@@ -6,11 +6,11 @@
 <metadata><title>Beauty and the Beast</title>
 <origin>Lyrics from <movie>Beauty and the Beast</movie></origin>
 <author>Music and Lyrics by <composer ref="#Menken">Alan Menken</composer> and <lyricist ref="#Ashman">Howard Ashman</lyricist></author>
-<perform>Performed by <voiceActor ref="#Lansbury" role="#Mrs. Potts">Angela Lansbury</voiceActor> as Mrs. Potts</perform></metadata>
+<perform>Performed by <voiceActor ref="#Lansbury" role="#Potts">Angela Lansbury</voiceActor> as Mrs. Potts</perform></metadata>
 
 <song>
 <lg n="1">
-    <ln n="1">Tale as old as time</ln>
+    <ln n="1"><char ref="#Potts">Mrs. Potts:</char>Tale as old as time</ln>
     <ln n="2">True as it can be</ln>
     <ln n="3">Barely even friends</ln>
     <ln n="4">Then somebody bends</ln>

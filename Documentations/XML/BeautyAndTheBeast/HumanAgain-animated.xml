@@ -6,12 +6,12 @@
 <title>Human Again</title>
 <origin>Lyrics from <movie>Beauty and the Beast</movie></origin>
 <author>Music and Lyrics by <composer ref="#Menken">Alan Menken</composer> and <lyricist ref="#Ashman">Howard Ashman</lyricist></author>
-    <perform>Performed by <voiceActor ref="#Lansbury" role="#Mrs. Potts">Angela Lansbury</voiceActor>, <voiceActor ref="#Orbach" role="#Lumiere">Jerry Orbach</voiceActor>, <voiceActor ref="#Stiers" role="#Cogsworth">David Ogden Stiers</voiceActor>, <voiceActor ref="#Worley" role="#Armoire">Jo Anne Worley</voiceActor> and chorus</perform>
+    <perform>Performed by <voiceActor ref="#Lansbury" role="#Potts">Angela Lansbury</voiceActor>, <voiceActor ref="#Orbach" role="#Lumiere">Jerry Orbach</voiceActor>, <voiceActor ref="#Stiers" role="#Cogsworth">David Ogden Stiers</voiceActor>, <voiceActor ref="#Worley" role="#Wardrobe">Jo Anne Worley</voiceActor> and chorus</perform>
 </metadata>
 
 <song>
 <lg n="1">
-    <ln n="1"><char ref="#Lumiere">Lumiere</char> I'll be cooking again</ln>
+    <ln n="1"><char ref="#Lumiere">Lumiere:</char> I'll be cooking again</ln>
     <ln n="2">Be good-looking again</ln>
     <ln n="3">With a mademoiselle on each arm</ln>
 </lg>
@@ -28,17 +28,17 @@
 </lg>
 
 <lg n="4">
-    <ln n="9"><char ref="#Mrs. Potts">Mrs. Potts</char> Which should cause several husbands alarm</ln>
+    <ln n="9"><char ref="#Potts">Mrs. Potts:</char> Which should cause several husbands alarm</ln>
 </lg>
 
 <lg n="5">
-    <ln n="10"><char ref="#Lumiere">Lumiere</char> I'll hop down off this shelf</ln>
+    <ln n="10"><char ref="#Lumiere">Lumiere:</char> I'll hop down off this shelf</ln>
     <ln n="11">And tout de suite be myself</ln>
     <ln n="12">I can't wait to be human again</ln>
 </lg>
 
 <lg n="6">
-    <ln n="13"><char ref="#Castleware">Castleware</char> When we're human again</ln>
+    <ln n="13"><char ref="#Castleware">Castleware:</char> When we're human again</ln>
     <ln n="14">Only human again</ln>
     <ln n="15">When we're knickknacks and whatnots no more</ln>
 </lg>
@@ -49,7 +49,7 @@
 </lg>
 
 <lg n="8">
-    <ln n="18"><char ref="#Armoire">Armoire</char> Oh, cherie, won't it all be top drawer?</ln>
+    <ln n="18"><char ref="#Wardrobe">Wardrobe:</char> Oh, cherie, won't it all be top drawer?</ln>
     <ln n="19">I'll wear lipstick and rouge</ln>
     <ln n="20">And I won't be so huge</ln>
     <ln n="21">Why, I'll easily fit through that door</ln>
@@ -62,21 +62,21 @@
 </lg>
 
 <lg n="10">
-    <ln n="25"><char ref="#Cogsworth and Mrs. Potts">Cogsworth &amp; Mrs. Potts</char> When we're human again</ln>
+    <ln n="25"><char ref="#Cogsworth">Cogsworth</char> &amp; <char ref="#Potts">Mrs. Potts:</char> When we're human again</ln>
     <ln n="26">Only human again</ln>
     <ln n="27">When the world once more starts making sense</ln>
 </lg>
 
 <lg n="11">
-    <ln n="28"><char ref="#Cogsworth">Cogsworth</char> I'll unwind, for a change</ln>
+    <ln n="28"><char ref="#Cogsworth">Cogsworth:</char> I'll unwind, for a change</ln>
 </lg>
 
 <lg n="12">
-    <ln n="29"><char ref="#Lumiere">Lumiere</char> Really? That'd be strange</ln>
+    <ln n="29"><char ref="#Lumiere">Lumiere:</char> Really? That'd be strange</ln>
 </lg>
 
 <lg n="13">
-    <ln n="30"><char ref="#Cogsworth">Cogsworth</char> Can I help it if I'm t-t-tense?</ln>
+    <ln n="30"><char ref="#Cogsworth">Cogsworth:</char> Can I help it if I'm t-t-tense?</ln>
     <ln n="31">In a shack by the sea</ln>
     <ln n="32">I'll sit back sipping tea</ln>
     <ln n="33">Let my early retirement commence</ln>
@@ -88,7 +88,7 @@
 </lg>
 
 <lg n="15">
-    <ln n="36"><char ref="#Castleware">Castleware</char> When I'm human again</ln>
+    <ln n="36"><char ref="#Castleware">Castleware:</char> When I'm human again</ln>
 </lg>
 
 <lg n="16">
@@ -108,17 +108,17 @@
 </lg>
 
 <lg n="18">
-    <ln n="47"><char ref="#Chorus">Chorus</char> Open the shutters</ln>
+    <ln n="47">Open the shutters</ln>
     <ln n="48">And let in some air</ln>
 </lg>
 
 <lg n="19">
-    <ln n="49"><char ref="#Mrs. Potts">Mrs. Potts</char> Put these here</ln>
+    <ln n="49"><char ref="#Potts">Mrs. Potts:</char> Put these here</ln>
     <ln n="50">And put those over there</ln>
 </lg>
 
 <lg n="20">
-    <ln n="51"><char ref="#Castleware">Castleware</char> Sweep up the years</ln>
+    <ln n="51"><char ref="#Castleware">Castleware:</char> Sweep up the years</ln>
     <ln n="52">The sadness and tears</ln>
     <ln n="53">And throw them away</ln>
 </lg>

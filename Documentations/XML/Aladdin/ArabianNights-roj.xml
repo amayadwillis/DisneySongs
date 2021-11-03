@@ -13,7 +13,7 @@
 
     <song>
         <lg n="1">
-            <ln n="1">Arabian nights</ln>
+            <ln n="1"><char ref="#Peddler">Peddler:</char> Arabian nights</ln>
             <ln n="2">Follow me to a place where incredible feats</ln>
             <ln n="3">Are routine every hour or so</ln>
             <ln n="4">Where enchantment runs rampant</ln>

@@ -12,7 +12,7 @@
 
     <song>
         <lg n="1">
-            <ln n="1">[<char ref="#Aladdin">Aladdin</char>:] Gotta keep one jump ahead of the
+            <ln n="1"><char ref="#Aladdin">Aladdin:</char> Gotta keep one jump ahead of the
                 breadline</ln>
             <ln n="2">One swing ahead of the sword</ln>
             <ln n="3">I steal only what I can't afford (That's everything!)</ln>
@@ -22,21 +22,21 @@
         </lg>
 
         <lg n="2">
-            <ln n="7">[Crowd:] Riffraff! Street rat! Scoundrel! Take that!</ln>
-            <ln n="8">[<char ref="#Aladdin">Aladdin</char>:] Just a little snack, guys</ln>
-            <ln n="9">[Crowd:] Rip him open, take it back, guys</ln>
-            <ln n="10">[<char ref="#Aladdin">Aladdin</char>:] I can take a hint, gotta face the
+            <ln n="7"><char ref="#Crowd">Crowd:</char> Riffraff! Street rat! Scoundrel! Take that!</ln>
+            <ln n="8"><char ref="#Aladdin">Aladdin:</char> Just a little snack, guys</ln>
+            <ln n="9"><char ref="#Crowd">Crowd:</char> Rip him open, take it back, guys</ln>
+            <ln n="10"><char ref="#Aladdin">Aladdin:</char> I can take a hint, gotta face the
                 facts</ln>
             <ln n="11">You're my only friend, Abu!</ln>
-            <ln n="12">[Crowd:] Who?</ln>
+            <ln n="12"><char ref="#Crowd">Crowd:</char> Who?</ln>
         </lg>
 
         <lg n="3">
-            <ln n="13">[Ladies:] Oh, it's sad <char ref="#Aladdin">Aladdin's</char> hit the
+            <ln n="13"><char ref="#Crowd">Ladies:</char> Oh, it's sad <char ref="#Aladdin">Aladdin's</char> hit the
                 bottom</ln>
             <ln n="14">He's become a one-man rise in crime</ln>
             <ln n="15">I'd blame parents except he hasn't got 'em</ln>
-            <ln n="16">[<char ref="#Aladdin">Aladdin</char>:] Gotta eat to live, gotta steal to
+            <ln n="16"><char ref="#Aladdin">Aladdin:</char> Gotta eat to live, gotta steal to
                 eat</ln>
             <ln n="17">Tell you all about it when I got the time!</ln>
         </lg>
@@ -51,15 +51,15 @@
         </lg>
 
         <lg n="5">
-            <ln n="24">[Crowd:] Stop, thief! Vandal! Outrage! Scandal!</ln>
-            <ln n="25">[<char ref="#Aladdin">Aladdin</char>:] Let's not be too hasty</ln>
-            <ln n="26">[Lady:] Still I think he's rather tasty</ln>
-            <ln n="27">[Aladdin:] Gotta eat to live, gotta steal to eat</ln>
+            <ln n="24"><char ref="#Crowd">Crowd:</char> Stop, thief! Vandal! Outrage! Scandal!</ln>
+            <ln n="25"><char ref="#Aladdin">Aladdin:</char> Let's not be too hasty</ln>
+            <ln n="26"><char ref="#Crowd">Lady:</char> Still I think he's rather tasty</ln>
+            <ln n="27"><char ref="#Aladdin">Aladdin:</char> Gotta eat to live, gotta steal to eat</ln>
             <ln n="28">Otherwise we'd get along</ln>
         </lg>
 
         <lg n="6">
-            <ln n="29">[<char ref="#Aladdin">Aladdin</char>:] One jump ahead of the hoofbeats
+            <ln n="29"><char ref="#Aladdin">Aladdin:</char> One jump ahead of the hoofbeats
                 (Vandal!)</ln>
             <ln n="30">One hop ahead of the hump (Streetrat!)</ln>
             <ln n="31">One trick ahead of disaster (Scandal!)</ln>

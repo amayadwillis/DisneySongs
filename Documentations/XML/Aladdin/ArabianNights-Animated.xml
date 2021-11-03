@@ -12,7 +12,7 @@
 
     <song>
         <lg n="1">
-            <ln n="1">Oh, I come from a land, from a faraway place</ln>
+            <ln n="1"><char ref="#Peddler">Peddler:</char> Oh, I come from a land, from a faraway place</ln>
             <ln n="2">Where the caravan camels roam</ln>
             <ln n="3">Where it's flat and immense</ln>
             <ln n="4">And the heat is intense</ln>

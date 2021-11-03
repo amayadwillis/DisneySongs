@@ -6,7 +6,7 @@
 <author>Music by <composer ref="#Menken">Alan Menken</composer>; lyrics by <composer ref="#Pasek">Benj Pasek</composer> and <composer ref="#Paul">Justin Paul</composer></author>
 <perform>Performed by <voiceActor ref="#Scott" role="#Jasmine">Naomi Scott</voiceActor> as Jasmine</perform></metadata>
 
-<song><lg n="1"><ln n="1">Here comes a wave meant to wash me away</ln>
+<song><lg n="1"><ln n="1"><char ref="#Jasmine">Jasmine:</char> Here comes a wave meant to wash me away</ln>
 <ln n="2">A tide that is taking me under</ln>
 <ln n="3">Swallowing sand, left with nothing to say</ln>
 <ln n="4">My voice drowned out in the thunder</ln></lg>

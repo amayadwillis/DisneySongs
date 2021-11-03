@@ -11,19 +11,19 @@
 
 <song>
 <lg n="1">
-    <ln n="1"><char ref="#Chorus">Chorus</char> We're not safe until he's dead</ln>
+    <ln n="1"><char ref="#Townies">Townies:</char> We're not safe until he's dead</ln>
     <ln n="2">He'll come stalking us at night</ln>
     <ln n="3">Set to sacrifice our children to his monstrous appetite</ln>
     <ln n="4">He'll wreak havoc on our village if we let him wander free</ln>
 </lg>
 
 <lg n="2">
-    <ln n="5"><char ref="#Gaston">Gaston</char> So it's time to take some action, boys</ln>
+    <ln n="5"><char ref="#Gaston">Gaston:</char> So it's time to take some action, boys</ln>
     <ln n="6">It's time to follow me</ln>
 </lg>
 
 <lg n="3">
-    <ln n="7">Through the mist, through the woods</ln>
+    <ln n="7"><char ref="#Townies">Townies:</char>Through the mist, through the woods</ln>
     <ln n="8">Through the darkness and the shadows</ln>
     <ln n="9">It's a nightmare, but it's one exciting ride</ln>
 </lg>
@@ -47,15 +47,15 @@
 </lg>
 
 <lg n="7">
-    <ln n="19"><char ref="#Chorus">Chorus</char> Light your torch, mount your horse</ln>
+    <ln n="19">Light your torch, mount your horse</ln>
 </lg>
 
 <lg n="8">
-    <ln n="20"><char ref="#Gaston">Gaston</char> Screw your courage to the sticking place</ln>
+    <ln n="20"><char ref="#Gaston">Gaston:</char> Screw your courage to the sticking place</ln>
 </lg>
 
 <lg n="9">
-    <ln n="21"><char ref="#Chorus">Chorus</char> We're counting on Gaston to lead the way</ln>
+    <ln n="21"><char ref="#Townies">Townies:</char> We're counting on Gaston to lead the way</ln>
 </lg>
 
 <lg n="10">
@@ -83,13 +83,13 @@
 </lg>
 
 <lg n="13">
-    <ln n="37"><char ref="#Castleware">Castleware</char> Hearts ablaze, banners high</ln>
+    <ln n="37"><char ref="#Castleware">Castleware:</char> Hearts ablaze, banners high</ln>
     <ln n="38">We go marching into battle</ln>
     <ln n="39">Unafraid, although the danger just increased</ln>
 </lg>
 
 <lg n="14">
-    <ln n="40"><char ref="#Chorus">Chorus</char> Raise the flag! Sing the song!</ln>
+    <ln n="40"><char ref="#Townies">Townies:</char> Raise the flag! Sing the song!</ln>
     <ln n="41">Here we come, we're fifty strong</ln>
     <ln n="42">And fifty Frenchmen can't be wrong</ln>
     <ln n="43">Let's kill the Beast!</ln>

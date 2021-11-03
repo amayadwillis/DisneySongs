@@ -6,7 +6,7 @@
 <author>Lyrics and music by <composer ref="#Petersen">Randy Petersen</composer> and <composer ref="#Quinn">Kevin Quinn</composer></author>
 <perform>Performed by <voiceActor ref="#Gottfried" role="#Iago">Gilbert Gottfried</voiceActor> as Iago</perform></metadata>
 
-<song><lg n="1"><ln n="1">That's it!</ln>
+<song><lg n="1"><ln n="1"><char ref="#Iago">Iago:</char> That's it!</ln>
 <ln n="2">I've had it! </ln>
 <ln n="3">I hate to be dramatic</ln>
 <ln n="4">But it's time for me to fly the coop</ln>
