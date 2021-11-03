@@ -37,7 +37,7 @@
             
             <body>
                 <!--ebb: Here is your server-side include for the menu bar. -->
-                <xsl:comment>#include virtual="../aladdin_header.html" </xsl:comment>
+                <xsl:comment>#include virtual="../aladdinNavBar.html" </xsl:comment>
                 
                 <h2 id="{$filename}"><xsl:apply-templates select="current()/metadata/title ! normalize-space()"/></h2>
                 
