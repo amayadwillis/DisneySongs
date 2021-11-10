@@ -14,6 +14,6 @@
     $result = file_get_contents($contents);
     echo $result;
 ?>
-   <section id="iframe"><iframe src="beauty/SomethingThere.html.html" name="titles" height="500" width="1000" class="iframe"/></section>
+   <section id="iframe"><iframe src="beauty/Aria-live.html.html" name="titles" height="500" width="1000" class="iframe"/></section>
     </body>
 </html>
