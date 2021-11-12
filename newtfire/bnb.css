@@ -270,4 +270,46 @@ input {
 a:hover{
     background: inherit;
     color: inherit;
+}
+
     
+.highlight
+{
+ color:blue;
+ text-decoration:underline;
+}
+
+a:hover{
+    background: inherit;
+    color: inherit;
+    
+}
+
+div#sidebar {overflow-y:auto;
+
+     margin-left:72%; 
+    width: 25%;
+    font-size: 20px;
+  font-family: "MouseMemoir";
+      letter-spacing: 0.5px;
+    word-spacing: 1.5px;
+   /* padding: 2px 2px 2px 2px;*/
+
+position:fixed;
+/*height: 100%;*/
+
+}
+div#sidebarinner {
+    background-color: #FFFFCC;
+    border-radius: 10px;
+    padding: 8px 8px 8px 8px;
+   }
+   
+div#fieldset{
+ background-color:#FFD846;
+ text-align:left; 
+ padding: 3px 3px 3px 3px;
+   }
+   
+span.Testinteract {background-color:#FFFF66}
+span.interact.on {background-color:#FFFF66}
