@@ -328,5 +328,15 @@ div#fieldset{
  padding: 3px 3px 3px 3px;
    }
    
-span.Testinteract {background-color:#FFFF66}
-span.interact.on {background-color:#FFFF66}
+span.Testinteract {background-color:#CFBAE1}
+span.on {background-color:#CFBAE1}
+
+ul#content{
+    list-style: none;
+    columns: 2;
+}
+
+
+ul#content:hover{
+    color: inherit;
+}

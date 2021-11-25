@@ -1,23 +1,32 @@
 // JavaScript Document
+function init()
+{
 
-window.addEventListener('DOMContentLoaded',first,false);
-
-function first() {
-    alert ('Welcome to the happiest place on NewtFire');
-}
-function myFunction() {
-    var input, filter, ul, li, a, i, txtValue;
-    input = document.getElementById("myInput");
-    filter = input.value.toUpperCase();
-    ul = document.getElementById("myUL");
-    li = ul.getElementsByTagName("li");
-    for (i = 0; i < li.length; i++) {
-        a = li[i].getElementsByTagName("a")[0];
-        txtValue = a.textContent || a.innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            li[i].style.display = "";
-        } else {
-            li[i].style.display = "none";
-        }
+    var anchors = document.getElementsByClassName("anchor");
+    for(var i = 0; i < anchors.length; i++)
+    {
+        anchors[i].onclick = show_footnote;
     }
+    
+     var fieldset = document.getElementsByTagName('input');
+for (var i=0; i <fieldset.length; i++)
+{fieldset[i].addEventListener('click', toggle, false);}
+
+   
 }
+
+function toggle()
+{
+
+var id = this.id;
+var fran = document.getElementsByClassName("franchise");
+
+switch (id) {
+      case "FRANtoggle": {
+  var e;
+  for (e=0; e < fran.length; e++)
+  {fran[e].classList.toggle("on")}
+   };
+  break;
+}
+window.onload = init; 

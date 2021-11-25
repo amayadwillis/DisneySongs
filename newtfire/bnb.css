@@ -88,7 +88,7 @@ li a, .dropbtn {
   text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+li a #nav:hover, .dropdown:hover .dropbtn {
   background-color: #09142e;
   color: #a4def9;
 }
@@ -286,14 +286,13 @@ a:hover{
 }
 
 div#sidebar {overflow-y:auto;
-
-     margin-left:72%; 
-    width: 25%;
-    font-size: 20px;
-  font-family: "MouseMemoir";
-      letter-spacing: 0.5px;
-    word-spacing: 1.5px;
-   /* padding: 2px 2px 2px 2px;*/
+margin-left:72%; 
+width: 25%;
+font-size: 20px;
+font-family: "MouseMemoir";
+letter-spacing: 0.5px;
+word-spacing: 1.5px;
+/* padding: 2px 2px 2px 2px;*/
 
 position:fixed;
 /*height: 100%;*/
@@ -310,6 +309,17 @@ div#fieldset{
  text-align:left; 
  padding: 3px 3px 3px 3px;
    }
-   
-span.Testinteract {background-color:#FFFF66}
-span.interact.on {background-color:#FFFF66}
+
+span.TestFRAN {background-color:#FFD846}
+span.FRANtoggle.on {background-color:#FFD846}
+
+#content{
+    list-style: none;
+    columns: 2;
+    background-color: inherit;
+}
+
+#content:hover{
+    color: inherit;
+    
+}

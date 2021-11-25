@@ -1,33 +1,14 @@
-// JavaScript Document
+window.addEventListener('DOMContentLoaded',pageLoadUp,false);
 
-function init()
-{
-
-    var anchors = document.getElementsByClassName("anchor");
-    for(var i = 0; i < anchors.length; i++)
-    {
-        anchors[i].onclick = show_footnote;
-    }
+function pageLoadUp() {
+    document.getElementById('toggle').addEventListener('click',toggle,false)
     
-     var fieldset = document.getElementsByTagName('input');
-for (var i=0; i <fieldset.length; i++)
-{fieldset[i].addEventListener('click', toggle, false);}
-
-   
 }
-
-function toggle()
-{
-
-var id = this.id;
-var interact = document.getElementsByClassName("interact");
-
-switch (id) {
-  case "Interact": {
-  var e;
-  for (e=0; e < kot.length; e++)
-  {kot[e].classList.toggle("on")}
-   };
-  break;
-
-window.onload = init; 
+        
+var toggle = function() {
+    var classes = document.getElementsByClassName('crossFran');
+    for (var i=0; i < classes.length; i++){
+        console.log('this element is cross-franchise')
+        classes[i].classList.toggle("on")
+    }
+}        
