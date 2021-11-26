@@ -310,8 +310,7 @@ div#fieldset{
  padding: 3px 3px 3px 3px;
    }
 
-span.TestFRAN {background-color:#FFD846}
-span.FRANtoggle.on {background-color:#FFD846}
+span.on {background-color:#FFD846}
 
 #content{
     list-style: none;
