@@ -6,14 +6,37 @@
         <link href="aladdin.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <h1>Songs</h1>
-        <!--#include virtual="aladdinNavBar.html" -->   
+        <h1>Aladdin Songs</h1>
+        <!--#include virtual="aladdin_header.html" -->
+        		<ul class="navbar">
+            <li class="navbar"><a href="index.html" class="nav">Main</a></li>
+		    <li class="navbar"><a href="team.html">About the Team</a></li> 
+		    <li class="navbar"><a href="project.html">About the Project</a></li>
+            <li class="navbar"><a href="aladdinMovie.php" class="nav">Aladdin Songs</a></li>
+            <li class="navbar"><a href="personography-aladdin.html" class="nav">Aladdin Personography</a></li>
+		    <li class="dropdown">
+		        <a href="javascript:void(0)" class="dropbtn">Documentation and Analysis</a>
+		        <div class="dropdown-content">
+		            <a href="documentation.html">Documentation</a>
+		            <a href="collectionAnalysis.html">Collection Analysis</a>
+		            <a href="indiAnalysis.html">Individual Analysis</a>
+		        </div>
+		    </li>	 
+		</ul>  
+        <table>
+        <tr>
+        <th>
        <?php
     require_once("config.php");
     $contents = REST_PATH . "/db/disneySongs-queries/php-aladdin-movies.xql";
     $result = file_get_contents($contents);
     echo $result;
 ?>
-   <section id="iframe"><iframe src="aladdin/AWholeNewWorld-Live.html.html" name="titles" height="500" width="1000" class="iframe"/></section>
+</th>
+<th>
+   <section id="iframe"><iframe src="aladdin/AWholeNewWorld-Live.html.html" name="titles" height="1300" width="1000" class="iframe"/></section>
+   </th>
+   </tr>
+   </table>
     </body>
 </html>
