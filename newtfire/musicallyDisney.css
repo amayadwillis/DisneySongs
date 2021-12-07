@@ -391,3 +391,8 @@ table.subtable a, table.meta a{
 .centered mark{
 	background-color: #F5E5DD;
 }
+
+h1 a{
+    color: inherit;
+    text-decoration: none;
+}

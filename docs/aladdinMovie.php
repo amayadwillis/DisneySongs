@@ -6,14 +6,12 @@
         <link href="aladdin.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <h1>Aladdin Songs</h1>
+        <h1>Musically Disney</h1>
         <!--#include virtual="aladdin_header.html" -->
-        		<ul class="navbar">
+        	<ul class="navbar">
             <li class="navbar"><a href="index.html" class="nav">Main</a></li>
-		    <li class="navbar"><a href="team.html">About the Team</a></li> 
-		    <li class="navbar"><a href="project.html">About the Project</a></li>
-            <li class="navbar"><a href="aladdinMovie.php" class="nav">Aladdin Songs</a></li>
-            <li class="navbar"><a href="personography-aladdin.html" class="nav">Aladdin Personography</a></li>
+            <li class="navbar"><a href="aladdinMovie.php" class="nav">Songs</a></li>
+            <li class="navbar"><a href="personography-aladdin.html" class="nav">Personography</a></li>
 		    <li class="dropdown">
 		        <a href="javascript:void(0)" class="dropbtn">Documentation and Analysis</a>
 		        <div class="dropdown-content">

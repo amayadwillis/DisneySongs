@@ -131,6 +131,7 @@ color: #a4def9;
 
 h1 a.header{
     text-decoration: none;
+    color: inherit;
 }
 
 /** header css end **/
@@ -220,6 +221,8 @@ h5{
 
 table.songCount{
     align-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 table.songCount th{
@@ -302,17 +305,16 @@ a:hover{
     
 }
 
-div#sidebar {overflow-y:auto;
-
-     margin-left:72%; 
+div#sidebar {
+    overflow-y:auto;
+    margin-left:72%; 
     width: 25%;
     font-size: 20px;
-  font-family: "MouseMemoir";
-      letter-spacing: 0.5px;
+    font-family: "MouseMemoir";
+    letter-spacing: 0.5px;
     word-spacing: 1.5px;
    /* padding: 2px 2px 2px 2px;*/
-
-position:fixed;
+    position: absolute;
 /*height: 100%;*/
 
 }
@@ -339,4 +341,8 @@ ul#content{
 
 ul#content:hover{
     color: inherit;
+}
+
+.poster{
+  width: 200px;
 }
