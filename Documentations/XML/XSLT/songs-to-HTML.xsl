@@ -11,8 +11,8 @@
     <xsl:output method="xhtml" html-version="5" omit-xml-declaration="yes" 
         include-content-type="no" indent="yes"/>
     
-    <xsl:variable name="aladdinColl" as="document-node()+" select="collection('../Aladdin')"/>
-    <xsl:variable name="beautyColl" as="document-node()+" select="collection('../BeautyAndTheBeast')"/>
+    <xsl:variable name="aladdinColl" as="document-node()+" select="collection('../Aladdin-Ngram/?select=*.xml')"/>
+    <xsl:variable name="beautyColl" as="document-node()+" select="collection('../Beauty-Ngram/?select=*.xml')"/>
     
     <xsl:template match="/">
         
@@ -69,6 +69,10 @@
     
     <xsl:template match="char">
         <span class="{@ref ! substring-after(., '#') ! lower-case(.)}"><xsl:apply-templates/></span>
+    </xsl:template>
+    
+    <xsl:template match="ngram">
+        <span class="ngram"><xsl:apply-templates/></span>
     </xsl:template>
   
     

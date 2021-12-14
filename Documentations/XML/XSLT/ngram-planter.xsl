@@ -7,7 +7,7 @@
     
     <xsl:mode on-no-match="shallow-copy"/>
    
-    <xsl:variable name="aladdinColl" as="document-node()+" select="collection('../Aladdin//?select=*.xml')"/>
+    <xsl:variable name="aladdinColl" as="document-node()+" select="collection('../Aladdin/?select=*.xml')"/>
     <xsl:variable name="beautyColl" as="document-node()+" select="collection('../BeautyAndTheBeast/?select=*.xml')"/>
    
     <xsl:variable name="alNgramsDoc" as="document-node()" select="doc('../AladdinNgrams.xml')"/>
