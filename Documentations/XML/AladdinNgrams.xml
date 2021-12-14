@@ -1,13 +1,14 @@
 <xml>
     <ngram>whole new world</ngram>
-    <ngram>forget about</ngram>
+    <ngram>[Ff]orget about</ngram>
     <ngram>I can</ngram>
     <ngram>ahead of</ngram>
-    <ngram>are you in</ngram>
-    <ngram>I can't</ngram>
-    <ngram>I'll be</ngram>
-    <ngram>one jump ahead</ngram>
+    <ngram>[Aa]re you in</ngram>
+    <ngram>I can.t</ngram>
+    <ngram>I.ll be</ngram>
+    <ngram>[Oo]ne jump ahead</ngram>
     <ngram>or out</ngram>
-    <ngram>with you</ngram>
-    <ngram>about love</ngram>
+    <ngram>[Ww]ith you</ngram>
+    <!--<ngram>about love</ngram>-->
+    <ngram>[Ll]ove</ngram>
 </xml>

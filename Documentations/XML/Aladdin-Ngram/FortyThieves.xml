@@ -35,7 +35,7 @@
       </lg>
       <lg n="4">
          <ln n="15">
-            <char ref="#Iago">Iago:</char> Oh, I love you guys</ln>
+            <char ref="#Iago">Iago:</char>Oh, I <ngram>love</ngram> you guys</ln>
       </lg>
       <lg n="5">
          <ln n="16">
@@ -43,7 +43,7 @@
          <ln n="17">Out on the lam</ln>
          <ln n="18">Takin' whatever we please</ln>
          <ln n="19">And if you like to lurk</ln>
-         <ln n="20">You're gonna love this work</ln>
+         <ln n="20">You're gonna <ngram>love</ngram> this work</ln>
          <ln n="21">Welcome to the forty thieves!</ln>
          <ln n="22">Welcome to the forty thieves!</ln>
       </lg>
@@ -61,7 +61,7 @@
       <lg n="8">
          <ln n="28">
             <char ref="#Thieves">Thieves:</char> As an honorary member of the gang</ln>
-         <ln n="29">That no one alive ever leaves</ln>
+         <ln n="29">That <ngram>no one</ngram> alive ever leaves</ln>
          <ln n="30">Ya gotta snatch and sneak</ln>
          <ln n="31">Or else your future's bleak</ln>
          <ln n="32">We got a lifetime contract that you're bound to keep</ln>

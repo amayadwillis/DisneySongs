@@ -48,8 +48,7 @@
          <ln n="17">
             <char ref="#Jafar">JAFAR</char>
          </ln>
-         <ln n="18">Under the filth and the fleas there are gifts that you've been
-                neglecting</ln>
+         <ln n="18">Under the filth and the fle<ngram>as there</ngram> are gifts that you've been neglecting</ln>
          <ln n="19">And truth be told you are not quite the guy that we were expecting</ln>
          <ln n="20">And though you might need finesse, and perhaps some disinfecting</ln>
          <ln n="21">You'll be the one who succeeds when the lamp of their needs collecting</ln>

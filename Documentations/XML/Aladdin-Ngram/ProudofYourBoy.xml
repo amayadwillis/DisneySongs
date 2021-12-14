@@ -56,7 +56,7 @@
          <ln n="26">Water flows under the bridge</ln>
          <ln n="27">Let it pass, let it go</ln>
          <ln n="28">There's no good reason that you should believe me</ln>
-         <ln n="29">Not yet, I know, but</ln>
+         <ln n="29">Not yet, <ngram>I know</ngram>, but</ln>
       </lg>
       <lg n="7">
          <ln n="30">Someday and soon</ln>

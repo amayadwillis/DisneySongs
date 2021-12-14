@@ -38,9 +38,9 @@
       </lg>
       <lg n="4">
          <ln n="17">Slept like a babe in Bombay on a bed of nails</ln>
-         <ln n="18">Moroccans loved my daring dance of seven veils</ln>
+         <ln n="18">Moroccans <ngram>love</ngram>d my daring dance of seven veils</ln>
          <ln n="19">I single-handedly I even saved the whales</ln>
-         <ln n="20">No one was there to hear my tales!</ln>
+         <ln n="20">No one w<ngram>as there</ngram> to hear my tales!</ln>
       </lg>
       <lg n="5">
          <ln n="21">In Acapulco joined a Mariachi band</ln>
@@ -59,7 +59,7 @@
          <ln n="30">Home again it's clear</ln>
          <ln n="31">All I ever wanted </ln>
          <ln n="32">Seems to be right here </ln>
-         <ln n="33">I've traveled east and west</ln>
+         <ln n="33">I've traveled east <ngram>and we</ngram>st</ln>
          <ln n="34">And now I'm back again</ln>
          <ln n="35">And there's nothing in the world quite like a friend </ln>
       </lg>

@@ -44,7 +44,7 @@
       </lg>
       <lg n="5">
          <ln n="18">
-            <char ref="#Aladdin">Aladdin:</char> There's so much I want to know</ln>
+            <char ref="#Aladdin">Aladdin:</char>There's so much <ngram>I want</ngram> to know</ln>
       </lg>
       <lg n="6">
          <ln n="19">
@@ -62,7 +62,7 @@
       </lg>
       <lg n="9">
          <ln n="23">
-            <char ref="#Aladdin">Aladdin:</char> I love you</ln>
+            <char ref="#Aladdin">Aladdin:</char>I <ngram>love</ngram> you</ln>
       </lg>
       <lg n="10">
          <ln n="24">

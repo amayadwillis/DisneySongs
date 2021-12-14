@@ -149,7 +149,8 @@
          <ln n="96">For whether we are white or copper skinned</ln>
       </lg>
       <lg n="18">
-         <ln n="97">I want adventure in the great wide</ln>
+         <ln n="97">
+            <ngram>I want</ngram> adventure in the great wide</ln>
          <ln n="98">Ever just the same</ln>
          <ln n="99">Ever a surprise</ln>
          <ln n="100">Though he's sitting here</ln>

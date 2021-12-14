@@ -25,10 +25,10 @@
          <ln n="8">I won't be silenced</ln>
          <ln n="9">You can't keep me quiet</ln>
          <ln n="10">Won't tremble when you try it</ln>
-         <ln n="11">All I know is I won't go speechless</ln>
+         <ln n="11">All <ngram>I know</ngram> is I won't go speechless</ln>
          <ln n="12">'Cause I'll breathe when they try to suffocate me</ln>
          <ln n="13">Don't you underestimate me</ln>
-         <ln n="14">'Cause I know that I won't go speechless</ln>
+         <ln n="14">'Cause <ngram>I know</ngram> that I won't go speechless</ln>
       </lg>
       <lg n="4">
          <ln n="15">Written in stone, every rule, every word</ln>
@@ -45,7 +45,7 @@
          <ln n="22">I won't be silenced</ln>
          <ln n="23">You can't keep me quiet</ln>
          <ln n="24">Won't tremble when you try it</ln>
-         <ln n="25">All I know is I won't go speechless</ln>
+         <ln n="25">All <ngram>I know</ngram> is I won't go speechless</ln>
          <ln n="26">Speechless!</ln>
       </lg>
       <lg n="7">
@@ -53,7 +53,7 @@
          <ln n="28">
             <ngram>I can</ngram>not be broken</ln>
          <ln n="29">No, I won't live unspoken</ln>
-         <ln n="30">'Cause I know that I won't go speechless</ln>
+         <ln n="30">'Cause <ngram>I know</ngram> that I won't go speechless</ln>
       </lg>
       <lg n="8">
          <ln n="31">Try to lock me in this cage</ln>
@@ -65,12 +65,12 @@
       <lg n="9">
          <ln n="36">I won't be silenced</ln>
          <ln n="37">Though you wanna see me tremble when you try it</ln>
-         <ln n="38">All I know is I won't go speechless</ln>
+         <ln n="38">All <ngram>I know</ngram> is I won't go speechless</ln>
          <ln n="39">Speechless!</ln>
          <ln n="40">'Cause I'll breathe when they try to suffocate me</ln>
          <ln n="41">Don't you underestimate me</ln>
-         <ln n="42">'Cause I know that I won't go speechless</ln>
-         <ln n="43">All I know is I won't go speechless</ln>
+         <ln n="42">'Cause <ngram>I know</ngram> that I won't go speechless</ln>
+         <ln n="43">All <ngram>I know</ngram> is I won't go speechless</ln>
          <ln n="44">Speechless!</ln>
       </lg>
    </song>

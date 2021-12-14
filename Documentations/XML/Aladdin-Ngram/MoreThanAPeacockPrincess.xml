@@ -17,7 +17,7 @@
          <ln n="3">Another king, another ring, another boring day</ln>
          <ln n="4">I'm gonna sound the call</ln>
          <ln n="5">From Mecca to Siam</ln>
-         <ln n="6">I'm more than a peacock princess</ln>
+         <ln n="6">I'm <ngram>more than</ngram> a peacock princess</ln>
          <ln n="7">I am!</ln>
       </lg>
       <lg n="2">
@@ -36,7 +36,7 @@
          <ln n="13">For one more bumpy mile</ln>
          <ln n="14">I'm not just one more silk</ln>
          <ln n="15">In Daddy's caravan</ln>
-         <ln n="16">I'm more than a peacock princess</ln>
+         <ln n="16">I'm <ngram>more than</ngram> a peacock princess</ln>
          <ln n="17">I am</ln>
       </lg>
       <lg n="4">
@@ -65,13 +65,13 @@
          <ln n="27">
             <char ref="#Jasmine">Jasmine:</char> Send the Sultan</ln>
          <ln n="28">A royal telegram</ln>
-         <ln n="29">I'm more than a peacock princess</ln>
+         <ln n="29">I'm <ngram>more than</ngram> a peacock princess</ln>
       </lg>
       <lg n="8">
          <ln n="30">
-            <char ref="#Iago">Iago:</char>You're more than a peacock princess</ln>
+            <char ref="#Iago">Iago:</char>You're <ngram>more than</ngram> a peacock princess</ln>
          <ln n="31">
-            <char ref="#Jasmine">Jasmine</char> &amp; <char ref="#Iago">Iago</char> I'm/You're more than a peacock princess</ln>
+            <char ref="#Jasmine">Jasmine</char> &amp; <char ref="#Iago">Iago</char>I'm/You're <ngram>more than</ngram> a peacock princess</ln>
          <ln n="32">
             <char ref="#Jasmine">Jasmine:</char> I am</ln>
          <ln n="33">

@@ -40,7 +40,7 @@
          <ln n="16">My thumb is number one on every list</ln>
          <ln n="17">But if you're not convinced that I'm invincible</ln>
          <ln n="18">Put me to the test</ln>
-         <ln n="19">I'd love to lay this rivalry to rest</ln>
+         <ln n="19">I'd <ngram>love</ngram> to lay this rivalry to rest</ln>
       </lg>
       <lg n="6">
          <ln n="20">Go ahead and zap me with the big surprise</ln>

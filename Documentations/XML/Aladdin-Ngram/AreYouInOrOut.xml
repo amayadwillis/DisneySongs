@@ -29,7 +29,8 @@
          <ln n="12">And return to our roots once again!</ln>
       </lg>
       <lg n="3">
-         <ln n="13">Are you in <ngram>or out</ngram>?</ln>
+         <ln n="13">
+            <ngram>Are you in or out</ngram>?</ln>
          <ln n="14">Gotta know without a doubt</ln>
          <ln n="15">I'm the one you need for a dirty deed</ln>
          <ln n="16">I'm the best; success is guaranteed</ln>
@@ -40,7 +41,8 @@
          <ln n="19">You want a fearless leader</ln>
          <ln n="20">One that's strong and stout?</ln>
          <ln n="21">Better vote for me</ln>
-         <ln n="22">Are you in <ngram>or out</ngram>?</ln>
+         <ln n="22">
+            <ngram>Are you in or out</ngram>?</ln>
       </lg>
       <lg n="5">
          <ln n="23">
@@ -61,7 +63,8 @@
       </lg>
       <lg n="7">
          <ln n="35">
-            <char ref="#Sa'luk">Sa'luk:</char> Are you in <ngram>or out</ngram>?</ln>
+            <char ref="#Sa'luk">Sa'luk:</char>
+            <ngram>Are you in or out</ngram>?</ln>
          <ln n="36">Double-crossers or devout?</ln>
          <ln n="37">Put your faith in me; pretty soon you'll see</ln>
          <ln n="38">I'm the prince of generosity</ln>
@@ -72,7 +75,8 @@
          <ln n="41">You want a ride to fame?</ln>
          <ln n="42">I've got the fastest route</ln>
          <ln n="43">What's it gonna be?</ln>
-         <ln n="44">Are you in <ngram>or out</ngram>?</ln>
+         <ln n="44">
+            <ngram>Are you in or out</ngram>?</ln>
       </lg>
       <lg n="9">
          <ln n="45">
@@ -84,7 +88,8 @@
       </lg>
       <lg n="10">
          <ln n="49">
-            <char ref="#Sa'luk">Sa'luk:</char> Are you in <ngram>or out</ngram>?</ln>
+            <char ref="#Sa'luk">Sa'luk:</char>
+            <ngram>Are you in or out</ngram>?</ln>
          <ln n="50">If you're with me, give a shout</ln>
          <ln n="51">I'll lead you all the way into the glory days</ln>
       </lg>
@@ -103,7 +108,8 @@
          <ln n="56">Or stay behind and pout</ln>
          <ln n="57">What's it gonna be?</ln>
          <ln n="58">Consider carefully</ln>
-         <ln n="59">Are you in <ngram>or out</ngram>?</ln>
+         <ln n="59">
+            <ngram>Are you in or out</ngram>?</ln>
       </lg>
    </song>
 </xml>

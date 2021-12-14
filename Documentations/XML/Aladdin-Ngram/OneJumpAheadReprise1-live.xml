@@ -16,7 +16,7 @@
          <ln n="2">If only they'd look closer</ln>
          <ln n="3">Would they see a poor boy?</ln>
          <ln n="4">No, siree</ln>
-         <ln n="5">They'd find out there's so much more to me</ln>
+         <ln n="5">They'd find out there's so <ngram>much more</ngram> to me</ln>
       </lg>
    </song>
 </xml>

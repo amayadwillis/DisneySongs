@@ -22,9 +22,9 @@
          <ln n="1">
             <char ref="#Jasmine">JASMINE</char> A princess must say this:</ln>
          <ln n="2">"A princess must marry a total stranger", it's absurd!</ln>
-         <ln n="3">Suitors talk of love but it's an act</ln>
+         <ln n="3">Suitors talk of <ngram>love</ngram> but it's an act</ln>
          <ln n="4">Merely meant to throw me</ln>
-         <ln n="5">How could someone love me when in fact</ln>
+         <ln n="5">How could someone <ngram>love</ngram> me when in fact</ln>
          <ln n="6">They don't know me</ln>
          <ln n="7">They want my royal treasure</ln>
          <ln n="8">When all is said and done</ln>
@@ -33,7 +33,8 @@
       </lg>
       <lg n="2">
          <ln n="11">Why shouldn't I fly so far from here?</ln>
-         <ln n="12">I know the girl I might become here</ln>
+         <ln n="12">
+            <ngram>I know</ngram> the girl I might become here</ln>
          <ln n="13">Sad and confined and always locked behind these palace walls!</ln>
       </lg>
       <lg n="3">
@@ -102,14 +103,16 @@
             <char ref="#Jasmine">JASMINE</char>
          </ln>
          <ln n="37">Why shouldn't I fly so far from here?</ln>
-         <ln n="38">I know the girl I might become here</ln>
+         <ln n="38">
+            <ngram>I know</ngram> the girl I might become here</ln>
          <ln n="39">Follow your heart or you might end up cold and callous</ln>
       </lg>
       <lg n="13">
          <ln n="40">
             <char ref="#All">ALL</char>
          </ln>
-         <ln n="41">Love comes to those who go and find it</ln>
+         <ln n="41">
+            <ngram>Love</ngram> comes to those who go and find it</ln>
          <ln n="42">If you've a dream then stand behind it</ln>
          <ln n="43">
             <char ref="#Jasmine">JASMINE</char>

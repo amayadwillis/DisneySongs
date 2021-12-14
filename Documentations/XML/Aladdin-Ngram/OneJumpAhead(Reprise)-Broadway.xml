@@ -26,7 +26,7 @@
       </lg>
       <lg n="2">
          <ln n="7">They'd find out</ln>
-         <ln n="8">There's so much more to me...</ln>
+         <ln n="8">There's so <ngram>much more</ngram> to me...</ln>
       </lg>
    </song>
 </xml>

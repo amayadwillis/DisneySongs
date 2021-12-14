@@ -22,9 +22,7 @@
             <char ref="#Genie">GENIE</char>
          </ln>
          <ln n="2">(Spoken)</ln>
-         <ln n="3">Salām, and good evening to you worthy friends. Welcome to the fabled city of
-                Agrabah. City of flying carpets, soaring heroes, famous love ballads and more glitz
-                and glamour than any other fictional city in the world</ln>
+         <ln n="3">Salām, and good evening to you worthy friends. Welcome to the fabled city of Agrabah. City of flying carpets, soaring heroes, famous <ngram>love</ngram> ballads and more glitz and glamour than any other fictional city in the world</ln>
       </lg>
       <lg n="2">
          <ln n="4">(Sung)</ln>
@@ -36,7 +34,7 @@
       </lg>
       <lg n="3">
          <ln n="10">When the winds from the East</ln>
-         <ln n="11">And the suns from the West</ln>
+         <ln n="11">And <ngram>the sun</ngram>s from the West</ln>
          <ln n="12">And the sand in the glass is right</ln>
          <ln n="13">Come on down, stop on by</ln>
          <ln n="14">Hop a carpet and fly</ln>
@@ -111,7 +109,7 @@
             <char ref="#Company">COMPANY</char>&gt;</ln>
          <ln n="54">Unbelievable, yes</ln>
          <ln n="55">An unethical mess</ln>
-         <ln n="56">Nonetheless, no one's very contrived</ln>
+         <ln n="56">Nonetheless, <ngram>no one</ngram>'s very contrived</ln>
          <ln n="57">You come here and you've</ln>
          <ln n="58">Come to a land where any mountain can move</ln>
          <ln n="59">A land of high intrigue with tricky logistics</ln>
@@ -178,7 +176,8 @@
             <char ref="#Genie">GENIE</char>
          </ln>
          <ln n="91">It's a place where a princess</ln>
-         <ln n="92">Would give up her crown for true love</ln>
+         <ln n="92">Would give up her crown for true <ngram>love</ngram>
+         </ln>
          <ln n="93">But her father, the Sultan, is a stickler</ln>
          <ln n="94">For the Ancient ways</ln>
       </lg>

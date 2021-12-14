@@ -25,7 +25,7 @@
       <lg n="3">
          <ln n="8">Make way, here he comes </ln>
          <ln n="9">Ring bells! Bang the drums! </ln>
-         <ln n="10">You're gonna love this guy </ln>
+         <ln n="10">You're gonna <ngram>love</ngram> this guy</ln>
       </lg>
       <lg n="4">
          <ln n="11">Prince Ali! Fabulous he, Ali Ababwa </ln>
@@ -70,7 +70,7 @@
          <ln n="42">(He's generous, so generous) </ln>
          <ln n="43">He's got ten thousand servants and flunkies </ln>
          <ln n="44">(Proud to work for him) </ln>
-         <ln n="45">They bow to his whim, love serving him </ln>
+         <ln n="45">They bow to his whim, <ngram>love</ngram> serving him</ln>
          <ln n="46">They're just lousy with loyalty to Ali! </ln>
          <ln n="47">Prince Ali! </ln>
       </lg>

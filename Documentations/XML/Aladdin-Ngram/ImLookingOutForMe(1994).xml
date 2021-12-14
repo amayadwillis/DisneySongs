@@ -38,7 +38,7 @@
          <ln n="21">Is the only thanks that I get!</ln>
       </lg>
       <lg n="4">
-         <ln n="22">I never found a friend that <ngram>I can</ngram> trust</ln>
+         <ln n="22">I never found a friend that I can trust</ln>
          <ln n="23">They promise caviar</ln>
          <ln n="24">And leave me eatin' dust!</ln>
          <ln n="25">That's some reward for loyalty</ln>
@@ -49,8 +49,7 @@
          <ln n="28">Oh, I don't need nobody else</ln>
          <ln n="29">I'll never fail</ln>
          <ln n="30">I'll cover my own tail</ln>
-         <ln n="31">
-            <ngram>I can</ngram> take care of myself!</ln>
+         <ln n="31">I can take care of myself!</ln>
       </lg>
       <lg n="6">
          <ln n="32">You know, it just don't pay</ln>

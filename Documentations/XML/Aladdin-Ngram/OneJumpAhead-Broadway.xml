@@ -18,13 +18,13 @@
       <lg n="1">
          <ln n="1">
             <char ref="#Aladdin">ALADDIN</char> Gotta keep</ln>
-         <ln n="2">One jump <ngram>ahead of</ngram> the breadline</ln>
+         <ln n="2">One jump ahead of the breadline</ln>
          <ln n="3">One swing <ngram>ahead of</ngram> the sword</ln>
          <ln n="4">I steal only what I can't afford</ln>
          <ln n="5">And that's everything</ln>
       </lg>
       <lg n="2">
-         <ln n="6">One jump <ngram>ahead of</ngram> the lawmen</ln>
+         <ln n="6">One jump ahead of the lawmen</ln>
          <ln n="7">That's all and that's no joke</ln>
          <ln n="8">These guys don't appreciate I'm broke</ln>
       </lg>
@@ -53,8 +53,7 @@
          <ln n="18">
             <char ref="#Aladdin">ALADDIN</char>
          </ln>
-         <ln n="19">
-            <ngram>I can</ngram> take a hint, gotta face the facts</ln>
+         <ln n="19">I can take a hint, gotta face the facts</ln>
          <ln n="20">I could use a friend or two</ln>
          <ln n="21">
             <char ref="#All">ALL</char>
@@ -77,12 +76,12 @@
          <ln n="29">Tell you all about it when I got the time</ln>
       </lg>
       <lg n="9">
-         <ln n="30">One jump <ngram>ahead of</ngram> the slowpokes</ln>
+         <ln n="30">One jump ahead of the slowpokes</ln>
          <ln n="31">One skip <ngram>ahead of</ngram> my doom</ln>
          <ln n="32">Next time gonna use a nom de plume</ln>
       </lg>
       <lg n="10">
-         <ln n="33">One jump <ngram>ahead of</ngram> the hitmen</ln>
+         <ln n="33">One jump ahead of the hitmen</ln>
          <ln n="34">One hit <ngram>ahead of</ngram> the flock</ln>
          <ln n="35">I think I'll take a stroll around the block</ln>
       </lg>
@@ -122,7 +121,7 @@
          <ln n="50">
             <char ref="#Aladdin">ALADDIN</char>
          </ln>
-         <ln n="51">One jump <ngram>ahead of</ngram> the hoofbeats</ln>
+         <ln n="51">One jump ahead of the hoofbeats</ln>
       </lg>
       <lg n="16">
          <ln n="52">

@@ -1,33 +1,33 @@
 <xml>
-    <ngram>be our guest</ngram>
-    <ngram>like gaston</ngram>
+    <ngram>[Bb]e our guest</ngram>
+    <ngram>like [Gg]aston</ngram>
     <ngram>tale as old</ngram>
     <ngram>human again</ngram>
     <ngram>no one</ngram>
     <ngram>the rest</ngram>
     <ngram>more than</ngram>
-    <ngram>the sun</ngram>
-    <ngram>gaston gaston</ngram>
+    <ngram>[Tt]he sun</ngram>
+    <ngram>[Gg]aston! [Gg]aston!</ngram>
     <ngram>when we</ngram>
     <ngram>through the</ngram>
-    <ngram>as long as</ngram>
+    <ngram>[Aa]s long as</ngram>
     <ngram>a funny girl</ngram>
     <ngram>rest of us</ngram>
     <ngram>and we</ngram>
     <ngram>as there</ngram>
-    <ngram>bonjour bonjour</ngram>
+    <ngram>[Bb]onjour! bonjour!</ngram>
     <ngram>how does</ngram>
-    <ngram>i want</ngram>
+    <ngram>[Ii] want</ngram>
     <ngram>in town</ngram>
-    <ngram>look there</ngram>
+    <ngram>[Ll]ook there</ngram>
     <ngram>something there</ngram>
-    <ngram>there's christmas</ngram>
-    <ngram>who'd have</ngram>
+    <ngram>there.s christmas</ngram>
+    <ngram>who.d have</ngram>
     <ngram>a cut</ngram>
     <ngram>a moment last</ngram>
     <ngram>much more</ngram>
     <ngram>as rhyme</ngram>
     <ngram>lives on</ngram>
-    <ngram>i know</ngram>
+    <ngram>[Ii] know</ngram>
     <ngram>provincial life</ngram>
 </xml>

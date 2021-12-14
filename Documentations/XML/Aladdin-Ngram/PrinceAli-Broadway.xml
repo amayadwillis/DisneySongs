@@ -69,7 +69,7 @@
          <ln n="28">Make way</ln>
          <ln n="29">Here he comes!</ln>
          <ln n="30">Ring bells! Bang the drums!</ln>
-         <ln n="31">Are you gonna love this guy!</ln>
+         <ln n="31">Are you gonna <ngram>love</ngram> this guy!</ln>
          <ln n="32">Make Way! (Make Way!)</ln>
          <ln n="33">Make Way! (Make Way!)</ln>
          <ln n="34">Make Way!</ln>
@@ -123,7 +123,7 @@
          <ln n="67">He's essayed quite a parade</ln>
          <ln n="68">For you to see</ln>
          <ln n="69">So get on out in that street</ln>
-         <ln n="70">Got someone I wantcha to meet</ln>
+         <ln n="70">Got someone <ngram>I want</ngram>cha to meet</ln>
          <ln n="71">Come on, start kissing the feet</ln>
          <ln n="72">Of Prince Ali!</ln>
          <ln n="73">Sing hey, hey!</ln>
@@ -155,7 +155,7 @@
          <ln n="93">He's a winner, he's a whizz</ln>
          <ln n="94">A Wonder!</ln>
          <ln n="95">He's about to pull my heart asunder</ln>
-         <ln n="96">And I absolutely love the way he dresses</ln>
+         <ln n="96">And I absolutely <ngram>love</ngram> the way he dresses</ln>
       </lg>
       <lg n="15">
          <ln n="97">He's got ninety-five white Persian monkeys</ln>
@@ -165,7 +165,7 @@
          <ln n="101">He's got slaves, he's got servants and flunkies</ln>
          <ln n="102">(Proud to work for him)</ln>
          <ln n="103">They bow to his whim</ln>
-         <ln n="104">(Love serving him)</ln>
+         <ln n="104">(<ngram>Love</ngram> serving him)</ln>
          <ln n="105">They're just lousy with loyalty to Ali!</ln>
          <ln n="106">Prince Ali!</ln>
       </lg>
@@ -176,7 +176,8 @@
       </lg>
       <lg n="17">
          <ln n="110">Heard your Princess was a sight</ln>
-         <ln n="111">Lovely to see</ln>
+         <ln n="111">
+            <ngram>Love</ngram>ly to see</ln>
          <ln n="112">And that, good people, is why</ln>
          <ln n="113">He got dolled up and dropped by</ln>
          <ln n="114">With sixty elephants, llama's galore</ln>

@@ -37,7 +37,7 @@
       </lg>
       <lg n="4">
          <ln n="14">
-            <char ref="#Jasmine">Jasmine:</char> A <ngram>whole new world</ngram>
+            <char ref="#Jasmine">Jasmine:</char>A <ngram>whole new world</ngram>
          </ln>
          <ln n="15">A dazzling place I never knew</ln>
          <ln n="16">But when I'm way up here</ln>
@@ -47,8 +47,8 @@
       </lg>
       <lg n="5">
          <ln n="19">
-            <char ref="#Aladdin">Aladdin:</char> Now I'm in a <ngram>whole new world</ngram> with
-                you</ln>
+            <char ref="#Aladdin">Aladdin:</char>Now I'm in a <ngram>whole new world with you</ngram>
+         </ln>
       </lg>
       <lg n="6">
          <ln n="20">
@@ -81,7 +81,7 @@
       </lg>
       <lg n="12">
          <ln n="31">
-            <char ref="#Aladdin">Aladdin:</char> A <ngram>whole new world</ngram>
+            <char ref="#Aladdin">Aladdin:</char>A <ngram>whole new world</ngram>
          </ln>
       </lg>
       <lg n="13">
@@ -105,12 +105,12 @@
       </lg>
       <lg n="17">
          <ln n="38">
-            <char ref="#Aladdin">Aladdin:</char> A <ngram>whole new world</ngram>
+            <char ref="#Aladdin">Aladdin:</char>A <ngram>whole new world</ngram>
          </ln>
       </lg>
       <lg n="18">
          <ln n="39">
-            <char ref="#Jasmine">Jasmine:</char> A <ngram>whole new world</ngram>
+            <char ref="#Jasmine">Jasmine:</char>A <ngram>whole new world</ngram>
          </ln>
       </lg>
       <lg n="19">

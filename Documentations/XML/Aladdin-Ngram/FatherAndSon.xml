@@ -32,7 +32,8 @@
          <ln n="12">Workin' hand in hand</ln>
          <ln n="13">Painting the palace, mowin' the sand</ln>
          <ln n="14">First at ten to go</ln>
-         <ln n="15">With your daddy-o</ln>
+         <ln n="15">
+            <ngram>With you</ngram>r daddy-o</ln>
       </lg>
       <lg n="4">
          <ln n="16">Once you break the ice</ln>
@@ -63,7 +64,7 @@
       </lg>
       <lg n="9">
          <ln n="31">
-            <char ref="#Genie">Genie:</char> Good afternoon, <ngram>I'll be</ngram> your travel guide</ln>
+            <char ref="#Genie">Genie:</char>Good afternoon, <ngram>I'll be</ngram> your travel guide</ln>
          <ln n="32">Move over, Aladdin</ln>
          <ln n="33">Make room for dad!</ln>
       </lg>

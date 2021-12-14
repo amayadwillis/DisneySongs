@@ -13,11 +13,10 @@
    <song>
       <lg n="1">
          <ln n="1">
-            <char ref="#Aladdin">Aladdin:</char> Gotta keep one jump ahead of the
-                breadline</ln>
+            <char ref="#Aladdin">Aladdin:</char>Gotta keep one jump ahead of the breadline</ln>
          <ln n="2">One swing <ngram>ahead of</ngram> the sword</ln>
          <ln n="3">I steal only what I can't afford (And that's everything!)</ln>
-         <ln n="4">One jump <ngram>ahead of</ngram> the lawmen</ln>
+         <ln n="4">One jump ahead of the lawmen</ln>
          <ln n="5">That's all, and that's no joke</ln>
          <ln n="6">These guys don't appreciate I'm broke</ln>
       </lg>
@@ -30,9 +29,7 @@
          <ln n="9">
             <char ref="#Crowd">Crowd:</char> Rip him open! Round the back, guys</ln>
          <ln n="10">
-            <char ref="#Aladdin">Aladdin:</char>
-            <ngram>I can</ngram> take a hint, gotta face the
-                facts</ln>
+            <char ref="#Aladdin">Aladdin:</char>I can take a hint, gotta face the facts</ln>
          <ln n="11">Could really use a friend or two</ln>
       </lg>
       <lg n="3">
@@ -47,10 +44,10 @@
          <ln n="16">Tell you all about it when I got the time!</ln>
       </lg>
       <lg n="4">
-         <ln n="17">One jump <ngram>ahead of</ngram> the slowpokes</ln>
+         <ln n="17">One jump ahead of the slowpokes</ln>
          <ln n="18">One skip <ngram>ahead of</ngram> my doom</ln>
          <ln n="19">Next time gonna use a nom de plume</ln>
-         <ln n="20">One jump <ngram>ahead of</ngram> the hitmen</ln>
+         <ln n="20">One jump ahead of the hitmen</ln>
          <ln n="21">One hit <ngram>ahead of</ngram> the flock</ln>
          <ln n="22">I think I'll take a stroll around the block</ln>
       </lg>
@@ -68,7 +65,7 @@
       </lg>
       <lg n="6">
          <ln n="28">
-            <char ref="#Aladdin">Aladdin:</char> One jump <ngram>ahead of</ngram> the hoofbeats</ln>
+            <char ref="#Aladdin">Aladdin:</char>One jump ahead of the hoofbeats</ln>
          <ln n="29">One hop <ngram>ahead of</ngram> the hump</ln>
          <ln n="30">One trick <ngram>ahead of</ngram> disaster</ln>
          <ln n="31">They're quick, but I'm much faster</ln>

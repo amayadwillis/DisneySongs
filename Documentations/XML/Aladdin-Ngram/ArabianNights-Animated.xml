@@ -21,7 +21,7 @@
       </lg>
       <lg n="2">
          <ln n="6">When the wind's from the East</ln>
-         <ln n="7">And the sun's from the West</ln>
+         <ln n="7">And <ngram>the sun</ngram>'s from the West</ln>
          <ln n="8">And the sand in the glass is right</ln>
          <ln n="9">Come on down</ln>
          <ln n="10">Stop on by</ln>
