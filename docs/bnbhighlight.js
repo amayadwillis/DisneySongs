@@ -18,9 +18,7 @@ function toggle()
 {
 
 var id = this.id;
-var ench = document.getElementsByClassName("enchngram");
-var bnba = document.getElementsByClassName("bnbangram");
-var bnbl = document.getElementsByClassName("bnblngram");
+var gram = document.getElementsByClassName("ngram");
 var belle = document.getElementsByClassName("belle");
 var lum = document.getElementsByClassName("lumiere");
 var cogs = document.getElementsByClassName("cogsworth");
@@ -39,22 +37,10 @@ var bimb = document.getElementsByClassName("bimbettes");
 var ward = document.getElementsByClassName("wardrobe");
 
 switch (id) {
-      case "ENCHNGRAMtoggle": {
+          case "NGRAMtoggle": {
   var e;
-  for (e=0; e < ench.length; e++)
-  {ench[e].classList.toggle("on")}
-   };
-  break;
-        case "BNBANGRAMtoggle": {
-  var e;
-  for (e=0; e < bnba.length; e++)
-  {bnba[e].classList.toggle("on")}
-   };
-  break;
-          case "BNBLNGRAMtoggle": {
-  var e;
-  for (e=0; e < bnbl.length; e++)
-  {bnbl[e].classList.toggle("on")}
+  for (e=0; e < gram.length; e++)
+  {gram[e].classList.toggle("on")}
    };
   break;
         case "BELLEtoggle": {

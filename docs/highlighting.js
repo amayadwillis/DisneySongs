@@ -18,11 +18,7 @@ function toggle()
 {
 
 var id = this.id;
-var rof = document.getElementsByClassName("rofngram");
-var kot = document.getElementsByClassName("kotngrams");
-var aa = document.getElementsByClassName("aangram");
-var al = document.getElementsByClassName("alngram");
-var fyd = document.getElementsByClassName("fydngram");
+var gram = document.getElementsByClassName("ngram");
 var aladdin = document.getElementsByClassName("aladdin");
 var genie = document.getElementsByClassName("genie");
 var jasmine = document.getElementsByClassName("jasmine");
@@ -38,36 +34,12 @@ var chorus = document.getElementsByClassName("chorus");
 var peddler = document.getElementsByClassName("peddler");
 
 switch (id) {
-      case "KOTNGRAMtoggle": {
+      case "NGRAMtoggle": {
   var e;
-  for (e=0; e < kot.length; e++)
-  {kot[e].classList.toggle("on")}
+  for (e=0; e < gram.length; e++)
+  {gram[e].classList.toggle("on")}
    };
-  break;
- case "ROFNGRAMtoggle": {
-  var e;
-  for (e=0; e < rof.length; e++)
-  {rof[e].classList.toggle("on")}
-   };
-break;
-      case "AANGRAMtoggle": {
-  var e;
-  for (e=0; e < aa.length; e++)
-  {aa[e].classList.toggle("on")}
-   };
-  break;
-        case "FYDNGRAMtoggle": {
-  var e;
-  for (e=0; e < fyd.length; e++)
-  {fyd[e].classList.toggle("on")}
-   };
-  break;
-        case "ALNGRAMtoggle": {
-  var e;
-  for (e=0; e < al.length; e++)
-  {al[e].classList.toggle("on")}
-   };
-  break;
+ break;
   case "ALADDINtoggle": {
   var e;
   for (e=0; e < aladdin.length; e++)

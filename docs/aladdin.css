@@ -331,20 +331,8 @@ div#fieldset{
 
 span.interact.on {background-color:#FFFF66}
 
-span.Testrofngram {background-color:#cc0000}
-span.rofngram.on {background-color:#cc0000}
-
-span.Testfydngram {background-color:#a64dff}
-span.fydngram.on {background-color:#a64dff}
-
-span.Testaangram {background-color:#a64dff}
-span.aangram.on {background-color:#a64dff}
-
-span.Testalngram {background-color:#a64dff}
-span.alngram.on {background-color:#a64dff}
-
-span.Testkotngrams {background-color:#7171da}
-span.kotngrams.on {background-color:#7171da}
+span.Testngram {background-color:#cc0000}
+span.ngram.on {background-color:#cc0000}
 
 span.Testaladdin {background-color:#cc66ff}
 span.aladdin.on {background-color:#cc66ff}

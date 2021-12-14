@@ -315,14 +315,8 @@ div#fieldset{
 
 span.interact.on {background-color:#FFFF66}
 
-span.Testenchngram {background-color:#1a75ff}
-span.enchngram.on {background-color:#1a75ff}
-
-span.Testbnbangram {background-color:#1a75ff}
-span.bnbangram.on {background-color:#1a75ff}
-
-span.Testbnblngram {background-color:#1a75ff}
-span.bnblngram.on {background-color:#1a75ff}
+span.Testngram {background-color:#1a75ff}
+span.ngram.on {background-color:#1a75ff}
 
 span.Testbelle {background-color:#66b3ff}
 span.belle.on {background-color:#66b3ff}
