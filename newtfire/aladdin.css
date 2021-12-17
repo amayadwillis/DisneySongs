@@ -238,28 +238,30 @@ table.songCount tr:nth-child(even) {
 	background-color: #97F9F9;
 }
 
-/* Start of JavaScript */
-#searchBox{
-    width: 40%;
-    height: 50px;
-    display: flex;
-    flex-flow: row nowrap;
+p.head{
+	text-align:left;
+	font-size: 23px;
+	color:#120321;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	text-decoration: overline;
 }
 
-#input{
-    width: 80%; 
-    border: none;
-    outline: none;
-}
-
-#searchBtn{
-    width: 20%; 
-     height: 54px;
-}
-
-input {
+p {
+	text-align: left;
+    font-family: "MouseMemoir";
+    font-weight: 10;
+    letter-spacing: 0.5px;
+    word-spacing: 1.5px;
+    color: #09142e;
     font-size: 20px;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-bottom: 20px;
+	padding-top: 0px;
 }
+
+/* Start of JavaScript */
 
 #content{
     width: 40%;
@@ -306,7 +308,7 @@ div#fieldset{
  padding: 3px 3px 3px 3px;
    }
 
-.on {background-color:#CFBAE1}
+span.on {background-color:#CFBAE1}
 
 ul#content{
     list-style: none;
@@ -314,11 +316,7 @@ ul#content{
 }
 
 ul#content:hover{
-    color: inherit;
-<<<<<<< Updated upstream
-}
-=======
-}
+    color: inherit;}
 
 /* PHP */
 table#phpList{
@@ -343,41 +341,29 @@ li.movieList{
     background-color:#CFBAE1;
 }
 
-/*Search Bar*/
-#myInput {
-  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
-  background-position: 10px 12px; /* Position the search icon */
-  background-repeat: no-repeat; /* Do not repeat the icon image */
-  width: 100%; /* Full-width */
-  font-size: 16px; /* Increase font-size */
-  padding: 12px 20px 12px 40px; /* Add some padding */
-  border: 1px solid #ddd; /* Add a grey border */
-  margin-bottom: 12px; /* Add some space below the input */
-}
-
-.myUL {
-  /* Remove default list styling */
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.myUL li a {
-  border: 1px solid #ddd; /* Add a border to all links */
-  margin-top: -1px; /* Prevent double borders */
-  padding: 12px; /* Add some padding */
-  text-decoration: none; /* Remove default text underline */
-  font-size: 18px; /* Increase the font-size */
-  color: black; /* Add a black text color */
-  display: block; /* Make it into a block element to fill the whole list */
-}
-
 /* Cytoscape */
-.cy {
-     width: 65vw;
-     height:100vh;
-     position:absolute;
-     margin:auto;
-     border-style:double;
+#cy {
+    width:800px;
+    height:600px;
+    background-color:#eee;
  }
->>>>>>> Stashed changes
+
+div.graphics {
+    display:flex;
+    height:75vh;
+    justify-content:center;
+}
+
+#cy2 {
+    width:800px;
+    height:600px;
+    background-color:#eee;
+ }
+
+
+canvas {
+    padding: 0;
+    margin: auto;
+    display:block;
+    width: 800px;
+}

@@ -5,7 +5,7 @@
 <xml>
 <metadata>
     <title>Something There</title>
-    <origin>Lyrics from <movie>Beauty and the Beast</movie></origin>
+    <origin>Lyrics from <movie>Beauty and the Beast (Live-Action)</movie></origin>
     <author>Music and lyrics by <composer ref="#Menken">Alan Menken</composer> and <lyricist ref="#Rice">Tim Rice</lyricist></author>
     <perform>Performed by <voiceActor ref="#Watson" role="#Belle">Emma Watson</voiceActor></perform>
 </metadata>

@@ -12,7 +12,8 @@
             <li class="navbar"><a href="index.html" class="nav">Main</a></li>
             <li class="navbar"><a href="aladdin.html" class="nav">Home</a></li>
             <li class="navbar"><a href="aladdinMovie.php" target="blank"> Songs </a></li>
-            <li class="navbar"><a href="personography-aladdin.html" class="nav">Personography</a></li>	 
+            <li class="navbar"><a href="personography-aladdin.html" class="nav">Personography</a></li>
+            <li class="navbar"><a href="aladdin_analysis.html" class="nav">Network</a></li> 
 		</ul>
  
         <table id="phpList">
@@ -26,7 +27,7 @@
 ?>
 </td>
 <td>
-   <section id="iframe"><iframe src="aladdin/AWholeNewWorld-Live.html.html" name="titles" height="1300" width="1000" class="iframe"/></section>
+   <section id="iframe"><iframe src="aladdin/ArabianNights-Live.html" name="titles" height="1300" width="1000" class="iframe"/></section>
    </td>
    </tr>
    </table>

@@ -11,23 +11,23 @@
         <ul class="navbar">
             <li class="navbar"><a href="index.html" class="nav">Main</a></li>
             <li class="navbar"><a href="beauty.html" class="nav">Home</a></li>
-            <li class="navbar"><a href="bnbMovie.php" target="blank"> Songs </a></li>
+            <li class="navbar"><a href="bnbMovie.php"> Songs </a></li>
             <li class="navbar"><a href="personography-bnb.html" class="nav">Personography</a></li>	 
 		</ul>
  
         <table id="phpList">
         <tr>
-        <th>
+        <td>
        <?php
     require_once("config.php");
     $contents = REST_PATH . "/db/disneySongs-queries/php-bnb_movies.xql";
     $result = file_get_contents($contents);
     echo $result;
 ?>
-</th>
-<th>
+</td>
+<td>
    <section id="iframe"><iframe src="beauty/Aria-live.html" name="titles" height="1300" width="1000" class="iframe"/></section>
-   </th>
+   </td>
    </tr>
    </table>
     </body>
